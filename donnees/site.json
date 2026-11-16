@@ -1,0 +1,22 @@
+{
+  "nom": "Atelier d'Enluminure Marie Nuel",
+  "nomCourt": "Marie Nuel",
+  "adresse": "https://enluminure-marienuel-maquette.vercel.app",
+  "siteActuel": "enluminure-marienuel.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "oeuvres", "commandes", "stages", "boutique", "contact"],
+  "actionEntete": { "page": "commandes", "ancre": "composer" },
+  "couleurs": { "fond": "#f5eee1", "texte": "#2a1e16", "voile": "#1d4f9c", "ouverture": "#f5eee1", "menu": "#f5eee1", "theme": "#f5eee1" },
+  "formeVoile": "iris",
+  "contact": {
+    "email": "enluminure.marienuel@gmail.com",
+    "adresse": "16 rue Martin Vinay, 26000 Valence",
+    "ville": "Valence (Drôme)",
+    "facebook": "https://www.facebook.com/enluminuremarienuel/",
+    "siret": "791 713 480 00022"
+  },
+  "polices": ["/assets/fonts/cormorant-garamond-latin-600-normal.woff2", "/assets/fonts/figtree-latin-400-normal.woff2"],
+  "imagePartage": "heros-amitie-1000.webp",
+  "curseur": true
+}

@@ -1,0 +1,211 @@
+[
+ {
+  "id": "benis3",
+  "image": "b-benis3",
+  "fichier": "benis-soient-coeurs-3.jpg",
+  "titre": "Bénis soient les cœurs",
+  "categorie": "calligraphie",
+  "technique": "Caroline, or minéral, pigments et brou de noix sur papier",
+  "dimensions": "42 × 32 cm",
+  "prix": 185,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "psaume103c",
+  "image": "b-psaume103c",
+  "fichier": "psaume-103-creation.jpg",
+  "titre": "Psaume 103, la Création",
+  "categorie": "religieux",
+  "technique": "Style roman, or minéral et pigments sur papier",
+  "dimensions": "30 × 40 cm",
+  "prix": 340,
+  "ratio": "1208 / 1480"
+ },
+ {
+  "id": "ascension",
+  "image": "b-ascension",
+  "fichier": "ascension.jpg",
+  "titre": "Ascension",
+  "categorie": "religieux",
+  "technique": "Style celte, pigments sur parchemin de chevreau",
+  "dimensions": "19,5 × 25 cm",
+  "prix": 230,
+  "ratio": "1612 / 2000"
+ },
+ {
+  "id": "tendre",
+  "image": "b-tendre",
+  "fichier": "tendre-vers-lumiere.jpg",
+  "titre": "Tendre vers la lumière",
+  "categorie": "enluminure",
+  "technique": "Pigments rares, dont lapis-lazuli et réalgar, sur parchemin",
+  "dimensions": "20 × 29 cm",
+  "prix": 200,
+  "ratio": "1333 / 2000"
+ },
+ {
+  "id": "shalompaix",
+  "image": "b-shalompaix",
+  "fichier": "shalom-paix.jpg",
+  "titre": "Shalom, Paix",
+  "categorie": "religieux",
+  "technique": "Pigments rares et feuille d’or sur parchemin",
+  "dimensions": null,
+  "prix": 450,
+  "ratio": "1333 / 2000"
+ },
+ {
+  "id": "psaume61",
+  "image": "b-psaume61",
+  "fichier": "psaume-61.jpg",
+  "titre": "Psaume 61",
+  "categorie": "religieux",
+  "technique": "Style roman, pigments et or minéral sur parchemin",
+  "dimensions": "16 × 18 cm",
+  "prix": 147,
+  "ratio": "1342 / 1224"
+ },
+ {
+  "id": "christophe",
+  "image": "b-christophe",
+  "fichier": "st-christophe.jpg",
+  "titre": "Saint Christophe",
+  "categorie": "religieux",
+  "technique": "Copie gothique, pigments et or minéral, encadré",
+  "dimensions": null,
+  "prix": 97,
+  "ratio": "1335 / 1165"
+ },
+ {
+  "id": "lapins",
+  "image": "b-lapins",
+  "fichier": "lapins-entrelacs.jpg",
+  "titre": "Lapins et entrelacs",
+  "categorie": "enluminure",
+  "technique": "Copie d’une marge du Chansonnier du Roy, feuille d’or et pigments sur papier",
+  "dimensions": "20 × 26 cm",
+  "prix": 93,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "conte",
+  "image": "b-conte",
+  "fichier": "il-etait-fois.jpg",
+  "titre": "Conte mérovingien",
+  "categorie": "enluminure",
+  "technique": "Style mérovingien, pigments sur papyrus",
+  "dimensions": "20 × 30 cm",
+  "prix": 85,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "jongleur",
+  "image": "b-jongleur",
+  "fichier": "jongleur.jpg",
+  "titre": "Jongleur",
+  "categorie": "calligraphie",
+  "technique": "Calligramme en gothique rotunda, extrait de cassel et encres modernes",
+  "dimensions": null,
+  "prix": 65,
+  "ratio": "1462 / 2000"
+ },
+ {
+  "id": "lettrinel",
+  "image": "b-lettrinel",
+  "fichier": "lettrine.jpg",
+  "titre": "Lettrine L",
+  "categorie": "enluminure",
+  "technique": "Pigments sur papier",
+  "dimensions": "20 × 20 cm",
+  "prix": 60,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "petitprince",
+  "image": "b-petitprince",
+  "fichier": "petit-prince-renard.jpg",
+  "titre": "Le Petit Prince et le renard",
+  "categorie": "calligraphie",
+  "technique": "Caroline, or minéral, pigments et brou de noix sur papier",
+  "dimensions": "23 × 32 cm",
+  "prix": 50,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "huguenote",
+  "image": "b-huguenote",
+  "fichier": "croix-huguenote.jpg",
+  "titre": "Croix huguenote",
+  "categorie": "religieux",
+  "technique": "Feuille d’aluminium et pigments sur papier",
+  "dimensions": "16 × 9,5 cm",
+  "prix": 110,
+  "ratio": "1500 / 2000"
+ },
+ {
+  "id": "arbre",
+  "image": "b-arbre",
+  "fichier": "arbre.jpg",
+  "titre": "Arbre",
+  "categorie": "enluminure",
+  "technique": "Style roman, pigments sur papier",
+  "dimensions": "10 × 15 cm",
+  "prix": 35,
+  "ratio": "1500 / 2000"
+ },
+ {
+  "id": "alphabet",
+  "image": "b-alphabet",
+  "fichier": "alphabet-colore.jpg",
+  "titre": "Alphabet coloré",
+  "categorie": "calligraphie",
+  "technique": "Encres naturelles (cochenille, brou de noix, sureau, mûrier) sur papier",
+  "dimensions": "21 × 29,7 cm",
+  "prix": 25,
+  "ratio": "2000 / 1439"
+ },
+ {
+  "id": "kakapo",
+  "image": "b-kakapo",
+  "fichier": "kakapo.jpg",
+  "titre": "Kakapo",
+  "categorie": "oiseaux",
+  "technique": "Pigments sur papier, non encadré",
+  "dimensions": "36 × 48 cm",
+  "prix": 330,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "paradeb",
+  "image": "b-paradeb",
+  "fichier": "parade-albatros.jpg",
+  "titre": "La Parade",
+  "categorie": "oiseaux",
+  "technique": "Pigments et feuille d’or sur papier",
+  "dimensions": "48 × 36 cm",
+  "prix": 330,
+  "ratio": "2000 / 1500"
+ },
+ {
+  "id": "onlybirdb",
+  "image": "b-onlybirdb",
+  "fichier": "only-bird.jpg",
+  "titre": "Only a bird",
+  "categorie": "oiseaux",
+  "technique": "Encres dorée et argentée, cochenille, sur papier lokta",
+  "dimensions": "70 × 51 cm",
+  "prix": 200,
+  "ratio": "1500 / 2000"
+ },
+ {
+  "id": "manchotb",
+  "image": "b-manchotb",
+  "fichier": "manchot-oeil-jaune.jpg",
+  "titre": "Manchot à œil jaune",
+  "categorie": "oiseaux",
+  "technique": "Pigments sur parchemin de chèvre, non encadré",
+  "dimensions": "21,5 × 24 cm",
+  "prix": 188,
+  "ratio": "1500 / 2000"
+ }
+]

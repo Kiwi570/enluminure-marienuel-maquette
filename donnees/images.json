@@ -1,0 +1,8069 @@
+{
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Table d'enlumineur : parchemin vierge, pigments, feuille d'or et plumes d'oie",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ec981153e08c56f9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "56% 66%"
+    },
+    "cadrage": "72% 51%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 26960,
+      "grok/accueil-ouverture-1280.webp": 61820,
+      "grok/accueil-ouverture-1920.webp": 101030,
+      "grok/accueil-ouverture-mobile-640.webp": 35542,
+      "grok/accueil-ouverture-mobile-1080.webp": 66758
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Table d'enlumineur : parchemin vierge, pigments, feuille d'or et plumes d'oie\", cadrage: '72% 51%', cadrageMobile: '56% 66%', sizes: '100vw', priorite: true })"
+  },
+  "grok/pigments": {
+    "nom": "grok/pigments",
+    "source": "recu/grok/pigments.jpg",
+    "role": "section-fond",
+    "alt": "Pigments en poudre sur une plaque de marbre : lapis-lazuli, cinabre, orpiment, ocre, malachite",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "ac4386b270fc6f50",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "58% 69%"
+    },
+    "cadrage": "77% 50%",
+    "sujet": {
+      "x": 53.1,
+      "y": 4.5,
+      "l": 46.9,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.85,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/pigments-640.webp",
+      "grok/pigments-1280.webp",
+      "grok/pigments-1920.webp",
+      "grok/pigments-mobile-640.webp",
+      "grok/pigments-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/pigments-640.webp": 21934,
+      "grok/pigments-1280.webp": 50908,
+      "grok/pigments-1920.webp": 83054,
+      "grok/pigments-mobile-640.webp": 27876,
+      "grok/pigments-mobile-1080.webp": 54678
+    },
+    "media": "c.media({ nom: 'grok/pigments', alt: \"Pigments en poudre sur une plaque de marbre : lapis-lazuli, cinabre, orpiment, ocre, malachite\", cadrage: '77% 50%', cadrageMobile: '58% 69%', sizes: '100vw' })"
+  },
+  "grok/or-dorure": {
+    "nom": "grok/or-dorure",
+    "source": "recu/grok/or-dorure.jpg",
+    "role": "galerie",
+    "alt": "Feuilles d'or sur un coussin de doreur, couteau et pierre d'agate",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3d494d5def4992ea",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        900,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 900 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/or-dorure-480.webp",
+      "grok/or-dorure-640.webp",
+      "grok/or-dorure-960.webp"
+    ],
+    "poids": {
+      "grok/or-dorure-480.webp": 45430,
+      "grok/or-dorure-640.webp": 64870,
+      "grok/or-dorure-960.webp": 100984
+    },
+    "media": "c.media({ nom: 'grok/or-dorure', alt: \"Feuilles d'or sur un coussin de doreur, couteau et pierre d'agate\", cadrage: '57% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "grok/plume-encre": {
+    "nom": "grok/plume-encre",
+    "source": "recu/grok/plume-encre.jpg",
+    "role": "galerie",
+    "alt": "Plumes d'oie taillées, encrier et parchemin réglé vierge",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "2f6204ecd74332c2",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "54% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        900,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 900 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/plume-encre-480.webp",
+      "grok/plume-encre-640.webp",
+      "grok/plume-encre-960.webp"
+    ],
+    "poids": {
+      "grok/plume-encre-480.webp": 29306,
+      "grok/plume-encre-640.webp": 41048,
+      "grok/plume-encre-960.webp": 64072
+    },
+    "media": "c.media({ nom: 'grok/plume-encre', alt: \"Plumes d'oie taillées, encrier et parchemin réglé vierge\", cadrage: '54% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "grok/texture-or": {
+    "nom": "grok/texture-or",
+    "source": "recu/grok/texture-or.jpg",
+    "role": "galerie",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a58f5888eb673f76",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "60% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        900,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 900 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/texture-or-480.webp",
+      "grok/texture-or-640.webp",
+      "grok/texture-or-960.webp"
+    ],
+    "poids": {
+      "grok/texture-or-480.webp": 68968,
+      "grok/texture-or-640.webp": 98336,
+      "grok/texture-or-960.webp": 158248
+    },
+    "media": "c.media({ nom: 'grok/texture-or', alt: \"\", cadrage: '60% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "grok/texture-parchemin": {
+    "nom": "grok/texture-parchemin",
+    "source": "recu/grok/texture-parchemin.jpg",
+    "role": "galerie",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "0863c7ba8baf49e0",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        900,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large",
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 900 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/texture-parchemin-480.webp",
+      "grok/texture-parchemin-640.webp",
+      "grok/texture-parchemin-960.webp"
+    ],
+    "poids": {
+      "grok/texture-parchemin-480.webp": 20768,
+      "grok/texture-parchemin-640.webp": 31348,
+      "grok/texture-parchemin-960.webp": 53676
+    },
+    "media": "c.media({ nom: 'grok/texture-parchemin', alt: \"\", cadrage: '45% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "grok/oeuvres-mur": {
+    "nom": "grok/oeuvres-mur",
+    "source": "recu/grok/oeuvres-mur.jpg",
+    "role": "ouverture",
+    "alt": "Mur de chaux clair éclairé de côté, prêt à accueillir une œuvre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "7b2e22ca45e4a1ca",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "69% 78%"
+    },
+    "cadrage": "73% 67%",
+    "sujet": {
+      "x": 37.5,
+      "y": 16.7,
+      "l": 62.5,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/oeuvres-mur-640.webp",
+      "grok/oeuvres-mur-1280.webp",
+      "grok/oeuvres-mur-1920.webp",
+      "grok/oeuvres-mur-mobile-640.webp",
+      "grok/oeuvres-mur-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/oeuvres-mur-640.webp": 15552,
+      "grok/oeuvres-mur-1280.webp": 41476,
+      "grok/oeuvres-mur-1920.webp": 78612,
+      "grok/oeuvres-mur-mobile-640.webp": 19686,
+      "grok/oeuvres-mur-mobile-1080.webp": 47054
+    },
+    "media": "c.media({ nom: 'grok/oeuvres-mur', alt: \"Mur de chaux clair éclairé de côté, prêt à accueillir une œuvre\", cadrage: '73% 67%', cadrageMobile: '69% 78%', sizes: '100vw', priorite: true })"
+  },
+  "grok/commandes-ouverture": {
+    "nom": "grok/commandes-ouverture",
+    "source": "recu/grok/commandes-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Feuille de parchemin vierge, ruban de soie, brin de fleurs séchées et cachet de cire",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "aebbc41c649884e9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "61% 74%"
+    },
+    "cadrage": "77% 56%",
+    "sujet": {
+      "x": 46.9,
+      "y": 5.6,
+      "l": 53.1,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/commandes-ouverture-640.webp",
+      "grok/commandes-ouverture-1280.webp",
+      "grok/commandes-ouverture-1920.webp",
+      "grok/commandes-ouverture-mobile-640.webp",
+      "grok/commandes-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/commandes-ouverture-640.webp": 25540,
+      "grok/commandes-ouverture-1280.webp": 56540,
+      "grok/commandes-ouverture-1920.webp": 95874,
+      "grok/commandes-ouverture-mobile-640.webp": 26932,
+      "grok/commandes-ouverture-mobile-1080.webp": 51966
+    },
+    "media": "c.media({ nom: 'grok/commandes-ouverture', alt: \"Feuille de parchemin vierge, ruban de soie, brin de fleurs séchées et cachet de cire\", cadrage: '77% 56%', cadrageMobile: '61% 74%', sizes: '100vw', priorite: true })"
+  },
+  "grok/stages-ouverture": {
+    "nom": "grok/stages-ouverture",
+    "source": "recu/grok/stages-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Grande table d'atelier préparée pour six élèves, feuilles, pinceaux et pigments",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "3a5bb49825b22021",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 72%"
+    },
+    "cadrage": "56% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/stages-ouverture-640.webp",
+      "grok/stages-ouverture-1280.webp",
+      "grok/stages-ouverture-1920.webp",
+      "grok/stages-ouverture-mobile-640.webp",
+      "grok/stages-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/stages-ouverture-640.webp": 29490,
+      "grok/stages-ouverture-1280.webp": 63098,
+      "grok/stages-ouverture-1920.webp": 101580,
+      "grok/stages-ouverture-mobile-640.webp": 22546,
+      "grok/stages-ouverture-mobile-1080.webp": 44072
+    },
+    "media": "c.media({ nom: 'grok/stages-ouverture', alt: \"Grande table d'atelier préparée pour six élèves, feuilles, pinceaux et pigments\", cadrage: '56% 55%', cadrageMobile: '50% 72%', sizes: '100vw', priorite: true })"
+  },
+  "grok/boutique-ouverture": {
+    "nom": "grok/boutique-ouverture",
+    "source": "recu/grok/boutique-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Cadres vides, passe-partout et papier kraft prêts pour un envoi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d46d8eba319b5994",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "46% 72%"
+    },
+    "cadrage": "58% 61%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 96.9,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/boutique-ouverture-640.webp",
+      "grok/boutique-ouverture-1280.webp",
+      "grok/boutique-ouverture-1920.webp",
+      "grok/boutique-ouverture-mobile-640.webp",
+      "grok/boutique-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/boutique-ouverture-640.webp": 11670,
+      "grok/boutique-ouverture-1280.webp": 28206,
+      "grok/boutique-ouverture-1920.webp": 48580,
+      "grok/boutique-ouverture-mobile-640.webp": 13084,
+      "grok/boutique-ouverture-mobile-1080.webp": 27830
+    },
+    "media": "c.media({ nom: 'grok/boutique-ouverture', alt: \"Cadres vides, passe-partout et papier kraft prêts pour un envoi\", cadrage: '58% 61%', cadrageMobile: '46% 72%', sizes: '100vw', priorite: true })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Écritoire près d'une fenêtre : enveloppe cachetée, plume d'oie et encrier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d8a1f02767ca2047",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "66% 68%"
+    },
+    "cadrage": "69% 54%",
+    "sujet": {
+      "x": 21.9,
+      "y": 0,
+      "l": 78.1,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp",
+      "grok/contact-ouverture-mobile-640.webp",
+      "grok/contact-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 20690,
+      "grok/contact-ouverture-1280.webp": 46146,
+      "grok/contact-ouverture-1920.webp": 75718,
+      "grok/contact-ouverture-mobile-640.webp": 19904,
+      "grok/contact-ouverture-mobile-1080.webp": 40478
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Écritoire près d'une fenêtre : enveloppe cachetée, plume d'oie et encrier\", cadrage: '69% 54%', cadrageMobile: '66% 68%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Une goutte d'encre tombée sur un parchemin vierge, la plume posée à côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4aee163facaa3fa5",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "56% 57%",
+    "sujet": {
+      "x": 43.8,
+      "y": 44.4,
+      "l": 37.5,
+      "h": 27.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.84,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.77,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.58,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 22254,
+      "grok/page-404-1600.webp": 69022
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une goutte d'encre tombée sur un parchemin vierge, la plume posée à côté\", cadrage: '56% 57%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "o-amitie": {
+    "nom": "o-amitie",
+    "source": "recu/amitie.jpg",
+    "role": "galerie",
+    "alt": "Amitié, feuille d’or et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "05b4ab2d2cb72100",
+    "ratio": "1908:1866",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1908,
+      "height": 1866,
+      "source": [
+        1908,
+        1866
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-amitie-480.webp",
+      "o-amitie-800.webp",
+      "o-amitie-1200.webp"
+    ],
+    "poids": {
+      "o-amitie-480.webp": 39256,
+      "o-amitie-800.webp": 93904,
+      "o-amitie-1200.webp": 191366
+    },
+    "media": "c.media({ nom: 'o-amitie', alt: \"Amitié, feuille d’or et pigments\", cadrage: '49% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1908 / 1866' })"
+  },
+  "o-sterne": {
+    "nom": "o-sterne",
+    "source": "recu/sterne-arctique-2.jpg",
+    "role": "galerie",
+    "alt": "Sterne arctique, détail, feuille d’or, or en coquille et pigments ; calligraphie bâtarde flamande",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "93081cb13b0e0d94",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "54% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-sterne-480.webp",
+      "o-sterne-800.webp",
+      "o-sterne-1200.webp"
+    ],
+    "poids": {
+      "o-sterne-480.webp": 43248,
+      "o-sterne-800.webp": 99396,
+      "o-sterne-1200.webp": 200828
+    },
+    "media": "c.media({ nom: 'o-sterne', alt: \"Sterne arctique, détail, feuille d’or, or en coquille et pigments ; calligraphie bâtarde flamande\", cadrage: '54% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-kiwi": {
+    "nom": "o-kiwi",
+    "source": "recu/kiwi-2.jpg",
+    "role": "galerie",
+    "alt": "Kiwi, détail, or minéral, encre noire et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9f2005968845ea04",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-kiwi-480.webp",
+      "o-kiwi-800.webp",
+      "o-kiwi-1200.webp"
+    ],
+    "poids": {
+      "o-kiwi-480.webp": 52096,
+      "o-kiwi-800.webp": 106280,
+      "o-kiwi-1200.webp": 195606
+    },
+    "media": "c.media({ nom: 'o-kiwi', alt: \"Kiwi, détail, or minéral, encre noire et pigments\", cadrage: '48% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-kookaburra": {
+    "nom": "o-kookaburra",
+    "source": "recu/kookaburra-2.jpg",
+    "role": "galerie",
+    "alt": "Kookaburra, détail, pigments ; semi-onciale irlandaise à l’encre gallo-ferrique maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a2047417903f5222",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-kookaburra-480.webp",
+      "o-kookaburra-800.webp",
+      "o-kookaburra-1200.webp"
+    ],
+    "poids": {
+      "o-kookaburra-480.webp": 49930,
+      "o-kookaburra-800.webp": 96740,
+      "o-kookaburra-1200.webp": 163744
+    },
+    "media": "c.media({ nom: 'o-kookaburra', alt: \"Kookaburra, détail, pigments ; semi-onciale irlandaise à l’encre gallo-ferrique maison\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-manchot": {
+    "nom": "o-manchot",
+    "source": "recu/manchot-oeil-jaune-2.jpg",
+    "role": "galerie",
+    "alt": "Manchot à œil jaune, détail, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c70ee86ba1550f8a",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 42%",
+    "sujet": {
+      "x": 8.3,
+      "y": 9.4,
+      "l": 91.7,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-manchot-480.webp",
+      "o-manchot-800.webp",
+      "o-manchot-1200.webp"
+    ],
+    "poids": {
+      "o-manchot-480.webp": 42646,
+      "o-manchot-800.webp": 92572,
+      "o-manchot-1200.webp": 162210
+    },
+    "media": "c.media({ nom: 'o-manchot', alt: \"Manchot à œil jaune, détail, pigments\", cadrage: '51% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-kakariki": {
+    "nom": "o-kakariki",
+    "source": "recu/kakariki-2.jpg",
+    "role": "galerie",
+    "alt": "Kakariki, détail, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ba39cb03821915f4",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "43% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-kakariki-480.webp",
+      "o-kakariki-800.webp",
+      "o-kakariki-1200.webp"
+    ],
+    "poids": {
+      "o-kakariki-480.webp": 38278,
+      "o-kakariki-800.webp": 91672,
+      "o-kakariki-1200.webp": 167164
+    },
+    "media": "c.media({ nom: 'o-kakariki', alt: \"Kakariki, détail, pigments\", cadrage: '43% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-ruru": {
+    "nom": "o-ruru",
+    "source": "recu/ruru-detail.jpg",
+    "role": "galerie",
+    "alt": "Ruru (morepork), détail, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b4d9054466160e0d",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "53% 59%",
+    "sujet": {
+      "x": 4.2,
+      "y": 0,
+      "l": 95.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-ruru-480.webp",
+      "o-ruru-800.webp",
+      "o-ruru-1200.webp"
+    ],
+    "poids": {
+      "o-ruru-480.webp": 51948,
+      "o-ruru-800.webp": 103002,
+      "o-ruru-1200.webp": 176294
+    },
+    "media": "c.media({ nom: 'o-ruru', alt: \"Ruru (morepork), détail, pigments\", cadrage: '53% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-parade": {
+    "nom": "o-parade",
+    "source": "recu/parade.jpg",
+    "role": "galerie",
+    "alt": "La Parade, pigments et feuille d’or ; lettres tourneures",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "376eabafbfd21888",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-parade-480.webp",
+      "o-parade-800.webp"
+    ],
+    "poids": {
+      "o-parade-480.webp": 27426,
+      "o-parade-800.webp": 64020
+    },
+    "media": "c.media({ nom: 'o-parade', alt: \"La Parade, pigments et feuille d’or ; lettres tourneures\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "o-beatus": {
+    "nom": "o-beatus",
+    "source": "recu/beatus.jpg",
+    "role": "galerie",
+    "alt": "Beatus, détail, pigments et or",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5d2cb1ef261f3046",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-beatus-480.webp",
+      "o-beatus-800.webp",
+      "o-beatus-1200.webp"
+    ],
+    "poids": {
+      "o-beatus-480.webp": 71416,
+      "o-beatus-800.webp": 152674,
+      "o-beatus-1200.webp": 279816
+    },
+    "media": "c.media({ nom: 'o-beatus', alt: \"Beatus, détail, pigments et or\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-fou": {
+    "nom": "o-fou",
+    "source": "recu/fou-roy.jpg",
+    "role": "galerie",
+    "alt": "Le Fou du Roy, pigments et or minéral",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "544a9792cece6e9c",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "53% 58%",
+    "sujet": {
+      "x": 8.3,
+      "y": 12.5,
+      "l": 83.3,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-fou-480.webp",
+      "o-fou-800.webp",
+      "o-fou-1200.webp"
+    ],
+    "poids": {
+      "o-fou-480.webp": 31456,
+      "o-fou-800.webp": 71394,
+      "o-fou-1200.webp": 128032
+    },
+    "media": "c.media({ nom: 'o-fou', alt: \"Le Fou du Roy, pigments et or minéral\", cadrage: '53% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-bakhita": {
+    "nom": "o-bakhita",
+    "source": "recu/bakhita-2.jpg",
+    "role": "galerie",
+    "alt": "Bakhita, détail, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "08efac1030f2e2f7",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "47% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 4.2,
+      "l": 100,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-bakhita-480.webp",
+      "o-bakhita-800.webp",
+      "o-bakhita-1200.webp"
+    ],
+    "poids": {
+      "o-bakhita-480.webp": 23660,
+      "o-bakhita-800.webp": 48778,
+      "o-bakhita-1200.webp": 88552
+    },
+    "media": "c.media({ nom: 'o-bakhita', alt: \"Bakhita, détail, pigments\", cadrage: '47% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-dame": {
+    "nom": "o-dame",
+    "source": "recu/dame-bouquet.jpg",
+    "role": "galerie",
+    "alt": "La dame au bouquet, or minéral et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5c54255a90e1ecb6",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "45% 62%",
+    "sujet": {
+      "x": 12.5,
+      "y": 15.6,
+      "l": 79.2,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-dame-480.webp",
+      "o-dame-800.webp",
+      "o-dame-1200.webp"
+    ],
+    "poids": {
+      "o-dame-480.webp": 40646,
+      "o-dame-800.webp": 89200,
+      "o-dame-1200.webp": 151746
+    },
+    "media": "c.media({ nom: 'o-dame', alt: \"La dame au bouquet, or minéral et pigments\", cadrage: '45% 62%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-moise": {
+    "nom": "o-moise",
+    "source": "recu/moise-devoile.jpg",
+    "role": "galerie",
+    "alt": "Moïse dévoilé, or, aluminium et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "68aac933e64ec192",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 95.8,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-moise-480.webp",
+      "o-moise-800.webp",
+      "o-moise-1200.webp"
+    ],
+    "poids": {
+      "o-moise-480.webp": 52968,
+      "o-moise-800.webp": 114134,
+      "o-moise-1200.webp": 197996
+    },
+    "media": "c.media({ nom: 'o-moise', alt: \"Moïse dévoilé, or, aluminium et pigments\", cadrage: '49% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-jerusalem": {
+    "nom": "o-jerusalem",
+    "source": "recu/jerusalem-celeste.jpg",
+    "role": "galerie",
+    "alt": "Jérusalem céleste, or et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6f3f22755f8dbd20",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 51%",
+    "sujet": {
+      "x": 12.5,
+      "y": 9.4,
+      "l": 79.2,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-jerusalem-480.webp",
+      "o-jerusalem-800.webp",
+      "o-jerusalem-1200.webp"
+    ],
+    "poids": {
+      "o-jerusalem-480.webp": 39932,
+      "o-jerusalem-800.webp": 81990,
+      "o-jerusalem-1200.webp": 145336
+    },
+    "media": "c.media({ nom: 'o-jerusalem', alt: \"Jérusalem céleste, or et pigments\", cadrage: '51% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-raphael": {
+    "nom": "o-raphael",
+    "source": "recu/raphael-tobie.jpg",
+    "role": "galerie",
+    "alt": "Raphaël et Tobie, or minéral et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0330dc358531b652",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-raphael-480.webp",
+      "o-raphael-800.webp",
+      "o-raphael-1200.webp"
+    ],
+    "poids": {
+      "o-raphael-480.webp": 54840,
+      "o-raphael-800.webp": 118272,
+      "o-raphael-1200.webp": 202564
+    },
+    "media": "c.media({ nom: 'o-raphael', alt: \"Raphaël et Tobie, or minéral et pigments\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-famille": {
+    "nom": "o-famille",
+    "source": "recu/sainte-famille.jpg",
+    "role": "galerie",
+    "alt": "Sainte Famille, or minéral et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "786eb79bf360428d",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-famille-480.webp",
+      "o-famille-800.webp"
+    ],
+    "poids": {
+      "o-famille-480.webp": 41230,
+      "o-famille-800.webp": 92916
+    },
+    "media": "c.media({ nom: 'o-famille', alt: \"Sainte Famille, or minéral et pigments\", cadrage: '45% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-enlumineur": {
+    "nom": "o-enlumineur",
+    "source": "recu/enlumineur-colombe.jpg",
+    "role": "galerie",
+    "alt": "L’enlumineur et la colombe, or en coquille et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0ce286241689d441",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 52%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-enlumineur-480.webp",
+      "o-enlumineur-800.webp",
+      "o-enlumineur-1200.webp"
+    ],
+    "poids": {
+      "o-enlumineur-480.webp": 17764,
+      "o-enlumineur-800.webp": 38414,
+      "o-enlumineur-1200.webp": 69206
+    },
+    "media": "c.media({ nom: 'o-enlumineur', alt: \"L’enlumineur et la colombe, or en coquille et pigments\", cadrage: '51% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-glandee": {
+    "nom": "o-glandee",
+    "source": "recu/glandee.jpg",
+    "role": "galerie",
+    "alt": "La glandée, feuille d’or, or en coquille et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0f8e81469650fa49",
+    "ratio": "1512:1566",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 41%",
+    "sujet": {
+      "x": 16.1,
+      "y": 0,
+      "l": 74.2,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1512,
+      "height": 1566,
+      "source": [
+        1512,
+        1566
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-glandee-480.webp",
+      "o-glandee-800.webp",
+      "o-glandee-1200.webp"
+    ],
+    "poids": {
+      "o-glandee-480.webp": 42112,
+      "o-glandee-800.webp": 102314,
+      "o-glandee-1200.webp": 197622
+    },
+    "media": "c.media({ nom: 'o-glandee', alt: \"La glandée, feuille d’or, or en coquille et pigments\", cadrage: '51% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1512 / 1566' })"
+  },
+  "o-lapin": {
+    "nom": "o-lapin",
+    "source": "recu/lapin-livre.jpg",
+    "role": "galerie",
+    "alt": "Lapin-livre, pigments et or",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "673defee04cec7d6",
+    "ratio": "1333:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 95.5,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-lapin-480.webp",
+      "o-lapin-800.webp",
+      "o-lapin-1200.webp"
+    ],
+    "poids": {
+      "o-lapin-480.webp": 31480,
+      "o-lapin-800.webp": 70638,
+      "o-lapin-1200.webp": 129892
+    },
+    "media": "c.media({ nom: 'o-lapin', alt: \"Lapin-livre, pigments et or\", cadrage: '48% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1333 / 2000' })"
+  },
+  "o-chat": {
+    "nom": "o-chat",
+    "source": "recu/chat-mozarabe.jpg",
+    "role": "galerie",
+    "alt": "Chat mozarabe, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d4c60f61a6ac2ab8",
+    "ratio": "2000:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 62%",
+    "sujet": {
+      "x": 18.8,
+      "y": 21.9,
+      "l": 62.5,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-chat-480.webp",
+      "o-chat-800.webp",
+      "o-chat-1200.webp"
+    ],
+    "poids": {
+      "o-chat-480.webp": 27044,
+      "o-chat-800.webp": 65074,
+      "o-chat-1200.webp": 124662
+    },
+    "media": "c.media({ nom: 'o-chat', alt: \"Chat mozarabe, pigments\", cadrage: '49% 62%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 2000' })"
+  },
+  "o-francois": {
+    "nom": "o-francois",
+    "source": "recu/st-francois-trois-chats.jpg",
+    "role": "galerie",
+    "alt": "Saint François et les trois chats, pigments et or minéral",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "53f4cf5a2df5a03b",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-francois-480.webp",
+      "o-francois-800.webp",
+      "o-francois-1200.webp"
+    ],
+    "poids": {
+      "o-francois-480.webp": 50286,
+      "o-francois-800.webp": 108856,
+      "o-francois-1200.webp": 189164
+    },
+    "media": "c.media({ nom: 'o-francois', alt: \"Saint François et les trois chats, pigments et or minéral\", cadrage: '51% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-annonciation": {
+    "nom": "o-annonciation",
+    "source": "recu/annonciation-g.jpg",
+    "role": "galerie",
+    "alt": "Annonciation en G, or et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0cf24bd2e3d09ba8",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 57%",
+    "sujet": {
+      "x": 4.2,
+      "y": 12.5,
+      "l": 91.7,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-annonciation-480.webp",
+      "o-annonciation-800.webp",
+      "o-annonciation-1200.webp"
+    ],
+    "poids": {
+      "o-annonciation-480.webp": 36318,
+      "o-annonciation-800.webp": 89010,
+      "o-annonciation-1200.webp": 170482
+    },
+    "media": "c.media({ nom: 'o-annonciation', alt: \"Annonciation en G, or et pigments\", cadrage: '50% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-vierge": {
+    "nom": "o-vierge",
+    "source": "recu/vierge-enfant-celte-3.jpg",
+    "role": "galerie",
+    "alt": "Vierge à l’Enfant celte, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8cf9d3faa403dc67",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 54%",
+    "sujet": {
+      "x": 16.7,
+      "y": 12.5,
+      "l": 62.5,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-vierge-480.webp",
+      "o-vierge-800.webp",
+      "o-vierge-1200.webp"
+    ],
+    "poids": {
+      "o-vierge-480.webp": 61776,
+      "o-vierge-800.webp": 147082,
+      "o-vierge-1200.webp": 277574
+    },
+    "media": "c.media({ nom: 'o-vierge', alt: \"Vierge à l’Enfant celte, pigments\", cadrage: '48% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-armenienne": {
+    "nom": "o-armenienne",
+    "source": "recu/lettrine-armenienne.jpg",
+    "role": "galerie",
+    "alt": "Lettrine arménienne, or minéral et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "caf7627dccf0249e",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "46% 46%",
+    "sujet": {
+      "x": 20.8,
+      "y": 18.8,
+      "l": 58.3,
+      "h": 59.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.71,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-armenienne-480.webp",
+      "o-armenienne-800.webp",
+      "o-armenienne-1200.webp"
+    ],
+    "poids": {
+      "o-armenienne-480.webp": 18700,
+      "o-armenienne-800.webp": 52212,
+      "o-armenienne-1200.webp": 109850
+    },
+    "media": "c.media({ nom: 'o-armenienne', alt: \"Lettrine arménienne, or minéral et pigments\", cadrage: '46% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-semeur": {
+    "nom": "o-semeur",
+    "source": "recu/semeur.jpg",
+    "role": "galerie",
+    "alt": "Le Semeur, détail, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "21a5048cba424511",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-semeur-480.webp",
+      "o-semeur-800.webp",
+      "o-semeur-1200.webp"
+    ],
+    "poids": {
+      "o-semeur-480.webp": 42272,
+      "o-semeur-800.webp": 99822,
+      "o-semeur-1200.webp": 194816
+    },
+    "media": "c.media({ nom: 'o-semeur', alt: \"Le Semeur, détail, pigments\", cadrage: '48% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-garde": {
+    "nom": "o-garde",
+    "source": "recu/garde-guerin-xviieme-siecle.jpg",
+    "role": "galerie",
+    "alt": "La Garde-Guérin, XVIIe siècle, pigments et or minéral",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "de0d770694e1eb66",
+    "ratio": "1333:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-garde-480.webp",
+      "o-garde-800.webp"
+    ],
+    "poids": {
+      "o-garde-480.webp": 39998,
+      "o-garde-800.webp": 82614
+    },
+    "media": "c.media({ nom: 'o-garde', alt: \"La Garde-Guérin, XVIIe siècle, pigments et or minéral\", cadrage: '48% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1333 / 2000' })"
+  },
+  "o-amelia": {
+    "nom": "o-amelia",
+    "source": "recu/amelia.jpg",
+    "role": "galerie",
+    "alt": "Amélia, pigments et or minéral",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "af129abf74dd10bb",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 42%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 78.1,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-amelia-480.webp",
+      "o-amelia-800.webp",
+      "o-amelia-1200.webp"
+    ],
+    "poids": {
+      "o-amelia-480.webp": 13390,
+      "o-amelia-800.webp": 28766,
+      "o-amelia-1200.webp": 51378
+    },
+    "media": "c.media({ nom: 'o-amelia', alt: \"Amélia, pigments et or minéral\", cadrage: '49% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "o-oriental": {
+    "nom": "o-oriental",
+    "source": "recu/motif-tire-coran-ancien.jpg",
+    "role": "galerie",
+    "alt": "Motif oriental, or minéral et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "62a3a98485dbdd69",
+    "ratio": "2000:1829",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 3.3,
+      "l": 96.9,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1829,
+      "source": [
+        2000,
+        1829
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-oriental-480.webp",
+      "o-oriental-800.webp",
+      "o-oriental-1200.webp"
+    ],
+    "poids": {
+      "o-oriental-480.webp": 49688,
+      "o-oriental-800.webp": 102720,
+      "o-oriental-1200.webp": 177178
+    },
+    "media": "c.media({ nom: 'o-oriental', alt: \"Motif oriental, or minéral et pigments\", cadrage: '53% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1829' })"
+  },
+  "o-shalom": {
+    "nom": "o-shalom",
+    "source": "recu/shalom.jpg",
+    "role": "galerie",
+    "alt": "Shalom, or et pigments précieux",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b44a27decfd7829c",
+    "ratio": "1501:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 43%",
+    "sujet": {
+      "x": 4.2,
+      "y": 0,
+      "l": 83.3,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1501,
+      "height": 2000,
+      "source": [
+        1501,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-shalom-480.webp",
+      "o-shalom-800.webp",
+      "o-shalom-1200.webp"
+    ],
+    "poids": {
+      "o-shalom-480.webp": 70864,
+      "o-shalom-800.webp": 152800,
+      "o-shalom-1200.webp": 262596
+    },
+    "media": "c.media({ nom: 'o-shalom', alt: \"Shalom, or et pigments précieux\", cadrage: '48% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1501 / 2000' })"
+  },
+  "o-armoiries": {
+    "nom": "o-armoiries",
+    "source": "recu/armoiries-couple.jpg",
+    "role": "galerie",
+    "alt": "Armoiries d’un couple, feuille d’or et d’aluminium, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c480089db220941d",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "43% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-armoiries-480.webp",
+      "o-armoiries-800.webp",
+      "o-armoiries-1200.webp"
+    ],
+    "poids": {
+      "o-armoiries-480.webp": 22480,
+      "o-armoiries-800.webp": 47832,
+      "o-armoiries-1200.webp": 91720
+    },
+    "media": "c.media({ nom: 'o-armoiries', alt: \"Armoiries d’un couple, feuille d’or et d’aluminium, pigments\", cadrage: '43% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "o-benis": {
+    "nom": "o-benis",
+    "source": "recu/benis-soient-coeurs-2.jpg",
+    "role": "galerie",
+    "alt": "Bénis soient les cœurs, détail, or minéral, pigments et brou de noix",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a53613f490c25222",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-benis-480.webp",
+      "o-benis-800.webp",
+      "o-benis-1200.webp"
+    ],
+    "poids": {
+      "o-benis-480.webp": 34742,
+      "o-benis-800.webp": 75524,
+      "o-benis-1200.webp": 146514
+    },
+    "media": "c.media({ nom: 'o-benis', alt: \"Bénis soient les cœurs, détail, or minéral, pigments et brou de noix\", cadrage: '47% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-apprivoises": {
+    "nom": "o-apprivoises",
+    "source": "recu/si-tu-m-apprivoises-2.jpg",
+    "role": "galerie",
+    "alt": "Si tu m’apprivoises, détail, pigments et encre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c0f4f3ce1fa4050d",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 3.1,
+      "y": 20.8,
+      "l": 96.9,
+      "h": 70.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-apprivoises-480.webp",
+      "o-apprivoises-800.webp",
+      "o-apprivoises-1200.webp"
+    ],
+    "poids": {
+      "o-apprivoises-480.webp": 18808,
+      "o-apprivoises-800.webp": 41606,
+      "o-apprivoises-1200.webp": 83794
+    },
+    "media": "c.media({ nom: 'o-apprivoises', alt: \"Si tu m’apprivoises, détail, pigments et encre\", cadrage: '45% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-contempler": {
+    "nom": "o-contempler",
+    "source": "recu/contempler.jpg",
+    "role": "galerie",
+    "alt": "Contempler, pigments et encre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a315d261c42c3c9a",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 44%",
+    "sujet": {
+      "x": 25,
+      "y": 20.8,
+      "l": 56.3,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-contempler-480.webp",
+      "o-contempler-800.webp"
+    ],
+    "poids": {
+      "o-contempler-480.webp": 30284,
+      "o-contempler-800.webp": 74010
+    },
+    "media": "c.media({ nom: 'o-contempler', alt: \"Contempler, pigments et encre\", cadrage: '49% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-chaqueame": {
+    "nom": "o-chaqueame",
+    "source": "recu/chaque-ame.jpg",
+    "role": "galerie",
+    "alt": "Chaque âme, encre moderne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e25124681d7d235c",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 3.1,
+      "y": 8.3,
+      "l": 93.8,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-chaqueame-480.webp",
+      "o-chaqueame-800.webp",
+      "o-chaqueame-1200.webp"
+    ],
+    "poids": {
+      "o-chaqueame-480.webp": 14290,
+      "o-chaqueame-800.webp": 27208,
+      "o-chaqueame-1200.webp": 47410
+    },
+    "media": "c.media({ nom: 'o-chaqueame', alt: \"Chaque âme, encre moderne\", cadrage: '51% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-cats": {
+    "nom": "o-cats",
+    "source": "recu/cats.jpg",
+    "role": "galerie",
+    "alt": "Cats, pigments et extrait de cassel",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e8cf175cd944291d",
+    "ratio": "1638:1228",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "36% 47%",
+    "sujet": {
+      "x": 15.6,
+      "y": 12.5,
+      "l": 71.9,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1638,
+      "height": 1228,
+      "source": [
+        1638,
+        1228
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-cats-480.webp",
+      "o-cats-800.webp",
+      "o-cats-1200.webp"
+    ],
+    "poids": {
+      "o-cats-480.webp": 12088,
+      "o-cats-800.webp": 27638,
+      "o-cats-1200.webp": 58646
+    },
+    "media": "c.media({ nom: 'o-cats', alt: \"Cats, pigments et extrait de cassel\", cadrage: '36% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1638 / 1228' })"
+  },
+  "o-cerise": {
+    "nom": "o-cerise",
+    "source": "recu/cerise.jpg",
+    "role": "galerie",
+    "alt": "Cerise, pigments et extrait de cassel",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f58f2e1932226736",
+    "ratio": "1637:1228",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "28% 42%",
+    "sujet": {
+      "x": 12.5,
+      "y": 12.5,
+      "l": 56.3,
+      "h": 58.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1637,
+      "height": 1228,
+      "source": [
+        1637,
+        1228
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-cerise-480.webp",
+      "o-cerise-800.webp",
+      "o-cerise-1200.webp"
+    ],
+    "poids": {
+      "o-cerise-480.webp": 9198,
+      "o-cerise-800.webp": 20160,
+      "o-cerise-1200.webp": 48778
+    },
+    "media": "c.media({ nom: 'o-cerise', alt: \"Cerise, pigments et extrait de cassel\", cadrage: '28% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1637 / 1228' })"
+  },
+  "o-credo": {
+    "nom": "o-credo",
+    "source": "recu/credo-detail.jpg",
+    "role": "galerie",
+    "alt": "Credo, détail, or et pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1c1f27a25f15bd49",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 51%",
+    "sujet": {
+      "x": 8.3,
+      "y": 0,
+      "l": 91.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-credo-480.webp",
+      "o-credo-800.webp"
+    ],
+    "poids": {
+      "o-credo-480.webp": 25106,
+      "o-credo-800.webp": 48384
+    },
+    "media": "c.media({ nom: 'o-credo', alt: \"Credo, détail, or et pigments\", cadrage: '52% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-filigrane": {
+    "nom": "o-filigrane",
+    "source": "recu/filigrane-c.jpg",
+    "role": "galerie",
+    "alt": "Filigrane C, extrait de cassel et encre moderne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "319f5ef077c9fc02",
+    "ratio": "1628:1724",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "46% 53%",
+    "sujet": {
+      "x": 16.1,
+      "y": 15.6,
+      "l": 74.2,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1628,
+      "height": 1724,
+      "source": [
+        1628,
+        1724
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-filigrane-480.webp",
+      "o-filigrane-800.webp",
+      "o-filigrane-1200.webp"
+    ],
+    "poids": {
+      "o-filigrane-480.webp": 35236,
+      "o-filigrane-800.webp": 71956,
+      "o-filigrane-1200.webp": 126678
+    },
+    "media": "c.media({ nom: 'o-filigrane', alt: \"Filigrane C, extrait de cassel et encre moderne\", cadrage: '46% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1628 / 1724' })"
+  },
+  "o-merle": {
+    "nom": "o-merle",
+    "source": "recu/merle-16-2.jpg",
+    "role": "galerie",
+    "alt": "Le Merle du 16, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8fc11bda5c767e9e",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 44%",
+    "sujet": {
+      "x": 12.5,
+      "y": 20.8,
+      "l": 75,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-merle-480.webp",
+      "o-merle-800.webp"
+    ],
+    "poids": {
+      "o-merle-480.webp": 27652,
+      "o-merle-800.webp": 70040
+    },
+    "media": "c.media({ nom: 'o-merle', alt: \"Le Merle du 16, pigments\", cadrage: '55% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-onlybird": {
+    "nom": "o-onlybird",
+    "source": "recu/only-bird.jpg",
+    "role": "galerie",
+    "alt": "Only a bird, encres dorée et argentée, cochenille",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2ed82377766ef629",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-onlybird-480.webp",
+      "o-onlybird-800.webp"
+    ],
+    "poids": {
+      "o-onlybird-480.webp": 18788,
+      "o-onlybird-800.webp": 41160
+    },
+    "media": "c.media({ nom: 'o-onlybird', alt: \"Only a bird, encres dorée et argentée, cochenille\", cadrage: '47% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-yoga": {
+    "nom": "o-yoga",
+    "source": "recu/yoga-lapins.jpg",
+    "role": "galerie",
+    "alt": "Le Yoga des lapins, sérigraphie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a29ffd34c1fdf2a4",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "38% 57%",
+    "sujet": {
+      "x": 3.1,
+      "y": 20.8,
+      "l": 71.9,
+      "h": 79.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.59,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-yoga-480.webp",
+      "o-yoga-800.webp"
+    ],
+    "poids": {
+      "o-yoga-480.webp": 12528,
+      "o-yoga-800.webp": 26788
+    },
+    "media": "c.media({ nom: 'o-yoga', alt: \"Le Yoga des lapins, sérigraphie\", cadrage: '38% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "o-voyage": {
+    "nom": "o-voyage",
+    "source": "recu/grand-voyage-detail.jpg",
+    "role": "galerie",
+    "alt": "Le Grand Voyage, détail, blanc de titane",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cc656e82d8355779",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "52% 61%",
+    "sujet": {
+      "x": 29.2,
+      "y": 9.4,
+      "l": 45.8,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-voyage-480.webp",
+      "o-voyage-800.webp",
+      "o-voyage-1200.webp"
+    ],
+    "poids": {
+      "o-voyage-480.webp": 54096,
+      "o-voyage-800.webp": 134412,
+      "o-voyage-1200.webp": 261968
+    },
+    "media": "c.media({ nom: 'o-voyage', alt: \"Le Grand Voyage, détail, blanc de titane\", cadrage: '52% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "o-arcenciel": {
+    "nom": "o-arcenciel",
+    "source": "recu/attendant-arc-ciel.jpg",
+    "role": "galerie",
+    "alt": "En attendant l’arc-en-ciel, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f07f56a46413cd1a",
+    "ratio": "1314:1829",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1314,
+      "height": 1829,
+      "source": [
+        1314,
+        1829
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-arcenciel-480.webp",
+      "o-arcenciel-800.webp"
+    ],
+    "poids": {
+      "o-arcenciel-480.webp": 33278,
+      "o-arcenciel-800.webp": 69112
+    },
+    "media": "c.media({ nom: 'o-arcenciel', alt: \"En attendant l’arc-en-ciel, pigments\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1314 / 1829' })"
+  },
+  "o-ailes": {
+    "nom": "o-ailes",
+    "source": "recu/ombre-tes-ailes.jpg",
+    "role": "galerie",
+    "alt": "À l’ombre de tes ailes, pigments",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d4e213d289c28c9d",
+    "ratio": "1972:1916",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 46%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1972,
+      "height": 1916,
+      "source": [
+        1972,
+        1916
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-ailes-480.webp",
+      "o-ailes-800.webp"
+    ],
+    "poids": {
+      "o-ailes-480.webp": 23206,
+      "o-ailes-800.webp": 53142
+    },
+    "media": "c.media({ nom: 'o-ailes', alt: \"À l’ombre de tes ailes, pigments\", cadrage: '51% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1972 / 1916' })"
+  },
+  "o-orgue": {
+    "nom": "o-orgue",
+    "source": "recu/grandes-orgues-cathedrale-valence-2.jpg",
+    "role": "galerie",
+    "alt": "Étiquette « Bourdon 16 », calligraphie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3e31cabb54365506",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "o-orgue-480.webp",
+      "o-orgue-800.webp"
+    ],
+    "poids": {
+      "o-orgue-480.webp": 14574,
+      "o-orgue-800.webp": 34818
+    },
+    "media": "c.media({ nom: 'o-orgue', alt: \"Étiquette « Bourdon 16 », calligraphie\", cadrage: '53% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "b-benis3": {
+    "nom": "b-benis3",
+    "source": "recu/benis-soient-coeurs-3.jpg",
+    "role": "produit",
+    "alt": "Bénis soient les cœurs, caroline",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0bb1ab63a660d647",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 54%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-benis3-480.webp",
+      "b-benis3-800.webp"
+    ],
+    "poids": {
+      "b-benis3-480.webp": 13664,
+      "b-benis3-800.webp": 31368
+    },
+    "media": "c.media({ nom: 'b-benis3', alt: \"Bénis soient les cœurs, caroline\", cadrage: '55% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-psaume103c": {
+    "nom": "b-psaume103c",
+    "source": "recu/psaume-103-creation.jpg",
+    "role": "produit",
+    "alt": "Psaume 103, la Création, style roman",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d8afc97c6c021789",
+    "ratio": "1208:1480",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.3,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1208,
+      "height": 1480,
+      "source": [
+        1208,
+        1480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1208 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "b-psaume103c-480.webp",
+      "b-psaume103c-800.webp"
+    ],
+    "poids": {
+      "b-psaume103c-480.webp": 47438,
+      "b-psaume103c-800.webp": 109296
+    },
+    "media": "c.media({ nom: 'b-psaume103c', alt: \"Psaume 103, la Création, style roman\", cadrage: '49% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1208 / 1480' })"
+  },
+  "b-ascension": {
+    "nom": "b-ascension",
+    "source": "recu/ascension.jpg",
+    "role": "produit",
+    "alt": "Ascension, style celte",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ebe03dd382076ea3",
+    "ratio": "1612:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 96.2,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1612,
+      "height": 2000,
+      "source": [
+        1612,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-ascension-480.webp",
+      "b-ascension-800.webp"
+    ],
+    "poids": {
+      "b-ascension-480.webp": 35808,
+      "b-ascension-800.webp": 78778
+    },
+    "media": "c.media({ nom: 'b-ascension', alt: \"Ascension, style celte\", cadrage: '49% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1612 / 2000' })"
+  },
+  "b-tendre": {
+    "nom": "b-tendre",
+    "source": "recu/tendre-vers-lumiere.jpg",
+    "role": "produit",
+    "alt": "Tendre vers la lumière, pigments rares",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6367f24710bd0f76",
+    "ratio": "1333:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-tendre-480.webp",
+      "b-tendre-800.webp"
+    ],
+    "poids": {
+      "b-tendre-480.webp": 31512,
+      "b-tendre-800.webp": 78066
+    },
+    "media": "c.media({ nom: 'b-tendre', alt: \"Tendre vers la lumière, pigments rares\", cadrage: '48% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1333 / 2000' })"
+  },
+  "b-shalompaix": {
+    "nom": "b-shalompaix",
+    "source": "recu/shalom-paix.jpg",
+    "role": "produit",
+    "alt": "Shalom, Paix, pigments rares et feuille d’or sur parchemin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c668cdf6a5707529",
+    "ratio": "1333:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 90.9,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-shalompaix-480.webp",
+      "b-shalompaix-800.webp"
+    ],
+    "poids": {
+      "b-shalompaix-480.webp": 36124,
+      "b-shalompaix-800.webp": 77646
+    },
+    "media": "c.media({ nom: 'b-shalompaix', alt: \"Shalom, Paix, pigments rares et feuille d’or sur parchemin\", cadrage: '46% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1333 / 2000' })"
+  },
+  "b-psaume61": {
+    "nom": "b-psaume61",
+    "source": "recu/psaume-61.jpg",
+    "role": "produit",
+    "alt": "Psaume 61, style roman",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f14b08ddb94223c8",
+    "ratio": "1342:1224",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1342,
+      "height": 1224,
+      "source": [
+        1342,
+        1224
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-psaume61-480.webp",
+      "b-psaume61-800.webp"
+    ],
+    "poids": {
+      "b-psaume61-480.webp": 24726,
+      "b-psaume61-800.webp": 60422
+    },
+    "media": "c.media({ nom: 'b-psaume61', alt: \"Psaume 61, style roman\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1342 / 1224' })"
+  },
+  "b-christophe": {
+    "nom": "b-christophe",
+    "source": "recu/st-christophe.jpg",
+    "role": "produit",
+    "alt": "Saint Christophe, copie gothique",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "49b8c0516a3f8bda",
+    "ratio": "1335:1165",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 57%",
+    "sujet": {
+      "x": 3.1,
+      "y": 7.1,
+      "l": 96.9,
+      "h": 92.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1335,
+      "height": 1165,
+      "source": [
+        1335,
+        1165
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-christophe-480.webp",
+      "b-christophe-800.webp"
+    ],
+    "poids": {
+      "b-christophe-480.webp": 43752,
+      "b-christophe-800.webp": 97362
+    },
+    "media": "c.media({ nom: 'b-christophe', alt: \"Saint Christophe, copie gothique\", cadrage: '51% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1335 / 1165' })"
+  },
+  "b-lapins": {
+    "nom": "b-lapins",
+    "source": "recu/lapins-entrelacs.jpg",
+    "role": "produit",
+    "alt": "Lapins et entrelacs, copie d’une marge du chansonnier du roy",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7cb585133e042bdf",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 18.8,
+      "y": 16.7,
+      "l": 62.5,
+      "h": 70.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-lapins-480.webp",
+      "b-lapins-800.webp"
+    ],
+    "poids": {
+      "b-lapins-480.webp": 12054,
+      "b-lapins-800.webp": 30062
+    },
+    "media": "c.media({ nom: 'b-lapins', alt: \"Lapins et entrelacs, copie d’une marge du chansonnier du roy\", cadrage: '51% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-conte": {
+    "nom": "b-conte",
+    "source": "recu/il-etait-fois.jpg",
+    "role": "produit",
+    "alt": "Conte mérovingien, style mérovingien",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8cb92238a92ca5c0",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-conte-480.webp",
+      "b-conte-800.webp"
+    ],
+    "poids": {
+      "b-conte-480.webp": 23780,
+      "b-conte-800.webp": 59710
+    },
+    "media": "c.media({ nom: 'b-conte', alt: \"Conte mérovingien, style mérovingien\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-jongleur": {
+    "nom": "b-jongleur",
+    "source": "recu/jongleur.jpg",
+    "role": "produit",
+    "alt": "Jongleur, calligramme en gothique rotunda",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3241f6123eacf2dd",
+    "ratio": "1462:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1462,
+      "height": 2000,
+      "source": [
+        1462,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-jongleur-480.webp",
+      "b-jongleur-800.webp"
+    ],
+    "poids": {
+      "b-jongleur-480.webp": 20336,
+      "b-jongleur-800.webp": 48666
+    },
+    "media": "c.media({ nom: 'b-jongleur', alt: \"Jongleur, calligramme en gothique rotunda\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1462 / 2000' })"
+  },
+  "b-lettrinel": {
+    "nom": "b-lettrinel",
+    "source": "recu/lettrine.jpg",
+    "role": "produit",
+    "alt": "Lettrine L, pigments sur papier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1e65b2e73c3da208",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 48%",
+    "sujet": {
+      "x": 18.8,
+      "y": 0,
+      "l": 65.6,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-lettrinel-480.webp",
+      "b-lettrinel-800.webp"
+    ],
+    "poids": {
+      "b-lettrinel-480.webp": 12034,
+      "b-lettrinel-800.webp": 30840
+    },
+    "media": "c.media({ nom: 'b-lettrinel', alt: \"Lettrine L, pigments sur papier\", cadrage: '51% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-petitprince": {
+    "nom": "b-petitprince",
+    "source": "recu/petit-prince-renard.jpg",
+    "role": "produit",
+    "alt": "Le Petit Prince et le renard, caroline",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b44916af6354dc43",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 56%",
+    "sujet": {
+      "x": 6.3,
+      "y": 4.2,
+      "l": 93.7,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-petitprince-480.webp",
+      "b-petitprince-800.webp"
+    ],
+    "poids": {
+      "b-petitprince-480.webp": 9880,
+      "b-petitprince-800.webp": 21814
+    },
+    "media": "c.media({ nom: 'b-petitprince', alt: \"Le Petit Prince et le renard, caroline\", cadrage: '54% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-huguenote": {
+    "nom": "b-huguenote",
+    "source": "recu/croix-huguenote.jpg",
+    "role": "produit",
+    "alt": "Croix huguenote, feuille d’aluminium et pigments sur papier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1780024a1228506c",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 95.8,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-huguenote-480.webp",
+      "b-huguenote-800.webp"
+    ],
+    "poids": {
+      "b-huguenote-480.webp": 16028,
+      "b-huguenote-800.webp": 35736
+    },
+    "media": "c.media({ nom: 'b-huguenote', alt: \"Croix huguenote, feuille d’aluminium et pigments sur papier\", cadrage: '48% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1500 / 2000' })"
+  },
+  "b-arbre": {
+    "nom": "b-arbre",
+    "source": "recu/arbre.jpg",
+    "role": "produit",
+    "alt": "Arbre, style roman",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "41a80c076540ac89",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 87.5,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-arbre-480.webp",
+      "b-arbre-800.webp"
+    ],
+    "poids": {
+      "b-arbre-480.webp": 29670,
+      "b-arbre-800.webp": 67938
+    },
+    "media": "c.media({ nom: 'b-arbre', alt: \"Arbre, style roman\", cadrage: '46% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1500 / 2000' })"
+  },
+  "b-alphabet": {
+    "nom": "b-alphabet",
+    "source": "recu/alphabet-colore.jpg",
+    "role": "produit",
+    "alt": "Alphabet coloré, encres naturelles (cochenille",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fd07c01e8f254652",
+    "ratio": "2000:1439",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 87.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1439,
+      "source": [
+        2000,
+        1439
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-alphabet-480.webp",
+      "b-alphabet-800.webp"
+    ],
+    "poids": {
+      "b-alphabet-480.webp": 22186,
+      "b-alphabet-800.webp": 45566
+    },
+    "media": "c.media({ nom: 'b-alphabet', alt: \"Alphabet coloré, encres naturelles (cochenille\", cadrage: '51% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1439' })"
+  },
+  "b-kakapo": {
+    "nom": "b-kakapo",
+    "source": "recu/kakapo.jpg",
+    "role": "produit",
+    "alt": "Kakapo, pigments sur papier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2af28ede920b1265",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 47%",
+    "sujet": {
+      "x": 12.5,
+      "y": 8.3,
+      "l": 81.3,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-kakapo-480.webp",
+      "b-kakapo-800.webp"
+    ],
+    "poids": {
+      "b-kakapo-480.webp": 39930,
+      "b-kakapo-800.webp": 105064
+    },
+    "media": "c.media({ nom: 'b-kakapo', alt: \"Kakapo, pigments sur papier\", cadrage: '52% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-paradeb": {
+    "nom": "b-paradeb",
+    "source": "recu/parade-albatros.jpg",
+    "role": "produit",
+    "alt": "La Parade, pigments et feuille d’or sur papier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "085e36c260aeb07e",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 52%",
+    "sujet": {
+      "x": 21.9,
+      "y": 12.5,
+      "l": 68.8,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-paradeb-480.webp",
+      "b-paradeb-800.webp"
+    ],
+    "poids": {
+      "b-paradeb-480.webp": 39714,
+      "b-paradeb-800.webp": 106776
+    },
+    "media": "c.media({ nom: 'b-paradeb', alt: \"La Parade, pigments et feuille d’or sur papier\", cadrage: '55% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "b-onlybirdb": {
+    "nom": "b-onlybirdb",
+    "source": "recu/only-bird.jpg",
+    "role": "produit",
+    "alt": "Only a bird, encres dorée et argentée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "43c6e3dc18c5ec34",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-onlybirdb-480.webp",
+      "b-onlybirdb-800.webp"
+    ],
+    "poids": {
+      "b-onlybirdb-480.webp": 18788,
+      "b-onlybirdb-800.webp": 41160
+    },
+    "media": "c.media({ nom: 'b-onlybirdb', alt: \"Only a bird, encres dorée et argentée\", cadrage: '47% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1500 / 2000' })"
+  },
+  "b-manchotb": {
+    "nom": "b-manchotb",
+    "source": "recu/manchot-oeil-jaune.jpg",
+    "role": "produit",
+    "alt": "Manchot à œil jaune, pigments sur parchemin de chèvre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ca5fcb021b33b72d",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 25,
+      "y": 12.5,
+      "l": 50,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "b-manchotb-480.webp",
+      "b-manchotb-800.webp"
+    ],
+    "poids": {
+      "b-manchotb-480.webp": 49340,
+      "b-manchotb-800.webp": 109066
+    },
+    "media": "c.media({ nom: 'b-manchotb', alt: \"Manchot à œil jaune, pigments sur parchemin de chèvre\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1500 / 2000' })"
+  },
+  "heros-amitie": {
+    "nom": "heros-amitie",
+    "source": "recu/amitie.jpg",
+    "role": "galerie",
+    "alt": "Amitié : grande lettrine A à la feuille d’or sur fond lapis, deux lapins blancs, un oiseau et un hérisson",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "c95a76ab46305ec7",
+    "ratio": "1908:1866",
+    "largeurs": [
+      640,
+      1000,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1908,
+      "height": 1866,
+      "source": [
+        1908,
+        1866
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "heros-amitie-640.webp",
+      "heros-amitie-1000.webp",
+      "heros-amitie-1600.webp"
+    ],
+    "poids": {
+      "heros-amitie-640.webp": 64076,
+      "heros-amitie-1000.webp": 139030,
+      "heros-amitie-1600.webp": 297276
+    },
+    "media": "c.media({ nom: 'heros-amitie', alt: \"Amitié : grande lettrine A à la feuille d’or sur fond lapis, deux lapins blancs, un oiseau et un hérisson\", cadrage: '49% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1908 / 1866' })"
+  },
+  "or-sterne": {
+    "nom": "or-sterne",
+    "source": "recu/sterne-arctique-2.jpg",
+    "role": "galerie",
+    "alt": "Sterne arctique, détail : le disque d’or posé à la feuille derrière l’oiseau",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "f2e418df273abfea",
+    "ratio": "1500:2000",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "54% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "or-sterne-640.webp",
+      "or-sterne-1000.webp",
+      "or-sterne-1400.webp"
+    ],
+    "poids": {
+      "or-sterne-640.webp": 69110,
+      "or-sterne-1000.webp": 148606,
+      "or-sterne-1400.webp": 258850
+    },
+    "media": "c.media({ nom: 'or-sterne', alt: \"Sterne arctique, détail : le disque d’or posé à la feuille derrière l’oiseau\", cadrage: '54% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo.jpg",
+    "role": "logo",
+    "alt": "Atelier d’Enluminure Marie Nuel",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "83fb22cc49881219",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 6958,
+      "logo-480.webp": 15730
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Atelier d’Enluminure Marie Nuel\", sizes: '240px' })"
+  },
+  "marie-archives": {
+    "nom": "marie-archives",
+    "source": "recu/atelier-enluminure-marie-nuel-5.jpg",
+    "role": "portrait",
+    "alt": "Marie Nuel penchée sur un manuscrit ancien, dans une salle d’archives",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f1c32302c99218e9",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "45% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marie-archives-480.webp",
+      "marie-archives-800.webp",
+      "marie-archives-1200.webp"
+    ],
+    "poids": {
+      "marie-archives-480.webp": 14882,
+      "marie-archives-800.webp": 28304,
+      "marie-archives-1200.webp": 45808
+    },
+    "media": "c.media({ nom: 'marie-archives', alt: \"Marie Nuel penchée sur un manuscrit ancien, dans une salle d’archives\", cadrage: '45% 58%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2000 / 1333' })"
+  },
+  "marie-portrait": {
+    "nom": "marie-portrait",
+    "source": "recu/atelier-enluminure-marie-nuel-2.jpg",
+    "role": "portrait",
+    "alt": "Portrait de Marie Nuel",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "603e7c6329a296ed",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marie-portrait-480.webp",
+      "marie-portrait-800.webp"
+    ],
+    "poids": {
+      "marie-portrait-480.webp": 33216,
+      "marie-portrait-800.webp": 82968
+    },
+    "media": "c.media({ nom: 'marie-portrait', alt: \"Portrait de Marie Nuel\", cadrage: '51% 61%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-reliure": {
+    "nom": "manuscrit-reliure",
+    "source": "recu/reliure.jpg",
+    "role": "galerie",
+    "alt": "Reliure médiévale plein cuir de chèvre sur ais de bois, ornée de cabochons",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f1a53b7b44dea31d",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-reliure-480.webp",
+      "manuscrit-reliure-800.webp",
+      "manuscrit-reliure-1200.webp"
+    ],
+    "poids": {
+      "manuscrit-reliure-480.webp": 10548,
+      "manuscrit-reliure-800.webp": 22864,
+      "manuscrit-reliure-1200.webp": 45294
+    },
+    "media": "c.media({ nom: 'manuscrit-reliure', alt: \"Reliure médiévale plein cuir de chèvre sur ais de bois, ornée de cabochons\", cadrage: '49% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-incipit": {
+    "nom": "manuscrit-incipit",
+    "source": "recu/veillee-pascale.jpg",
+    "role": "galerie",
+    "alt": "La Veillée pascale, page d’ouverture du manuscrit",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2cf500b4e3cf4bb8",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "44% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-incipit-480.webp",
+      "manuscrit-incipit-800.webp",
+      "manuscrit-incipit-1200.webp"
+    ],
+    "poids": {
+      "manuscrit-incipit-480.webp": 36532,
+      "manuscrit-incipit-800.webp": 77732,
+      "manuscrit-incipit-1200.webp": 156044
+    },
+    "media": "c.media({ nom: 'manuscrit-incipit', alt: \"La Veillée pascale, page d’ouverture du manuscrit\", cadrage: '44% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-psaume103": {
+    "nom": "manuscrit-psaume103",
+    "source": "recu/psaume-103.jpg",
+    "role": "galerie",
+    "alt": "Psaume 103 : un pèlerin admire une nature foisonnante",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "65e4cd4918088d3a",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "51% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-psaume103-480.webp",
+      "manuscrit-psaume103-800.webp",
+      "manuscrit-psaume103-1200.webp"
+    ],
+    "poids": {
+      "manuscrit-psaume103-480.webp": 42856,
+      "manuscrit-psaume103-800.webp": 87100,
+      "manuscrit-psaume103-1200.webp": 163928
+    },
+    "media": "c.media({ nom: 'manuscrit-psaume103', alt: \"Psaume 103 : un pèlerin admire une nature foisonnante\", cadrage: '51% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-isaie": {
+    "nom": "manuscrit-isaie",
+    "source": "recu/cantique-isaie.jpg",
+    "role": "galerie",
+    "alt": "Cantique d’Isaïe : cris d’allégresse et instruments de musique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "db957d7f9d317336",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-isaie-480.webp",
+      "manuscrit-isaie-800.webp",
+      "manuscrit-isaie-1200.webp"
+    ],
+    "poids": {
+      "manuscrit-isaie-480.webp": 37652,
+      "manuscrit-isaie-800.webp": 77358,
+      "manuscrit-isaie-1200.webp": 147372
+    },
+    "media": "c.media({ nom: 'manuscrit-isaie', alt: \"Cantique d’Isaïe : cris d’allégresse et instruments de musique\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-moise": {
+    "nom": "manuscrit-moise",
+    "source": "recu/cantique-moise.jpg",
+    "role": "galerie",
+    "alt": "Cantique de Moïse : la sortie d’Égypte et la mer Rouge refermée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "74e5875c8ba11824",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-moise-480.webp",
+      "manuscrit-moise-800.webp"
+    ],
+    "poids": {
+      "manuscrit-moise-480.webp": 46212,
+      "manuscrit-moise-800.webp": 93762
+    },
+    "media": "c.media({ nom: 'manuscrit-moise', alt: \"Cantique de Moïse : la sortie d’Égypte et la mer Rouge refermée\", cadrage: '49% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-psaume50": {
+    "nom": "manuscrit-psaume50",
+    "source": "recu/psaume-50.jpg",
+    "role": "galerie",
+    "alt": "Psaume 50 : des disciples de toutes les nations rendent témoignage",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7f16e05aae4acdb1",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-psaume50-480.webp",
+      "manuscrit-psaume50-800.webp"
+    ],
+    "poids": {
+      "manuscrit-psaume50-480.webp": 33242,
+      "manuscrit-psaume50-800.webp": 72702
+    },
+    "media": "c.media({ nom: 'manuscrit-psaume50', alt: \"Psaume 50 : des disciples de toutes les nations rendent témoignage\", cadrage: '49% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "manuscrit-ouvert": {
+    "nom": "manuscrit-ouvert",
+    "source": "recu/site-005.jpg",
+    "role": "galerie",
+    "alt": "Le manuscrit ouvert sur une page enluminée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f967a6db42c77240",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "33% 53%",
+    "sujet": {
+      "x": 4.2,
+      "y": 15.6,
+      "l": 91.7,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-ouvert-480.webp",
+      "manuscrit-ouvert-800.webp"
+    ],
+    "poids": {
+      "manuscrit-ouvert-480.webp": 25112,
+      "manuscrit-ouvert-800.webp": 58078
+    },
+    "media": "c.media({ nom: 'manuscrit-ouvert', alt: \"Le manuscrit ouvert sur une page enluminée\", cadrage: '33% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "pigments-pots": {
+    "nom": "pigments-pots",
+    "source": "recu/atelier-enluminure-marie-nuel-3.jpg",
+    "role": "vignette",
+    "alt": "Petits pots de pigments de l’atelier : ocre jaune, vert, rouge et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "40616d1f618b9206",
+    "ratio": "2000:954",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "52% 45%",
+    "sujet": {
+      "x": 6.3,
+      "y": 18.8,
+      "l": 93.7,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 954,
+      "source": [
+        2000,
+        954
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pigments-pots-480.webp",
+      "pigments-pots-800.webp",
+      "pigments-pots-1200.webp"
+    ],
+    "poids": {
+      "pigments-pots-480.webp": 14456,
+      "pigments-pots-800.webp": 46142,
+      "pigments-pots-1200.webp": 92220
+    },
+    "media": "c.media({ nom: 'pigments-pots', alt: \"Petits pots de pigments de l’atelier : ocre jaune, vert, rouge et blanc\", cadrage: '52% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 954' })"
+  },
+  "atelier-pinceau": {
+    "nom": "atelier-pinceau",
+    "source": "recu/ateliers-autour-enluminure-calligraphie-2.jpg",
+    "role": "vignette",
+    "alt": "En atelier, une main peint une enluminure au pinceau fin, la boîte de couleurs à côté",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9f6e8fa8ae0dc50b",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "52% 46%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-pinceau-480.webp",
+      "atelier-pinceau-800.webp",
+      "atelier-pinceau-1200.webp"
+    ],
+    "poids": {
+      "atelier-pinceau-480.webp": 30150,
+      "atelier-pinceau-800.webp": 76196,
+      "atelier-pinceau-1200.webp": 147200
+    },
+    "media": "c.media({ nom: 'atelier-pinceau', alt: \"En atelier, une main peint une enluminure au pinceau fin, la boîte de couleurs à côté\", cadrage: '52% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "atelier-eleve": {
+    "nom": "atelier-eleve",
+    "source": "recu/ateliers-autour-enluminure-calligraphie.jpg",
+    "role": "vignette",
+    "alt": "Une élève peint son enluminure pendant un atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f10b85fcab755b58",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 35%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-eleve-480.webp",
+      "atelier-eleve-800.webp"
+    ],
+    "poids": {
+      "atelier-eleve-480.webp": 14446,
+      "atelier-eleve-800.webp": 31688
+    },
+    "media": "c.media({ nom: 'atelier-eleve', alt: \"Une élève peint son enluminure pendant un atelier\", cadrage: '50% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1333' })"
+  },
+  "atelier-groupe": {
+    "nom": "atelier-groupe",
+    "source": "recu/ateliers-autour-enluminure-calligraphie-3.jpg",
+    "role": "vignette",
+    "alt": "Un groupe découvre l’enluminure autour d’une grande table",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "166c30ec76a867bd",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 59%",
+    "sujet": {
+      "x": 12.5,
+      "y": 4.2,
+      "l": 78.1,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-groupe-480.webp",
+      "atelier-groupe-800.webp",
+      "atelier-groupe-1200.webp"
+    ],
+    "poids": {
+      "atelier-groupe-480.webp": 21770,
+      "atelier-groupe-800.webp": 45090,
+      "atelier-groupe-1200.webp": 79432
+    },
+    "media": "c.media({ nom: 'atelier-groupe', alt: \"Un groupe découvre l’enluminure autour d’une grande table\", cadrage: '48% 59%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "atelier-dragon": {
+    "nom": "atelier-dragon",
+    "source": "recu/ateliers-autour-enluminure-calligraphie-5.jpg",
+    "role": "vignette",
+    "alt": "Un dragon enluminé par un enfant pendant un atelier scolaire",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "76091d744127c573",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-dragon-480.webp",
+      "atelier-dragon-800.webp"
+    ],
+    "poids": {
+      "atelier-dragon-480.webp": 33626,
+      "atelier-dragon-800.webp": 69030
+    },
+    "media": "c.media({ nom: 'atelier-dragon', alt: \"Un dragon enluminé par un enfant pendant un atelier scolaire\", cadrage: '45% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "atelier-louise": {
+    "nom": "atelier-louise",
+    "source": "recu/ateliers-autour-enluminure-calligraphie-4.jpg",
+    "role": "vignette",
+    "alt": "Le prénom Louise calligraphié et orné pendant un atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0d0a2651ac531547",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "43% 58%",
+    "sujet": {
+      "x": 9.4,
+      "y": 8.3,
+      "l": 81.3,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-louise-480.webp",
+      "atelier-louise-800.webp"
+    ],
+    "poids": {
+      "atelier-louise-480.webp": 12524,
+      "atelier-louise-800.webp": 29068
+    },
+    "media": "c.media({ nom: 'atelier-louise', alt: \"Le prénom Louise calligraphié et orné pendant un atelier\", cadrage: '43% 58%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "stage-onciale": {
+    "nom": "stage-onciale",
+    "source": "recu/stage-calligraphie-onciale-aquarelle-2.jpg",
+    "role": "vignette",
+    "alt": "Stage de calligraphie : les élèves autour de la table",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "680e964836c8847a",
+    "ratio": "1200:1600",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "49% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 1600,
+      "source": [
+        1200,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "stage-onciale-480.webp"
+    ],
+    "poids": {
+      "stage-onciale-480.webp": 44744
+    },
+    "media": "c.media({ nom: 'stage-onciale', alt: \"Stage de calligraphie : les élèves autour de la table\", cadrage: '49% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1200 / 1600' })"
+  },
+  "marque-pages-bleus": {
+    "nom": "marque-pages-bleus",
+    "source": "recu/marque-pages-calligraphies-bleus.jpg",
+    "role": "vignette",
+    "alt": "Marque-pages calligraphiés, prénoms ornés à l’encre bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a4c6a57b6da13335",
+    "ratio": "2000:1899",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 12.5,
+      "y": 0,
+      "l": 87.5,
+      "h": 96.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1899,
+      "source": [
+        2000,
+        1899
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marque-pages-bleus-480.webp",
+      "marque-pages-bleus-800.webp"
+    ],
+    "poids": {
+      "marque-pages-bleus-480.webp": 24868,
+      "marque-pages-bleus-800.webp": 57702
+    },
+    "media": "c.media({ nom: 'marque-pages-bleus', alt: \"Marque-pages calligraphiés, prénoms ornés à l’encre bleue\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1899' })"
+  },
+  "marque-pages-rouges": {
+    "nom": "marque-pages-rouges",
+    "source": "recu/marque-pages-calligraphies-rouges.jpg",
+    "role": "vignette",
+    "alt": "Marque-pages calligraphiés, prénoms ornés à l’encre rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "651ee8c2121db303",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "57% 51%",
+    "sujet": {
+      "x": 18.8,
+      "y": 4.2,
+      "l": 81.2,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marque-pages-rouges-480.webp",
+      "marque-pages-rouges-800.webp"
+    ],
+    "poids": {
+      "marque-pages-rouges-480.webp": 18402,
+      "marque-pages-rouges-800.webp": 39678
+    },
+    "media": "c.media({ nom: 'marque-pages-rouges', alt: \"Marque-pages calligraphiés, prénoms ornés à l’encre rouge\", cadrage: '57% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "tirages": {
+    "nom": "tirages",
+    "source": "recu/tirages-art.png",
+    "role": "vignette",
+    "alt": "Tirage d’art d’une enluminure, posé contre un mur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6d94b17d0a8152df",
+    "ratio": "1640:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "61% 57%",
+    "sujet": {
+      "x": 18.5,
+      "y": 18.8,
+      "l": 77.8,
+      "h": 81.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1640,
+      "height": 2000,
+      "source": [
+        1640,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "tirages-480.webp",
+      "tirages-800.webp"
+    ],
+    "poids": {
+      "tirages-480.webp": 19428,
+      "tirages-800.webp": 69968
+    },
+    "media": "c.media({ nom: 'tirages', alt: \"Tirage d’art d’une enluminure, posé contre un mur\", cadrage: '61% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1640 / 2000' })"
+  },
+  "presse-dauphine": {
+    "nom": "presse-dauphine",
+    "source": "recu/dauphine-marie-nuel.png",
+    "role": "vignette",
+    "alt": "Article de presse : portrait de Marie Nuel et de ses enluminures",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "827408779039e350",
+    "ratio": "1668:1214",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 36%",
+    "sujet": {
+      "x": 18.8,
+      "y": 8.3,
+      "l": 75,
+      "h": 58.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1668,
+      "height": 1214,
+      "source": [
+        1668,
+        1214
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "presse-dauphine-480.webp",
+      "presse-dauphine-800.webp"
+    ],
+    "poids": {
+      "presse-dauphine-480.webp": 20744,
+      "presse-dauphine-800.webp": 48486
+    },
+    "media": "c.media({ nom: 'presse-dauphine', alt: \"Article de presse : portrait de Marie Nuel et de ses enluminures\", cadrage: '54% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1668 / 1214' })"
+  },
+  "c-maylis": {
+    "nom": "c-maylis",
+    "source": "recu/m-maylis.jpg",
+    "role": "galerie",
+    "alt": "Initiale M au prénom de Maylis, à la feuille d’or, avec un cheval blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7b6eeba91fa35e06",
+    "ratio": "1566:1198",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1566,
+      "height": 1198,
+      "source": [
+        1566,
+        1198
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-maylis-480.webp",
+      "c-maylis-800.webp"
+    ],
+    "poids": {
+      "c-maylis-480.webp": 21174,
+      "c-maylis-800.webp": 45660
+    },
+    "media": "c.media({ nom: 'c-maylis', alt: \"Initiale M au prénom de Maylis, à la feuille d’or, avec un cheval blanc\", cadrage: '51% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1566 / 1198' })"
+  },
+  "c-danseuse": {
+    "nom": "c-danseuse",
+    "source": "recu/lettrine-danseuse.jpg",
+    "role": "galerie",
+    "alt": "Lettrine D à la danseuse",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "12cf07eb1a03ee7a",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 55%",
+    "sujet": {
+      "x": 4.2,
+      "y": 6.3,
+      "l": 95.8,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-danseuse-480.webp",
+      "c-danseuse-800.webp"
+    ],
+    "poids": {
+      "c-danseuse-480.webp": 75368,
+      "c-danseuse-800.webp": 202798
+    },
+    "media": "c.media({ nom: 'c-danseuse', alt: \"Lettrine D à la danseuse\", cadrage: '51% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "c-naissance": {
+    "nom": "c-naissance",
+    "source": "recu/naissance.jpg",
+    "role": "galerie",
+    "alt": "Cadeau de naissance : un nouveau-né au cœur d’une fleur bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "42efbbff696f21d6",
+    "ratio": "1883:1529",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 44%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 90.6,
+      "h": 96.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1883,
+      "height": 1529,
+      "source": [
+        1883,
+        1529
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-naissance-480.webp",
+      "c-naissance-800.webp"
+    ],
+    "poids": {
+      "c-naissance-480.webp": 24246,
+      "c-naissance-800.webp": 51920
+    },
+    "media": "c.media({ nom: 'c-naissance', alt: \"Cadeau de naissance : un nouveau-né au cœur d’une fleur bleue\", cadrage: '54% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1883 / 1529' })"
+  },
+  "c-couple": {
+    "nom": "c-couple",
+    "source": "recu/couple-tendre.jpg",
+    "role": "galerie",
+    "alt": "Couple tendre, d’après un manuscrit médiéval",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fd72dd12e4a03af0",
+    "ratio": "1920:1896",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1896,
+      "source": [
+        1920,
+        1896
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-couple-480.webp",
+      "c-couple-800.webp"
+    ],
+    "poids": {
+      "c-couple-480.webp": 37954,
+      "c-couple-800.webp": 80902
+    },
+    "media": "c.media({ nom: 'c-couple', alt: \"Couple tendre, d’après un manuscrit médiéval\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1920 / 1896' })"
+  },
+  "c-arbres": {
+    "nom": "c-arbres",
+    "source": "recu/arbres-enlaces.jpg",
+    "role": "galerie",
+    "alt": "Arbres enlacés sur fond d’or",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9ea3e29f671c01f6",
+    "ratio": "1596:1956",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.3,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1596,
+      "height": 1956,
+      "source": [
+        1596,
+        1956
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-arbres-480.webp",
+      "c-arbres-800.webp"
+    ],
+    "poids": {
+      "c-arbres-480.webp": 33130,
+      "c-arbres-800.webp": 72178
+    },
+    "media": "c.media({ nom: 'c-arbres', alt: \"Arbres enlacés sur fond d’or\", cadrage: '51% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1596 / 1956' })"
+  },
+  "c-mariage": {
+    "nom": "c-mariage",
+    "source": "recu/mariage-p-e.jpg",
+    "role": "galerie",
+    "alt": "Monogramme de mariage A et P-E dans un médaillon bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0b50b569c783d39b",
+    "ratio": "1908:1900",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 45%",
+    "sujet": {
+      "x": 3.1,
+      "y": 3.1,
+      "l": 90.6,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1908,
+      "height": 1900,
+      "source": [
+        1908,
+        1900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-mariage-480.webp",
+      "c-mariage-800.webp"
+    ],
+    "poids": {
+      "c-mariage-480.webp": 36748,
+      "c-mariage-800.webp": 84810
+    },
+    "media": "c.media({ nom: 'c-mariage', alt: \"Monogramme de mariage A et P-E dans un médaillon bleu\", cadrage: '49% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1908 / 1900' })"
+  },
+  "c-musiciens": {
+    "nom": "c-musiciens",
+    "source": "recu/joueurs-rebab-luth-ud.jpg",
+    "role": "galerie",
+    "alt": "Joueurs de rebab et de luth oud",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ef2d0a802cb5b00e",
+    "ratio": "1551:1221",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1551,
+      "height": 1221,
+      "source": [
+        1551,
+        1221
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-musiciens-480.webp",
+      "c-musiciens-800.webp"
+    ],
+    "poids": {
+      "c-musiciens-480.webp": 39420,
+      "c-musiciens-800.webp": 90870
+    },
+    "media": "c.media({ nom: 'c-musiciens', alt: \"Joueurs de rebab et de luth oud\", cadrage: '51% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1551 / 1221' })"
+  },
+  "c-cinquante": {
+    "nom": "c-cinquante",
+    "source": "recu/50-ans-amitie.jpg",
+    "role": "galerie",
+    "alt": "Cinquante ans d’amitié : grande lettrine A dorée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "72549a9d2c945d70",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-cinquante-480.webp",
+      "c-cinquante-800.webp"
+    ],
+    "poids": {
+      "c-cinquante-480.webp": 24682,
+      "c-cinquante-800.webp": 52966
+    },
+    "media": "c.media({ nom: 'c-cinquante', alt: \"Cinquante ans d’amitié : grande lettrine A dorée\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "c-scout": {
+    "nom": "c-scout",
+    "source": "recu/cadeau-mariage-scout.jpg",
+    "role": "galerie",
+    "alt": "Cadeau de mariage scout, gothique, or et pigments sur parchemin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "90bb5c81b12dd2f1",
+    "ratio": "1350:1218",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 9.4,
+      "y": 6.9,
+      "l": 84.4,
+      "h": 89.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1350,
+      "height": 1218,
+      "source": [
+        1350,
+        1218
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-scout-480.webp",
+      "c-scout-800.webp"
+    ],
+    "poids": {
+      "c-scout-480.webp": 31806,
+      "c-scout-800.webp": 69148
+    },
+    "media": "c.media({ nom: 'c-scout', alt: \"Cadeau de mariage scout, gothique, or et pigments sur parchemin\", cadrage: '51% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1350 / 1218' })"
+  },
+  "c-esprit": {
+    "nom": "c-esprit",
+    "source": "recu/esprit-saint.jpg",
+    "role": "galerie",
+    "alt": "Esprit-Saint en colombe, style roman",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7a01529111ae79bf",
+    "ratio": "1225:1636",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1225,
+      "height": 1636,
+      "source": [
+        1225,
+        1636
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1225 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "c-esprit-480.webp",
+      "c-esprit-800.webp"
+    ],
+    "poids": {
+      "c-esprit-480.webp": 53454,
+      "c-esprit-800.webp": 120958
+    },
+    "media": "c.media({ nom: 'c-esprit', alt: \"Esprit-Saint en colombe, style roman\", cadrage: '50% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1225 / 1636' })"
+  },
+  "c-pauline": {
+    "nom": "c-pauline",
+    "source": "recu/carte-pauline.png",
+    "role": "galerie",
+    "alt": "Carte de première communion de Pauline, recto et verso",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "26e029e45cf14d1f",
+    "ratio": "2000:1506",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 46%",
+    "sujet": {
+      "x": 6.3,
+      "y": 4,
+      "l": 90.6,
+      "h": 92
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1506,
+      "source": [
+        2000,
+        1506
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-pauline-480.webp",
+      "c-pauline-800.webp"
+    ],
+    "poids": {
+      "c-pauline-480.webp": 15220,
+      "c-pauline-800.webp": 32228
+    },
+    "media": "c.media({ nom: 'c-pauline', alt: \"Carte de première communion de Pauline, recto et verso\", cadrage: '46% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1506' })"
+  },
+  "c-marquepages": {
+    "nom": "c-marquepages",
+    "source": "recu/marque-pages.jpg",
+    "role": "galerie",
+    "alt": "Marque-pages personnalisés aux prénoms ornés",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c9a01b6ea31f5764",
+    "ratio": "2000:1333",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 21.9,
+      "y": 4.5,
+      "l": 62.5,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-marquepages-480.webp",
+      "c-marquepages-800.webp"
+    ],
+    "poids": {
+      "c-marquepages-480.webp": 8632,
+      "c-marquepages-800.webp": 19440
+    },
+    "media": "c.media({ nom: 'c-marquepages', alt: \"Marque-pages personnalisés aux prénoms ornés\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "c-association": {
+    "nom": "c-association",
+    "source": "recu/70-ans-fcpmh.jpg",
+    "role": "galerie",
+    "alt": "Création pour les 70 ans d’une association",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2c4647cb3d96627c",
+    "ratio": "1664:1708",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 55%",
+    "sujet": {
+      "x": 6.3,
+      "y": 6.3,
+      "l": 87.5,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1664,
+      "height": 1708,
+      "source": [
+        1664,
+        1708
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-association-480.webp",
+      "c-association-800.webp"
+    ],
+    "poids": {
+      "c-association-480.webp": 39262,
+      "c-association-800.webp": 89852
+    },
+    "media": "c.media({ nom: 'c-association', alt: \"Création pour les 70 ans d’une association\", cadrage: '53% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1664 / 1708' })"
+  },
+  "c-elephants": {
+    "nom": "c-elephants",
+    "source": "recu/elephants.jpg",
+    "role": "galerie",
+    "alt": "Éléphants, cadeau de naissance",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6ace11dcdd942b6a",
+    "ratio": "1577:1054",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1577,
+      "height": 1054,
+      "source": [
+        1577,
+        1054
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "c-elephants-480.webp",
+      "c-elephants-800.webp"
+    ],
+    "poids": {
+      "c-elephants-480.webp": 29204,
+      "c-elephants-800.webp": 62130
+    },
+    "media": "c.media({ nom: 'c-elephants', alt: \"Éléphants, cadeau de naissance\", cadrage: '54% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1577 / 1054' })"
+  },
+  "c-chevaux": {
+    "nom": "c-chevaux",
+    "source": "recu/chevaux.jpg",
+    "role": "galerie",
+    "alt": "Chevaux, cadeau d’anniversaire",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "aa69b1920e2aa36e",
+    "ratio": "1278:1215",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1278,
+      "height": 1215,
+      "source": [
+        1278,
+        1215
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1278 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "c-chevaux-480.webp",
+      "c-chevaux-800.webp"
+    ],
+    "poids": {
+      "c-chevaux-480.webp": 52230,
+      "c-chevaux-800.webp": 114790
+    },
+    "media": "c.media({ nom: 'c-chevaux', alt: \"Chevaux, cadeau d’anniversaire\", cadrage: '51% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1278 / 1215' })"
+  },
+  "manuscrit-plat": {
+    "nom": "manuscrit-plat",
+    "source": "recu/manuscrit-plat.jpg",
+    "role": "galerie",
+    "alt": "Plat de la reliure en cuir de chèvre, avec ses cabochons",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c9469b4eb1afd651",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "82% 72%",
+    "sujet": {
+      "x": 25,
+      "y": 15.6,
+      "l": 75,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.79,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.76,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        900,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large",
+      "floue",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "manuscrit-plat-480.webp",
+      "manuscrit-plat-800.webp"
+    ],
+    "poids": {
+      "manuscrit-plat-480.webp": 5404,
+      "manuscrit-plat-800.webp": 15786
+    },
+    "media": "c.media({ nom: 'manuscrit-plat', alt: \"Plat de la reliure en cuir de chèvre, avec ses cabochons\", cadrage: '82% 72%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  }
+}

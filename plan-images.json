@@ -1,0 +1,1437 @@
+[
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "ouverture, plein cadre (la lettrine dorée est dessinée par le code sur la feuille vierge)",
+  "priorite": "Indispensable",
+  "alt": "Table d'enlumineur : parchemin vierge, pigments, feuille d'or et plumes d'oie",
+  "consigne_scene": "Top-down view of an illuminator's oak desk: on the right third, one large blank sheet of cream goat parchment lying flat with a few faint pencil ruling lines and nothing painted or written on it, around it small glass jars of lapis-lazuli blue, vermilion and ochre pigment powder, an open booklet of gold leaf, a mussel shell filled with shell gold, two goose quills and an agate burnisher; the left half of the frame is the plain pale oak surface, calm and empty",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/pigments.jpg",
+  "source_mobile": "recu/grok/pigments-mobile.jpg",
+  "nom": "grok/pigments",
+  "role": "section-fond",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "section « De la pierre à la couleur »",
+  "priorite": "Indispensable",
+  "alt": "Pigments en poudre sur une plaque de marbre : lapis-lazuli, cinabre, orpiment, ocre, malachite",
+  "consigne_scene": "Small neat mounds of pure mineral pigment powders on a pale marble grinding slab, deep lapis-lazuli blue, vermilion red, orpiment yellow, malachite green and yellow ochre, a glass muller resting beside them, a few raw stones of lapis-lazuli, seen at a low three-quarter angle, the left half of the frame is plain marble, calm and empty",
+  "beaute": 5,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/grok/or-dorure.jpg",
+  "nom": "grok/or-dorure",
+  "role": "galerie",
+  "zone_texte": null,
+  "page": "Accueil",
+  "emplacement": "étape « L'or » (aussi page Commandes)",
+  "priorite": "Indispensable",
+  "alt": "Feuilles d'or sur un coussin de doreur, couteau et pierre d'agate",
+  "consigne_scene": "Close still life of gilding tools at rest: a sheet of loose gold leaf lying on a brown suede gilder's cushion, a gilder's knife beside it, an agate burnisher with a wooden handle, a small booklet of gold leaf half open, a mussel shell with shell gold, warm light making the gold glow",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/plume-encre.jpg",
+  "nom": "grok/plume-encre",
+  "role": "galerie",
+  "zone_texte": null,
+  "page": "Accueil",
+  "emplacement": "étape « La calligraphie »",
+  "priorite": "Conseillée",
+  "alt": "Plumes d'oie taillées, encrier et parchemin réglé vierge",
+  "consigne_scene": "Three cut goose-feather quills and a small penknife beside a glass inkwell of dark brown iron-gall ink, on a blank sheet of ruled cream parchment with only faint pencil guide lines and absolutely no writing",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/texture-or.jpg",
+  "nom": "grok/texture-or",
+  "role": "galerie",
+  "gabarit": "texture",
+  "zone_texte": null,
+  "page": "Accueil",
+  "emplacement": "matière de la lettrine dorée (toutes les ouvertures)",
+  "priorite": "Indispensable",
+  "alt": "",
+  "scene": "",
+  "consigne_scene": "Straight-on macro photograph of burnished gold leaf laid on a flat surface, very fine crinkles and overlapping leaf edges, warm reflections, evenly lit with soft raking light, filling the whole frame edge to edge, usable as a texture",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/texture-parchemin.jpg",
+  "nom": "grok/texture-parchemin",
+  "role": "galerie",
+  "gabarit": "texture",
+  "zone_texte": null,
+  "page": "Accueil",
+  "emplacement": "grain léger des fonds parchemin",
+  "priorite": "Conseillée",
+  "alt": "",
+  "consigne_scene": "Straight-on macro photograph of blank cream goat parchment, subtle natural skin grain, faint hair follicle dots and soft tone variations, evenly lit, filling the whole frame edge to edge, usable as a texture, very low contrast",
+  "beaute": 3
+ },
+ {
+  "source": "recu/grok/oeuvres-mur.jpg",
+  "source_mobile": "recu/grok/oeuvres-mur-mobile.jpg",
+  "nom": "grok/oeuvres-mur",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Œuvres",
+  "emplacement": "ouverture (une vraie œuvre est posée par le code sur le mur)",
+  "priorite": "Indispensable",
+  "alt": "Mur de chaux clair éclairé de côté, prêt à accueillir une œuvre",
+  "consigne_scene": "A bare, warm off-white limewashed wall in a quiet room, lit by a soft beam of daylight from the side, a low pale oak sideboard along the bottom of the frame on the right side, the whole wall completely empty with no frame, no picture and no hook",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/commandes-ouverture.jpg",
+  "source_mobile": "recu/grok/commandes-ouverture-mobile.jpg",
+  "nom": "grok/commandes-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Commandes",
+  "emplacement": "ouverture",
+  "priorite": "Indispensable",
+  "alt": "Feuille de parchemin vierge, ruban de soie, brin de fleurs séchées et cachet de cire",
+  "consigne_scene": "A gift still life on a pale linen tablecloth seen from above: a blank sheet of thick cream parchment with nothing on it, a loose ivory silk ribbon, a small sprig of dried white flowers, a plain red sealing wax seal with no motif, an open booklet of gold leaf, all arranged on the right half, the left half plain linen, calm and empty",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/stages-ouverture.jpg",
+  "source_mobile": "recu/grok/stages-ouverture-mobile.jpg",
+  "nom": "grok/stages-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Stages",
+  "emplacement": "ouverture",
+  "priorite": "Indispensable",
+  "alt": "Grande table d'atelier préparée pour six élèves, feuilles, pinceaux et pigments",
+  "consigne_scene": "A long pale wooden workshop table prepared for six students in a bright room with tall windows: at each place a blank sheet of paper, a fine brush, a small white porcelain palette with dabs of blue, red and ochre paint, a pencil and an eraser, chairs pushed in, nobody in the room, the table runs diagonally toward the right of the frame",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/boutique-ouverture.jpg",
+  "source_mobile": "recu/grok/boutique-ouverture-mobile.jpg",
+  "nom": "grok/boutique-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Boutique",
+  "emplacement": "ouverture",
+  "priorite": "Conseillée",
+  "alt": "Cadres vides, passe-partout et papier kraft prêts pour un envoi",
+  "consigne_scene": "On a pale oak table on the right half of the frame, a few empty thin gilded and natural wood picture frames leaning against each other, blank cream mat boards, a roll of kraft paper, cotton twine and tissue paper, every frame completely empty, the left half plain and calm",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "source_mobile": "recu/grok/contact-ouverture-mobile.jpg",
+  "nom": "grok/contact-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Contact",
+  "emplacement": "ouverture",
+  "priorite": "Indispensable",
+  "alt": "Écritoire près d'une fenêtre : enveloppe cachetée, plume d'oie et encrier",
+  "consigne_scene": "A small writing desk under a tall window with old wooden shutters, on it a blank cream envelope closed with a plain red wax seal without any motif, a goose quill and a glass inkwell, a pot of lavender on the windowsill, warm southern light, the left side of the frame is a calm plain wall",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "zone_texte": "gauche",
+  "page": "404",
+  "emplacement": "ouverture de la page introuvable",
+  "priorite": "Conseillée",
+  "alt": "Une goutte d'encre tombée sur un parchemin vierge, la plume posée à côté",
+  "consigne_scene": "A single round blot of dark brown ink fallen on a blank sheet of cream parchment, a goose quill lying beside it on the right, a gentle touch of humour, the left half of the sheet blank and calm",
+  "beaute": 4
+ },
+ {
+  "source": "recu/amitie.jpg",
+  "nom": "o-amitie",
+  "role": "galerie",
+  "alt": "Amitié, feuille d’or et pigments",
+  "beaute": 5,
+  "ratio": "1908:1866",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/sterne-arctique-2.jpg",
+  "nom": "o-sterne",
+  "role": "galerie",
+  "alt": "Sterne arctique, détail, feuille d’or, or en coquille et pigments ; calligraphie bâtarde flamande",
+  "beaute": 5,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/kiwi-2.jpg",
+  "nom": "o-kiwi",
+  "role": "galerie",
+  "alt": "Kiwi, détail, or minéral, encre noire et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/kookaburra-2.jpg",
+  "nom": "o-kookaburra",
+  "role": "galerie",
+  "alt": "Kookaburra, détail, pigments ; semi-onciale irlandaise à l’encre gallo-ferrique maison",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/manchot-oeil-jaune-2.jpg",
+  "nom": "o-manchot",
+  "role": "galerie",
+  "alt": "Manchot à œil jaune, détail, pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/kakariki-2.jpg",
+  "nom": "o-kakariki",
+  "role": "galerie",
+  "alt": "Kakariki, détail, pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/ruru-detail.jpg",
+  "nom": "o-ruru",
+  "role": "galerie",
+  "alt": "Ruru (morepork), détail, pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/parade.jpg",
+  "nom": "o-parade",
+  "role": "galerie",
+  "alt": "La Parade, pigments et feuille d’or ; lettres tourneures",
+  "beaute": 3,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/beatus.jpg",
+  "nom": "o-beatus",
+  "role": "galerie",
+  "alt": "Beatus, détail, pigments et or",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/fou-roy.jpg",
+  "nom": "o-fou",
+  "role": "galerie",
+  "alt": "Le Fou du Roy, pigments et or minéral",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/bakhita-2.jpg",
+  "nom": "o-bakhita",
+  "role": "galerie",
+  "alt": "Bakhita, détail, pigments",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/dame-bouquet.jpg",
+  "nom": "o-dame",
+  "role": "galerie",
+  "alt": "La dame au bouquet, or minéral et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/moise-devoile.jpg",
+  "nom": "o-moise",
+  "role": "galerie",
+  "alt": "Moïse dévoilé, or, aluminium et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/jerusalem-celeste.jpg",
+  "nom": "o-jerusalem",
+  "role": "galerie",
+  "alt": "Jérusalem céleste, or et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/raphael-tobie.jpg",
+  "nom": "o-raphael",
+  "role": "galerie",
+  "alt": "Raphaël et Tobie, or minéral et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/sainte-famille.jpg",
+  "nom": "o-famille",
+  "role": "galerie",
+  "alt": "Sainte Famille, or minéral et pigments",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/enlumineur-colombe.jpg",
+  "nom": "o-enlumineur",
+  "role": "galerie",
+  "alt": "L’enlumineur et la colombe, or en coquille et pigments",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/glandee.jpg",
+  "nom": "o-glandee",
+  "role": "galerie",
+  "alt": "La glandée, feuille d’or, or en coquille et pigments",
+  "beaute": 4,
+  "ratio": "1512:1566",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/lapin-livre.jpg",
+  "nom": "o-lapin",
+  "role": "galerie",
+  "alt": "Lapin-livre, pigments et or",
+  "beaute": 4,
+  "ratio": "1333:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/chat-mozarabe.jpg",
+  "nom": "o-chat",
+  "role": "galerie",
+  "alt": "Chat mozarabe, pigments",
+  "beaute": 4,
+  "ratio": "2000:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/st-francois-trois-chats.jpg",
+  "nom": "o-francois",
+  "role": "galerie",
+  "alt": "Saint François et les trois chats, pigments et or minéral",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/annonciation-g.jpg",
+  "nom": "o-annonciation",
+  "role": "galerie",
+  "alt": "Annonciation en G, or et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/vierge-enfant-celte-3.jpg",
+  "nom": "o-vierge",
+  "role": "galerie",
+  "alt": "Vierge à l’Enfant celte, pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/lettrine-armenienne.jpg",
+  "nom": "o-armenienne",
+  "role": "galerie",
+  "alt": "Lettrine arménienne, or minéral et pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/semeur.jpg",
+  "nom": "o-semeur",
+  "role": "galerie",
+  "alt": "Le Semeur, détail, pigments",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/garde-guerin-xviieme-siecle.jpg",
+  "nom": "o-garde",
+  "role": "galerie",
+  "alt": "La Garde-Guérin, XVIIe siècle, pigments et or minéral",
+  "beaute": 3,
+  "ratio": "1333:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/amelia.jpg",
+  "nom": "o-amelia",
+  "role": "galerie",
+  "alt": "Amélia, pigments et or minéral",
+  "beaute": 4,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/motif-tire-coran-ancien.jpg",
+  "nom": "o-oriental",
+  "role": "galerie",
+  "alt": "Motif oriental, or minéral et pigments",
+  "beaute": 4,
+  "ratio": "2000:1829",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/shalom.jpg",
+  "nom": "o-shalom",
+  "role": "galerie",
+  "alt": "Shalom, or et pigments précieux",
+  "beaute": 4,
+  "ratio": "1501:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/armoiries-couple.jpg",
+  "nom": "o-armoiries",
+  "role": "galerie",
+  "alt": "Armoiries d’un couple, feuille d’or et d’aluminium, pigments",
+  "beaute": 4,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/benis-soient-coeurs-2.jpg",
+  "nom": "o-benis",
+  "role": "galerie",
+  "alt": "Bénis soient les cœurs, détail, or minéral, pigments et brou de noix",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/si-tu-m-apprivoises-2.jpg",
+  "nom": "o-apprivoises",
+  "role": "galerie",
+  "alt": "Si tu m’apprivoises, détail, pigments et encre",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/contempler.jpg",
+  "nom": "o-contempler",
+  "role": "galerie",
+  "alt": "Contempler, pigments et encre",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/chaque-ame.jpg",
+  "nom": "o-chaqueame",
+  "role": "galerie",
+  "alt": "Chaque âme, encre moderne",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/cats.jpg",
+  "nom": "o-cats",
+  "role": "galerie",
+  "alt": "Cats, pigments et extrait de cassel",
+  "beaute": 4,
+  "ratio": "1638:1228",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/cerise.jpg",
+  "nom": "o-cerise",
+  "role": "galerie",
+  "alt": "Cerise, pigments et extrait de cassel",
+  "beaute": 4,
+  "ratio": "1637:1228",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/credo-detail.jpg",
+  "nom": "o-credo",
+  "role": "galerie",
+  "alt": "Credo, détail, or et pigments",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/filigrane-c.jpg",
+  "nom": "o-filigrane",
+  "role": "galerie",
+  "alt": "Filigrane C, extrait de cassel et encre moderne",
+  "beaute": 4,
+  "ratio": "1628:1724",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/merle-16-2.jpg",
+  "nom": "o-merle",
+  "role": "galerie",
+  "alt": "Le Merle du 16, pigments",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/only-bird.jpg",
+  "nom": "o-onlybird",
+  "role": "galerie",
+  "alt": "Only a bird, encres dorée et argentée, cochenille",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/yoga-lapins.jpg",
+  "nom": "o-yoga",
+  "role": "galerie",
+  "alt": "Le Yoga des lapins, sérigraphie",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/grand-voyage-detail.jpg",
+  "nom": "o-voyage",
+  "role": "galerie",
+  "alt": "Le Grand Voyage, détail, blanc de titane",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/attendant-arc-ciel.jpg",
+  "nom": "o-arcenciel",
+  "role": "galerie",
+  "alt": "En attendant l’arc-en-ciel, pigments",
+  "beaute": 3,
+  "ratio": "1314:1829",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ombre-tes-ailes.jpg",
+  "nom": "o-ailes",
+  "role": "galerie",
+  "alt": "À l’ombre de tes ailes, pigments",
+  "beaute": 3,
+  "ratio": "1972:1916",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/grandes-orgues-cathedrale-valence-2.jpg",
+  "nom": "o-orgue",
+  "role": "galerie",
+  "alt": "Étiquette « Bourdon 16 », calligraphie",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/benis-soient-coeurs-3.jpg",
+  "nom": "b-benis3",
+  "role": "produit",
+  "alt": "Bénis soient les cœurs, caroline",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/psaume-103-creation.jpg",
+  "nom": "b-psaume103c",
+  "role": "produit",
+  "alt": "Psaume 103, la Création, style roman",
+  "beaute": 3,
+  "ratio": "1208:1480",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ascension.jpg",
+  "nom": "b-ascension",
+  "role": "produit",
+  "alt": "Ascension, style celte",
+  "beaute": 3,
+  "ratio": "1612:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/tendre-vers-lumiere.jpg",
+  "nom": "b-tendre",
+  "role": "produit",
+  "alt": "Tendre vers la lumière, pigments rares",
+  "beaute": 3,
+  "ratio": "1333:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/shalom-paix.jpg",
+  "nom": "b-shalompaix",
+  "role": "produit",
+  "alt": "Shalom, Paix, pigments rares et feuille d’or sur parchemin",
+  "beaute": 3,
+  "ratio": "1333:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/psaume-61.jpg",
+  "nom": "b-psaume61",
+  "role": "produit",
+  "alt": "Psaume 61, style roman",
+  "beaute": 3,
+  "ratio": "1342:1224",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/st-christophe.jpg",
+  "nom": "b-christophe",
+  "role": "produit",
+  "alt": "Saint Christophe, copie gothique",
+  "beaute": 3,
+  "ratio": "1335:1165",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/lapins-entrelacs.jpg",
+  "nom": "b-lapins",
+  "role": "produit",
+  "alt": "Lapins et entrelacs, copie d’une marge du chansonnier du roy",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/il-etait-fois.jpg",
+  "nom": "b-conte",
+  "role": "produit",
+  "alt": "Conte mérovingien, style mérovingien",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/jongleur.jpg",
+  "nom": "b-jongleur",
+  "role": "produit",
+  "alt": "Jongleur, calligramme en gothique rotunda",
+  "beaute": 3,
+  "ratio": "1462:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/lettrine.jpg",
+  "nom": "b-lettrinel",
+  "role": "produit",
+  "alt": "Lettrine L, pigments sur papier",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/petit-prince-renard.jpg",
+  "nom": "b-petitprince",
+  "role": "produit",
+  "alt": "Le Petit Prince et le renard, caroline",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/croix-huguenote.jpg",
+  "nom": "b-huguenote",
+  "role": "produit",
+  "alt": "Croix huguenote, feuille d’aluminium et pigments sur papier",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/arbre.jpg",
+  "nom": "b-arbre",
+  "role": "produit",
+  "alt": "Arbre, style roman",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/alphabet-colore.jpg",
+  "nom": "b-alphabet",
+  "role": "produit",
+  "alt": "Alphabet coloré, encres naturelles (cochenille",
+  "beaute": 3,
+  "ratio": "2000:1439",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/kakapo.jpg",
+  "nom": "b-kakapo",
+  "role": "produit",
+  "alt": "Kakapo, pigments sur papier",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/parade-albatros.jpg",
+  "nom": "b-paradeb",
+  "role": "produit",
+  "alt": "La Parade, pigments et feuille d’or sur papier",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/only-bird.jpg",
+  "nom": "b-onlybirdb",
+  "role": "produit",
+  "alt": "Only a bird, encres dorée et argentée",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/manchot-oeil-jaune.jpg",
+  "nom": "b-manchotb",
+  "role": "produit",
+  "alt": "Manchot à œil jaune, pigments sur parchemin de chèvre",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/amitie.jpg",
+  "nom": "heros-amitie",
+  "role": "galerie",
+  "alt": "Amitié : grande lettrine A à la feuille d’or sur fond lapis, deux lapins blancs, un oiseau et un hérisson",
+  "beaute": 5,
+  "ratio": "1908:1866",
+  "largeurs": [
+   640,
+   1000,
+   1600
+  ]
+ },
+ {
+  "source": "recu/sterne-arctique-2.jpg",
+  "nom": "or-sterne",
+  "role": "galerie",
+  "alt": "Sterne arctique, détail : le disque d’or posé à la feuille derrière l’oiseau",
+  "beaute": 5,
+  "ratio": "1500:2000",
+  "largeurs": [
+   640,
+   1000,
+   1400
+  ]
+ },
+ {
+  "source": "recu/logo.jpg",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Atelier d’Enluminure Marie Nuel"
+ },
+ {
+  "source": "recu/atelier-enluminure-marie-nuel-5.jpg",
+  "nom": "marie-archives",
+  "role": "portrait",
+  "alt": "Marie Nuel penchée sur un manuscrit ancien, dans une salle d’archives",
+  "beaute": 4,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/atelier-enluminure-marie-nuel-2.jpg",
+  "nom": "marie-portrait",
+  "role": "portrait",
+  "alt": "Portrait de Marie Nuel",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/reliure.jpg",
+  "nom": "manuscrit-reliure",
+  "role": "galerie",
+  "alt": "Reliure médiévale plein cuir de chèvre sur ais de bois, ornée de cabochons",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/veillee-pascale.jpg",
+  "nom": "manuscrit-incipit",
+  "role": "galerie",
+  "alt": "La Veillée pascale, page d’ouverture du manuscrit",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/psaume-103.jpg",
+  "nom": "manuscrit-psaume103",
+  "role": "galerie",
+  "alt": "Psaume 103 : un pèlerin admire une nature foisonnante",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/cantique-isaie.jpg",
+  "nom": "manuscrit-isaie",
+  "role": "galerie",
+  "alt": "Cantique d’Isaïe : cris d’allégresse et instruments de musique",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/cantique-moise.jpg",
+  "nom": "manuscrit-moise",
+  "role": "galerie",
+  "alt": "Cantique de Moïse : la sortie d’Égypte et la mer Rouge refermée",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/psaume-50.jpg",
+  "nom": "manuscrit-psaume50",
+  "role": "galerie",
+  "alt": "Psaume 50 : des disciples de toutes les nations rendent témoignage",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/site-005.jpg",
+  "nom": "manuscrit-ouvert",
+  "role": "galerie",
+  "alt": "Le manuscrit ouvert sur une page enluminée",
+  "beaute": 3,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/atelier-enluminure-marie-nuel-3.jpg",
+  "nom": "pigments-pots",
+  "role": "vignette",
+  "alt": "Petits pots de pigments de l’atelier : ocre jaune, vert, rouge et blanc",
+  "beaute": 3,
+  "ratio": "2000:954",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/ateliers-autour-enluminure-calligraphie-2.jpg",
+  "nom": "atelier-pinceau",
+  "role": "vignette",
+  "alt": "En atelier, une main peint une enluminure au pinceau fin, la boîte de couleurs à côté",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/ateliers-autour-enluminure-calligraphie.jpg",
+  "nom": "atelier-eleve",
+  "role": "vignette",
+  "alt": "Une élève peint son enluminure pendant un atelier",
+  "beaute": 3,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ateliers-autour-enluminure-calligraphie-3.jpg",
+  "nom": "atelier-groupe",
+  "role": "vignette",
+  "alt": "Un groupe découvre l’enluminure autour d’une grande table",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ]
+ },
+ {
+  "source": "recu/ateliers-autour-enluminure-calligraphie-5.jpg",
+  "nom": "atelier-dragon",
+  "role": "vignette",
+  "alt": "Un dragon enluminé par un enfant pendant un atelier scolaire",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/ateliers-autour-enluminure-calligraphie-4.jpg",
+  "nom": "atelier-louise",
+  "role": "vignette",
+  "alt": "Le prénom Louise calligraphié et orné pendant un atelier",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/stage-calligraphie-onciale-aquarelle-2.jpg",
+  "nom": "stage-onciale",
+  "role": "vignette",
+  "alt": "Stage de calligraphie : les élèves autour de la table",
+  "beaute": 2,
+  "ratio": "1200:1600",
+  "largeurs": [
+   480
+  ]
+ },
+ {
+  "source": "recu/marque-pages-calligraphies-bleus.jpg",
+  "nom": "marque-pages-bleus",
+  "role": "vignette",
+  "alt": "Marque-pages calligraphiés, prénoms ornés à l’encre bleue",
+  "beaute": 3,
+  "ratio": "2000:1899",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/marque-pages-calligraphies-rouges.jpg",
+  "nom": "marque-pages-rouges",
+  "role": "vignette",
+  "alt": "Marque-pages calligraphiés, prénoms ornés à l’encre rouge",
+  "beaute": 3,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/tirages-art.png",
+  "nom": "tirages",
+  "role": "vignette",
+  "alt": "Tirage d’art d’une enluminure, posé contre un mur",
+  "beaute": 3,
+  "ratio": "1640:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/dauphine-marie-nuel.png",
+  "nom": "presse-dauphine",
+  "role": "vignette",
+  "alt": "Article de presse : portrait de Marie Nuel et de ses enluminures",
+  "beaute": 2,
+  "ratio": "1668:1214",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/m-maylis.jpg",
+  "nom": "c-maylis",
+  "role": "galerie",
+  "alt": "Initiale M au prénom de Maylis, à la feuille d’or, avec un cheval blanc",
+  "beaute": 4,
+  "ratio": "1566:1198",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/lettrine-danseuse.jpg",
+  "nom": "c-danseuse",
+  "role": "galerie",
+  "alt": "Lettrine D à la danseuse",
+  "beaute": 4,
+  "ratio": "1500:2000",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/naissance.jpg",
+  "nom": "c-naissance",
+  "role": "galerie",
+  "alt": "Cadeau de naissance : un nouveau-né au cœur d’une fleur bleue",
+  "beaute": 4,
+  "ratio": "1883:1529",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/couple-tendre.jpg",
+  "nom": "c-couple",
+  "role": "galerie",
+  "alt": "Couple tendre, d’après un manuscrit médiéval",
+  "beaute": 4,
+  "ratio": "1920:1896",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/arbres-enlaces.jpg",
+  "nom": "c-arbres",
+  "role": "galerie",
+  "alt": "Arbres enlacés sur fond d’or",
+  "beaute": 4,
+  "ratio": "1596:1956",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/mariage-p-e.jpg",
+  "nom": "c-mariage",
+  "role": "galerie",
+  "alt": "Monogramme de mariage A et P-E dans un médaillon bleu",
+  "beaute": 4,
+  "ratio": "1908:1900",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/joueurs-rebab-luth-ud.jpg",
+  "nom": "c-musiciens",
+  "role": "galerie",
+  "alt": "Joueurs de rebab et de luth oud",
+  "beaute": 4,
+  "ratio": "1551:1221",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/50-ans-amitie.jpg",
+  "nom": "c-cinquante",
+  "role": "galerie",
+  "alt": "Cinquante ans d’amitié : grande lettrine A dorée",
+  "beaute": 4,
+  "ratio": "2000:1500",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/cadeau-mariage-scout.jpg",
+  "nom": "c-scout",
+  "role": "galerie",
+  "alt": "Cadeau de mariage scout, gothique, or et pigments sur parchemin",
+  "beaute": 4,
+  "ratio": "1350:1218",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/esprit-saint.jpg",
+  "nom": "c-esprit",
+  "role": "galerie",
+  "alt": "Esprit-Saint en colombe, style roman",
+  "beaute": 3,
+  "ratio": "1225:1636",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/carte-pauline.png",
+  "nom": "c-pauline",
+  "role": "galerie",
+  "alt": "Carte de première communion de Pauline, recto et verso",
+  "beaute": 3,
+  "ratio": "2000:1506",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/marque-pages.jpg",
+  "nom": "c-marquepages",
+  "role": "galerie",
+  "alt": "Marque-pages personnalisés aux prénoms ornés",
+  "beaute": 3,
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/70-ans-fcpmh.jpg",
+  "nom": "c-association",
+  "role": "galerie",
+  "alt": "Création pour les 70 ans d’une association",
+  "beaute": 4,
+  "ratio": "1664:1708",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/elephants.jpg",
+  "nom": "c-elephants",
+  "role": "galerie",
+  "alt": "Éléphants, cadeau de naissance",
+  "beaute": 3,
+  "ratio": "1577:1054",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/chevaux.jpg",
+  "nom": "c-chevaux",
+  "role": "galerie",
+  "alt": "Chevaux, cadeau d’anniversaire",
+  "beaute": 3,
+  "ratio": "1278:1215",
+  "largeurs": [
+   480,
+   800
+  ]
+ },
+ {
+  "source": "recu/manuscrit-plat.jpg",
+  "nom": "manuscrit-plat",
+  "role": "galerie",
+  "alt": "Plat de la reliure en cuir de chèvre, avec ses cabochons",
+  "beaute": 3,
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800
+  ]
+ }
+]

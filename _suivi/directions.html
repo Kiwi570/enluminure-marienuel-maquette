@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enluminure Marie Nuel · trois directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,500&family=Alegreya+Sans:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Figtree:wght@400;600&family=Grenze:ital,wght@0,500;0,600;1,500&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  body{background:#e9e5de;color:#222;font:16px/1.5 Figtree,system-ui,sans-serif;padding:clamp(16px,3vw,40px)}
+  header.top{max-width:1180px;margin:0 auto 28px}
+  header.top h1{font:600 clamp(1.6rem,3vw,2.2rem)/1.15 'Cormorant Garamond',serif}
+  header.top p{color:#555;max-width:70ch;margin-top:6px}
+  .dir{max-width:1180px;margin:0 auto 34px;border-radius:14px;overflow:hidden;box-shadow:0 10px 40px rgba(40,30,20,.12)}
+  .tete{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline;padding:14px 22px;background:#fff;font-size:.95rem}
+  .tete b{font-size:1.05rem}
+  .tete .reco{background:#1f6b3a;color:#fff;border-radius:99px;padding:2px 10px;font-size:.8rem;font-weight:600;margin-left:8px}
+  .scene{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);min-height:440px}
+  .scene .gauche{padding:clamp(24px,4vw,56px);display:flex;flex-direction:column;justify-content:center;gap:18px}
+  .scene .droite{position:relative;display:grid;place-items:center;padding:28px}
+  .sur{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+  .titre{font-size:clamp(2.6rem,5.4vw,4.6rem);line-height:1.02}
+  .chapo{max-width:44ch;font-size:1.02rem}
+  .btns{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 22px;border-radius:99px;font-weight:600;font-size:.95rem;text-decoration:none}
+  .info{font-size:.88rem;opacity:.9}
+  .palette{display:flex;flex-wrap:wrap}
+  .sw{flex:1 1 140px;padding:14px 16px;min-height:92px;display:flex;flex-direction:column;justify-content:flex-end;font-size:.82rem}
+  .sw b{font-size:.9rem}
+  .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px 28px;padding:22px;background:#fff;font-size:.92rem}
+  .notes h3{font:600 .8rem/1.2 Figtree,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#666;margin-bottom:6px}
+  .notes ul{padding-left:18px}
+  .cadre{width:min(300px,80%);aspect-ratio:4/5;position:relative}
+  @media (max-width:760px){.scene{grid-template-columns:1fr}.scene .droite{min-height:300px}}
+
+  /* A : Lapis et feuille d'or */
+  .a .scene{background:#F5EEE1;color:#2A1E16}
+  .a .titre{font-family:'Cormorant Garamond',serif;font-weight:600}
+  .a .titre em{color:#2B44A0;font-style:italic;font-weight:500}
+  .a .sur{color:#2B44A0}
+  .a .btn1{background:#2B44A0;color:#F5EEE1}.a .btn2{border:1.5px solid #2A1E16;color:#2A1E16}
+  .a .droite{background:#EBE0CC}
+  .lettrine{font:600 13rem/1 'Cormorant Garamond',serif;color:#2B44A0;position:relative;z-index:1}
+  .or{position:absolute;inset:14% 18%;border-radius:6px;background:linear-gradient(115deg,#9b7124 0%,#d9b45a 30%,#fff1c2 42%,#c99a3c 55%,#8f6820 100%);background-size:250% 100%;animation:brillant 4s ease-in-out infinite;box-shadow:inset 0 0 0 3px #22180F}
+  @keyframes brillant{0%,100%{background-position:100% 0}50%{background-position:0 0}}
+  .a .legende{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:.8rem;color:#5a4636}
+
+  /* B : Scriptorium à la chandelle */
+  .b .scene{background:#1D1611;color:#F1E8D7;position:relative;overflow:hidden}
+  .b .scene::before{content:"";position:absolute;inset:0;background:radial-gradient(420px 320px at 72% 45%,rgba(255,196,110,.22),transparent 70%);pointer-events:none}
+  .b .titre{font-family:'Grenze',serif;font-weight:600}
+  .b .titre em{color:#D2A84E;font-style:italic;font-weight:500}
+  .b .sur{color:#D2A84E}
+  .b .chapo,.b .btns,.b .info{font-family:Karla,sans-serif}
+  .b .btn1{background:#D2A84E;color:#1D1611}.b .btn2{border:1.5px solid #F1E8D7;color:#F1E8D7}
+  .b .droite{background:#2B2119}
+  .flamme{width:180px;height:240px;border-radius:50% 50% 46% 46%/60% 60% 40% 40%;background:radial-gradient(circle at 50% 70%,#fff6d8,#f2c46b 35%,rgba(210,140,60,.0) 70%);filter:blur(2px);animation:vacille 2.6s ease-in-out infinite}
+  @keyframes vacille{0%,100%{transform:scale(1) translateY(0)}40%{transform:scale(1.04,.97) translateY(2px)}70%{transform:scale(.97,1.03)}}
+  .b .legende{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:.8rem;color:#cdbfa6;font-family:Karla,sans-serif}
+
+  /* C : Carnet d'atelier */
+  .c .scene{background:#FBF8F2;color:#3B2A1E}
+  .c .titre{font-family:Alegreya,serif;font-weight:700}
+  .c .titre em{color:#B23A1E;font-style:italic;font-weight:500}
+  .c .sur{color:#B23A1E}
+  .c .chapo,.c .btns,.c .info{font-family:'Alegreya Sans',sans-serif}
+  .c .btn1{background:#B23A1E;color:#FBF8F2}.c .btn2{border:1.5px solid #3B2A1E;color:#3B2A1E}
+  .c .droite{background:#F0EAE0}
+  .reglure{position:absolute;inset:0;background:repeating-linear-gradient(#F0EAE0 0 30px,rgba(59,42,30,.14) 30px 31px)}
+  .lapin{position:relative;width:200px;height:200px}
+  .c .legende{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:.8rem;color:#6b5646;font-family:'Alegreya Sans',sans-serif}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Enluminure Marie Nuel : trois directions</h1>
+  <p>Palette, typographies et ton de l'ouverture. Les visuels de droite sont des esquisses en code : la maquette mettra en grand les vraies œuvres de Marie, jamais recadrées ni recolorées.</p>
+</header>
+
+<!-- A -->
+<section class="dir a">
+  <div class="tete"><span><b>A · Lapis et feuille d'or</b><span class="reco">Recommandé</span></span><span>Clair, lumineux, précieux · proche de Lemoy Premium et Agence AE par le niveau</span></div>
+  <div class="scene">
+    <div class="gauche">
+      <span class="sur">Atelier d'enluminure · Valence</span>
+      <h2 class="titre">L'art d'<em>illuminer</em> la page</h2>
+      <p class="chapo">Enluminures et calligraphies sur mesure, à l'or fin et aux pigments naturels, sur papier ou parchemin.</p>
+      <div class="btns"><a class="btn btn1" href="#">Commander une enluminure</a><a class="btn btn2" href="#">Voir les œuvres</a></div>
+      <span class="info">Prochain stage : calligraphie onciale, 5 et 6 décembre</span>
+    </div>
+    <div class="droite"><div class="cadre"><div class="or"></div><div style="position:absolute;inset:0;display:grid;place-items:center"><span class="lettrine">E</span></div></div><span class="legende">L'intro : la lettrine se trace, la feuille d'or se pose et s'éclaire</span></div>
+  </div>
+  <div class="palette">
+    <div class="sw" style="background:#F5EEE1;color:#2A1E16"><b>Parchemin</b>#F5EEE1 · fond dominant</div>
+    <div class="sw" style="background:#EBE0CC;color:#2A1E16"><b>Vélin</b>#EBE0CC · second fond</div>
+    <div class="sw" style="background:#2A1E16;color:#F5EEE1"><b>Encre de noix</b>#2A1E16 · textes, appel final, pied</div>
+    <div class="sw" style="background:#2B44A0;color:#F5EEE1"><b>Lapis-lazuli</b>#2B44A0 · accent (7,5:1)</div>
+    <div class="sw" style="background:#B98A2F;color:#22180F"><b>Or</b>#B98A2F · filets et lettrines, jamais du texte</div>
+  </div>
+  <div class="notes">
+    <div><h3>Typographies</h3>Titres : Cormorant Garamond 600, mot clé en italique lapis, très grand. Texte : Figtree 400, 17 px.</div>
+    <div><h3>L'idée</h3>« Illuminare » : l'or accroche la lumière. Une lettrine dorée par ouverture de page, et un reflet de brunissoir qui la balaie au défilement. Rien d'autre ne se décline.</div>
+    <div><h3>Animations phares</h3><ul><li>Intro : réglure au crayon, lettrine tracée à la plume, feuille d'or posée</li><li>Pigments (lapis, cinabre, orpiment, garance…) broyés en couleur au défilement</li><li>Œuvres en galerie qui défile, loupe sur l'or, « voir au mur » à l'échelle réelle</li></ul></div>
+  </div>
+</section>
+
+<!-- B -->
+<section class="dir b">
+  <div class="tete"><span><b>B · Le scriptorium à la chandelle</b></span><span>Sombre et chaud, les œuvres éclairées comme dans un musée · proche de Laure Polin et Les Plus Hautes Eaux</span></div>
+  <div class="scene">
+    <div class="gauche">
+      <span class="sur">Atelier d'enluminure · Valence</span>
+      <h2 class="titre">Là où l'<em>or</em> prend vie</h2>
+      <p class="chapo">Enluminures et calligraphies sur mesure, à l'or fin et aux pigments naturels, sur papier ou parchemin.</p>
+      <div class="btns"><a class="btn btn1" href="#">Commander une enluminure</a><a class="btn btn2" href="#">Voir les œuvres</a></div>
+      <span class="info">Prochain stage : calligraphie onciale, 5 et 6 décembre</span>
+    </div>
+    <div class="droite"><div class="flamme"></div><span class="legende">Une lumière de bougie suit la souris et fait briller l'or des œuvres</span></div>
+  </div>
+  <div class="palette">
+    <div class="sw" style="background:#1D1611;color:#F1E8D7"><b>Brou de noix</b>#1D1611 · fond dominant</div>
+    <div class="sw" style="background:#2B2119;color:#F1E8D7"><b>Noix claire</b>#2B2119 · second fond</div>
+    <div class="sw" style="background:#F1E8D7;color:#1D1611"><b>Parchemin</b>#F1E8D7 · commandes, boutique, contact</div>
+    <div class="sw" style="background:#D2A84E;color:#1D1611"><b>Or vif</b>#D2A84E · accent (8:1)</div>
+  </div>
+  <div class="notes">
+    <div><h3>Typographies</h3>Titres : Grenze, entre romain et gothique, mot clé en italique or. Texte : Karla 400, 17 px.</div>
+    <div><h3>L'idée</h3>La lumière de l'enlumineur : chaque œuvre sort de l'ombre quand on s'en approche. Les sections pratiques passent en parchemin clair.</div>
+    <div><h3>Animations phares</h3><ul><li>Intro : une flamme s'allume, la page se révèle dans son halo</li><li>Lumière au pointeur (WebGL) sur les grandes œuvres</li><li>Titres qui s'écrivent, cartes qui sortent de l'ombre</li></ul></div>
+  </div>
+</section>
+
+<!-- C -->
+<section class="dir c">
+  <div class="tete"><span><b>C · Le carnet d'atelier</b></span><span>Lumineux, ludique, tourné vers les stages et les familles · proche de Cool Canyoning et Dépannage 60</span></div>
+  <div class="scene">
+    <div class="gauche">
+      <span class="sur">Atelier d'enluminure · Valence</span>
+      <h2 class="titre">Des lettres qui <em>chantent</em></h2>
+      <p class="chapo">Enluminures et calligraphies sur mesure, stages et ateliers pour tous, à l'or fin et aux pigments naturels.</p>
+      <div class="btns"><a class="btn btn1" href="#">Commander une enluminure</a><a class="btn btn2" href="#">Les stages</a></div>
+      <span class="info">Prochain stage : calligraphie onciale, 5 et 6 décembre</span>
+    </div>
+    <div class="droite"><div class="reglure"></div>
+      <svg class="lapin" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="#3B2A1E" stroke-width="3" stroke-linecap="round"><path d="M70 120c-20 0-34 14-34 34s20 30 44 30h56c22 0 34-10 34-26s-14-30-40-34"/><path d="M118 124c4-30 0-62-12-80-6 18-6 44 0 70"/><path d="M128 126c12-26 22-54 16-76-14 14-20 40-22 66"/><circle cx="140" cy="150" r="3" fill="#3B2A1E"/></g><path d="M40 176c30-6 90-6 130 0" stroke="#B23A1E" stroke-width="4" stroke-linecap="round"/></svg>
+      <span class="legende">Drôleries de marge : les lapins et les oiseaux de Marie, deux ou trois moments seulement</span></div>
+  </div>
+  <div class="palette">
+    <div class="sw" style="background:#FBF8F2;color:#3B2A1E"><b>Papier</b>#FBF8F2 · fond dominant</div>
+    <div class="sw" style="background:#F0EAE0;color:#3B2A1E"><b>Lin</b>#F0EAE0 · second fond</div>
+    <div class="sw" style="background:#1B2445;color:#FBF8F2"><b>Indigo nuit</b>#1B2445 · appel final, pied</div>
+    <div class="sw" style="background:#B23A1E;color:#FBF8F2"><b>Cinabre</b>#B23A1E · accent (5,6:1)</div>
+  </div>
+  <div class="notes">
+    <div><h3>Typographies</h3>Titres : Alegreya (dessinée d'après la calligraphie), mot clé en italique cinabre. Texte : Alegreya Sans 400, 17 px.</div>
+    <div><h3>L'idée</h3>Les drôleries des marges médiévales, avec les vrais compagnons de Marie : un lapin qui passe la tête, un oiseau qui se pose sur un titre.</div>
+    <div><h3>Animations phares</h3><ul><li>Intro : la réglure se trace, la lettre s'écrit à la plume, un lapin la regarde</li><li>Agenda des stages et ateliers très en avant</li><li>Encres végétales (cochenille, sureau, brou de noix) qui se répandent sur les photos</li></ul></div>
+  </div>
+</section>
+</body>
+</html>

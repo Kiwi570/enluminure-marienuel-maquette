@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atelier d’Enluminure Marie Nuel, Valence : enluminures et calligraphies sur mesure</title>
+<meta name="description" content="Enluminures et calligraphies à l’or et aux pigments, commandes personnalisées, stages et ateliers d’enluminure à Valence, dans la Drôme.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://enluminure-marienuel-maquette.vercel.app/">
+<style>:root{--fond:#f5eee1;--texte:#2a1e16;--voile-fond:#1d4f9c;--ouverture-fond:#f5eee1;--menu-fond:#f5eee1}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5eee1">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Atelier d&#39;Enluminure Marie Nuel">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Atelier d’Enluminure Marie Nuel, Valence : enluminures et calligraphies sur mesure">
+<meta property="og:description" content="Enluminures et calligraphies à l’or et aux pigments, commandes personnalisées, stages et ateliers d’enluminure à Valence, dans la Drôme.">
+<meta property="og:url" content="https://enluminure-marienuel-maquette.vercel.app/">
+<meta property="og:image" content="https://enluminure-marienuel-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amitié, lettrine à la feuille d’or de Marie Nuel, et le titre « L’art d’illuminer la page »">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Atelier d'Enluminure Marie Nuel","url":"https://enluminure-marienuel-maquette.vercel.app/","email":"enluminure.marienuel@gmail.com","description":"Enluminures et calligraphies sur mesure, à l'or et aux pigments, stages et ateliers d'enluminure à Valence (Drôme).","address":{"@type":"PostalAddress","streetAddress":"16 rue Martin Vinay","postalCode":"26000","addressLocality":"Valence","addressCountry":"FR"},"sameAs":["https://www.facebook.com/enluminuremarienuel/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo.svg" alt="" width="84" height="58"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="reglure" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true"><path d="M120 0 V600 M880 0 V600 M0 170 H1000 M0 430 H1000" pathLength="1"/></svg>
+  <svg class="mono ouverture-mono" viewBox="0 0 1070 740" role="img" aria-label="Monogramme MN de l’atelier" data-ouverture-objet>
+  <defs><mask id="intro-m" maskUnits="userSpaceOnUse" x="0" y="0" width="1070" height="740"><path class="mono-trait" style="--i:0" d="M197,570 L197,203" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:1" d="M205,200 L357,352 Q380,375 362,400 Q343,418 320,400 Q302,380 318,356" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:2" d="M356,320 L472,204 L478,214 L478,434" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:3" d="M568,434 L568,200" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:4" d="M577,200 L842,462 Q872,494 862,536 Q848,572 818,568 Q798,560 800,538 L800,456" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:5" d="M805,298 L805,414" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/></mask>
+  <linearGradient id="intro-or" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop class="mono-eclat" offset=".5" stop-color="#fff6cf"/><stop offset="1" stop-color="#f1c232"/></linearGradient></defs>
+  <ellipse class="mono-bord" cx="535" cy="370" rx="518" ry="354" fill="#9a3328"/>
+  <ellipse cx="535" cy="370" rx="508" ry="344" fill="#fffaf0"/>
+  <ellipse class="mono-fond" cx="535" cy="370" rx="500" ry="336" fill="#1d4f9c"/>
+  <path class="mono-or" d="M794,300 L792,303 L792,391 L815,414 L817,414 L817,304 L814,300ZM475,195 L469,197 L462,202 L350,312 L350,315 L365,329 L369,329 L466,232 L468,235 L468,430 L487,431 L492,430 L493,207 L490,199 L487,196ZM562,198 L558,202 L555,209 L555,422 L557,425 L567,430 L576,437 L580,438 L580,232 L582,231 L836,484 L842,493 L846,504 L846,520 L842,531 L837,539 L828,547 L823,547 L817,538 L817,480 L794,456 L792,456 L792,541 L795,551 L804,565 L817,572 L834,572 L846,566 L854,559 L860,551 L866,539 L871,519 L871,504 L868,489 L862,476 L857,469 L841,452 L818,432 L582,195 L571,194ZM192,194 L187,198 L185,202 L185,565 L187,569 L192,573 L202,573 L208,568 L210,562 L210,232 L212,231 L350,368 L351,378 L347,385 L340,389 L336,388 L331,384 L327,377 L326,372 L329,367 L329,364 L312,347 L309,347 L304,352 L300,361 L299,377 L307,397 L317,409 L324,413 L335,416 L348,415 L361,409 L370,400 L375,391 L377,384 L377,366 L372,352 L340,323 L216,199 L204,194Z" fill="url(#intro-or)" mask="url(#intro-m)"/>
+  <path class="mono-fleurons" d="M432,416 L429,422 L419,434 L405,445 L382,457 L381,460 L385,461 L402,474 L414,488 L419,501 L421,501 L430,491 L438,487 L448,488 L454,494 L455,505 L450,517 L442,524 L442,527 L449,531 L462,544 L470,556 L475,570 L478,570 L479,565 L488,550 L507,530 L513,527 L513,524 L503,515 L500,509 L499,499 L501,493 L509,487 L517,487 L527,493 L533,501 L536,501 L539,493 L551,476 L565,463 L573,459 L574,456 L566,454 L544,442 L527,426 L523,420 L520,420 L515,424 L501,430 L491,432 L464,432 L448,427 L441,423 L434,416ZM800,159 L798,167 L787,186 L774,199 L766,204 L766,206 L774,213 L778,220 L778,237 L773,242 L769,244 L764,244 L755,240 L746,230 L744,230 L742,238 L736,247 L723,260 L706,272 L706,274 L722,281 L733,288 L748,301 L758,312 L761,312 L767,306 L778,301 L796,298 L811,298 L828,301 L847,311 L853,302 L860,295 L879,282 L899,274 L899,272 L895,271 L886,265 L877,256 L867,243 L860,228 L858,228 L856,232 L848,240 L842,243 L832,243 L826,238 L824,234 L825,220 L830,212 L838,206 L838,204 L832,201 L813,181 L807,172 L802,159Z" fill="#9a3328"/>
+</svg>
+  <p class="ouverture-nom">Marie Nuel</p>
+  <p class="ouverture-ligne">Enluminure et calligraphie</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="52" height="36"><span class="entete-nom"><span class="entete-nom-haut">Marie Nuel</span><span class="entete-nom-bas">Enluminure</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/oeuvres" data-libelle="Œuvres">Œuvres</a></li><li><a href="/commandes" data-libelle="Commandes">Commandes</a></li><li><a href="/stages" data-libelle="Stages et ateliers">Stages et ateliers</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/commandes#composer" data-libelle="Commandes">Commander</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/oeuvres" class="menu-lien" data-libelle="Œuvres">Œuvres</a></li><li style="--i:2"><a href="/commandes" class="menu-lien" data-libelle="Commandes">Commandes</a></li><li style="--i:3"><a href="/stages" class="menu-lien" data-libelle="Stages et ateliers">Stages et ateliers</a></li><li style="--i:4"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/contact#ecrire" data-libelle="Contact">Écrire à l’atelier</a></p>
+  <p class="menu-coord">16 rue Martin Vinay, 26000 Valence<br>enluminure.marienuel@gmail.com</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="heros" id="debut">
+  <svg class="heros-reglure" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path data-fx-trait d="M0 150 H1440" /><path data-fx-trait d="M0 760 H1440" /><path data-fx-trait d="M96 0 V900" /></svg>
+  <div class="heros-texte">
+    <p class="surtitre" data-anime="gsap">Atelier d’enluminure et de calligraphie · Valence</p>
+    <h1 class="heros-titre" data-anime="gsap"><span class="ligne-masque"><span class="heros-ligne">L’art</span></span><span class="ligne-masque"><span class="heros-ligne">d’<em>illuminer</em></span></span><span class="ligne-masque"><span class="heros-ligne">la page</span></span></h1>
+    <p class="heros-chapo masque-ecran-tres-bas" data-anime="gsap">Enluminures et calligraphies faites à la main, à l’or et aux pigments, sur papier ou sur parchemin. Commandes sur mesure, stages et ateliers.</p>
+    <p class="heros-actions" data-anime="gsap">
+      <a href="/commandes#composer" class="bouton" data-libelle="Commandes" data-action-principale data-survol="magnetique">Commander une enluminure</a>
+      <a href="/oeuvres" class="bouton bouton--contour" data-libelle="Œuvres">Voir les œuvres</a>
+    </p>
+    <p class="heros-info" data-anime="gsap" data-info-cle data-prochain><span class="pastille"></span>Prochain stage · <a href="/stages#agenda" data-libelle="Stages et ateliers">5 et 6 décembre · calligraphie onciale</a></p>
+  </div>
+  <div class="heros-oeuvre" data-iris-centre>
+    <div class="or-cadre" data-effet="or-vivant" data-souris data-grille="manipuler">
+      <figure class="media " style="--cadrage:50% 50%;aspect-ratio:1908 / 1866">
+  <picture>
+    <img src="/assets/images/heros-amitie-1600.webp" srcset="/assets/images/heros-amitie-640.webp 640w, /assets/images/heros-amitie-1000.webp 1000w, /assets/images/heros-amitie-1600.webp 1600w" sizes="(max-width: 760px) 86vw, 44vw" alt="Amitié · lettrine pour une association · feuille d’or et pigments sur papier" width="1600" height="1565" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <span class="or-reflet" aria-hidden="true" style="--masque:url('/assets/images/masque-amitie.png')"><span class="or-bande"></span></span>
+    </div>
+    <p class="cartel heros-cartel masque-ecran-bas" data-anime="gsap">Amitié · lettrine pour une association · feuille d’or et pigments sur papier</p>
+  </div>
+</section>
+<section class="illuminare" id="illuminare">
+  <div class="conteneur illuminare-grille">
+    <div>
+      <p class="surtitre" data-anime>Illuminare</p>
+      <p class="manifeste" data-anime="mots">Enluminer vient du latin illuminare : éclairer. Depuis le Ve siècle, l’enlumineur met la page en lumière. Il la règle, calligraphie le texte, dessine, puis pose l’or et la couleur.</p>
+      <ul class="reperes" data-anime="cascade">
+        <li><strong>2012</strong><span>Titre d’Enlumineur obtenu</span></li>
+        <li><strong><span data-compteur="100">100</span> h</strong><span>heures pour certaines œuvres</span></li>
+        <li><strong data-compteur="23">23</strong><span>carats : l’or du manuscrit</span></li>
+        <li><strong data-compteur="10">10</strong><span>couleurs, souvent moins, dans la palette médiévale</span></li>
+      </ul>
+    </div>
+    <figure class="illuminare-or">
+      <div class="or-cadre" data-effet="or-vivant" data-souris>
+        <figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/or-sterne-1400.webp" srcset="/assets/images/or-sterne-640.webp 640w, /assets/images/or-sterne-1000.webp 1000w, /assets/images/or-sterne-1400.webp 1400w" sizes="(max-width: 760px) 80vw, 34vw" alt="Sterne arctique, détail : l’or posé à la feuille" width="1400" height="1867" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="or-reflet" aria-hidden="true" style="--masque:url('/assets/images/masque-sterne.png')"><span class="or-bande"></span></span>
+      </div>
+      <figcaption class="cartel">Sterne arctique, détail : l’or posé à la feuille</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="mur" id="oeuvres-choisies">
+  <div class="conteneur mur-tete">
+    <div>
+      <p class="surtitre" data-anime>L’atelier</p>
+      <h2 data-anime="lignes">Des œuvres à regarder <em>de près</em></h2>
+    </div>
+    <p class="mur-texte" data-anime>Enluminures, calligraphies et la série des oiseaux de Nouvelle-Zélande. Chaque œuvre dit sa technique, son support et sa taille.</p>
+  </div>
+  <div class="conteneur mur-colonnes">
+    <div class="mur-col" data-effet="colonnes" data-vitesse="0.06"><a class="oeuvre-carte" href="/oeuvres#o-kiwi" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-kiwi-1200.webp" srcset="/assets/images/o-kiwi-480.webp 480w, /assets/images/o-kiwi-800.webp 800w, /assets/images/o-kiwi-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Kiwi, détail" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Kiwi <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Or minéral, encre noire et pigments sur parchemin de chevreau · 35,5 × 31,5 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-dame" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-dame-1200.webp" srcset="/assets/images/o-dame-480.webp 480w, /assets/images/o-dame-800.webp 800w, /assets/images/o-dame-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="La dame au bouquet" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">La dame au bouquet</span><span class="cartel-ligne">Or minéral et pigments sur parchemin · 18 × 24 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-francois" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-francois-1200.webp" srcset="/assets/images/o-francois-480.webp 480w, /assets/images/o-francois-800.webp 800w, /assets/images/o-francois-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Saint François et les trois chats" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Saint François et les trois chats</span><span class="cartel-ligne">Pigments et or minéral sur papier · 18 × 24 cm</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="-0.05"><a class="oeuvre-carte" href="/oeuvres#o-manchot" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-manchot-1200.webp" srcset="/assets/images/o-manchot-480.webp 480w, /assets/images/o-manchot-800.webp 800w, /assets/images/o-manchot-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Manchot à œil jaune, détail" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Manchot à œil jaune <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments sur parchemin de chèvre · 21,5 × 24 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-enlumineur" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
+  <picture>
+    <img src="/assets/images/o-enlumineur-1200.webp" srcset="/assets/images/o-enlumineur-480.webp 480w, /assets/images/o-enlumineur-800.webp 800w, /assets/images/o-enlumineur-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="L’enlumineur et la colombe" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">L’enlumineur et la colombe</span><span class="cartel-ligne">Or en coquille et pigments sur papier · 30 × 30 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-beatus" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-beatus-1200.webp" srcset="/assets/images/o-beatus-480.webp 480w, /assets/images/o-beatus-800.webp 800w, /assets/images/o-beatus-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Beatus, détail" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Beatus <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments et or sur papier</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="0.1"><a class="oeuvre-carte" href="/oeuvres#o-kookaburra" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-kookaburra-1200.webp" srcset="/assets/images/o-kookaburra-480.webp 480w, /assets/images/o-kookaburra-800.webp 800w, /assets/images/o-kookaburra-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Kookaburra, détail" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Kookaburra <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments ; semi-onciale irlandaise à l’encre gallo-ferrique maison sur papier · A3</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-annonciation" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-annonciation-1200.webp" srcset="/assets/images/o-annonciation-480.webp 480w, /assets/images/o-annonciation-800.webp 800w, /assets/images/o-annonciation-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Annonciation en G" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Annonciation en G</span><span class="cartel-ligne">Or et pigments sur parchemin · 14 × 14 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-bakhita" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
+  <picture>
+    <img src="/assets/images/o-bakhita-1200.webp" srcset="/assets/images/o-bakhita-480.webp 480w, /assets/images/o-bakhita-800.webp 800w, /assets/images/o-bakhita-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Bakhita, détail" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="cartel"><span class="cartel-titre">Bakhita <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments sur vélin foncé</span></span></a></div>
+  </div>
+  <p class="conteneur mur-action" data-anime><a href="/oeuvres" class="bouton" data-libelle="Œuvres" data-survol="magnetique">Toutes les œuvres</a></p>
+</section>
+<section class="commander" id="commander">
+  <div class="conteneur">
+    <div class="commander-tete">
+      <div>
+        <p class="surtitre" data-anime>Commandes personnalisées</p>
+        <h2 data-anime="lignes">Une enluminure <em>rien que</em> pour vous</h2>
+      </div>
+      <div>
+        <p data-anime>Une naissance, un mariage, un anniversaire, une fête d’association : chaque pièce est faite à la main, selon vos goûts.</p>
+        <p class="delai" data-anime><span class="pastille"></span>Prévoir au moins trois mois avant la date de l’événement.</p>
+      </div>
+    </div>
+    <ul class="occasions" data-anime="cascade">
+      <li><a class="occasion" href="/commandes?occasion=naissance#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1883 / 1529">
+  <picture>
+    <img src="/assets/images/c-naissance-800.webp" srcset="/assets/images/c-naissance-480.webp 480w, /assets/images/c-naissance-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Naissance et baptême" width="800" height="650" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Naissance et baptême</span>
+        <span class="occasion-texte">Initiale du prénom, seule ou avec son saint patron, ange gardien, prière du soir.</span>
+        <span class="occasion-prix" data-prix>Lettrine dès 120 €</span>
+      </a></li><li><a class="occasion" href="/commandes?occasion=mariage#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1908 / 1900">
+  <picture>
+    <img src="/assets/images/c-mariage-800.webp" srcset="/assets/images/c-mariage-480.webp 480w, /assets/images/c-mariage-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Mariage" width="800" height="797" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Mariage</span>
+        <span class="occasion-texte">Monogramme des époux, prière de mariage calligraphiée, première page du livre d’or.</span>
+        <span class="occasion-prix" data-prix>Pleine page dès 150 €</span>
+      </a></li><li><a class="occasion" href="/commandes?occasion=prenom#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1566 / 1198">
+  <picture>
+    <img src="/assets/images/c-maylis-800.webp" srcset="/assets/images/c-maylis-480.webp 480w, /assets/images/c-maylis-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Prénoms et initiales" width="800" height="612" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Prénoms et initiales</span>
+        <span class="occasion-texte">Une lettre ornée pour un enfant, un diplôme, un anniversaire.</span>
+        <span class="occasion-prix" data-prix>Lettrine dès 120 €</span>
+      </a></li><li><a class="occasion" href="/commandes?occasion=armoiries#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1333">
+  <picture>
+    <img src="/assets/images/o-armoiries-1200.webp" srcset="/assets/images/o-armoiries-480.webp 480w, /assets/images/o-armoiries-800.webp 800w, /assets/images/o-armoiries-1200.webp 1200w" sizes="(max-width: 760px) 44vw, 22vw" alt="Armoiries" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Armoiries</span>
+        <span class="occasion-texte">Vos armoiries, celles d’un couple, d’une ville ou d’une région, sur parchemin.</span>
+        <span class="occasion-prix" data-prix>Dès 150 €</span>
+      </a></li><li><a class="occasion" href="/commandes?occasion=religieux#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+  <picture>
+    <img src="/assets/images/o-annonciation-1200.webp" srcset="/assets/images/o-annonciation-480.webp 480w, /assets/images/o-annonciation-800.webp 800w, /assets/images/o-annonciation-1200.webp 1200w" sizes="(max-width: 760px) 44vw, 22vw" alt="Fêtes religieuses" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Fêtes religieuses</span>
+        <span class="occasion-texte">Communion, profession de foi, confirmation, ordination, Bar et Bat Mitzvah.</span>
+        <span class="occasion-prix" data-prix>Lettrine dès 90 €</span>
+      </a></li><li><a class="occasion" href="/commandes?occasion=association#composer" data-libelle="Commandes" data-survol="incline" data-survol-force="5">
+        <span class="occasion-visuel"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1664 / 1708">
+  <picture>
+    <img src="/assets/images/c-association-800.webp" srcset="/assets/images/c-association-480.webp 480w, /assets/images/c-association-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Associations et anniversaires" width="800" height="821" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+        <span class="occasion-titre">Associations et anniversaires</span>
+        <span class="occasion-texte">Jumelages, clubs, confréries, scoutisme, cinquante ans d’amitié.</span>
+        <span class="occasion-prix" data-prix>Sur devis</span>
+      </a></li>
+    </ul>
+    <p class="commander-actions" data-anime>
+      <a href="/commandes#composer" class="bouton" data-libelle="Commandes" data-survol="magnetique">Composer ma commande</a>
+      <a href="/commandes#exemples" class="bouton bouton--contour" data-libelle="Commandes">Voir les exemples</a>
+    </p>
+  </div>
+</section>
+<section class="metier" id="metier" data-fx="plein-ecran" style="--fx-longueur:190svh" data-fx-depart="inset(22% 26% 22% 26% round 18px)">
+  <div data-collant>
+    <figure class="media metier-media" data-grok style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-ouverture-mobile-640.webp 640w, /assets/images/grok/accueil-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/accueil-ouverture-1280.webp" srcset="/assets/images/grok/accueil-ouverture-640.webp 640w, /assets/images/grok/accueil-ouverture-1280.webp 1280w, /assets/images/grok/accueil-ouverture-1920.webp 1920w" sizes="100vw" alt="Table d’enlumineur : parchemin vierge, pigments, feuille d’or et plumes d’oie" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="metier-mots" aria-hidden="true"><span data-fx-ecarte="g">Broyer</span><span data-fx-ecarte="d">dorer</span></div>
+    <div class="metier-legende" data-fx-apres>
+      <h2>De la pierre à la couleur</h2>
+      <p>Lapis-lazuli, cinabre, garance : la palette de l’enlumineur vient des pierres, des plantes, des terres et des animaux. L’or se pose à la feuille, sur une assiette collante de blanc d’œuf, de colle ou de gesso.</p>
+    </div>
+  </div>
+</section>
+<section class="pigments" id="pigments">
+  <div class="conteneur">
+    <h2 class="pigments-titre" data-anime="lignes">Huit couleurs, quatre origines</h2>
+    <ul class="pigments-liste" data-visuel>
+      <li class="pigment" style="--pig:#2a4fa8;--i:0"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Lapis-lazuli</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#c8321e;--i:1"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Cinabre</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#e7b425;--i:2"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Orpiment</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#a8343c;--i:3"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Garance</span><span class="pigment-origine">végétal</span></li><li class="pigment" style="--pig:#4f78a8;--i:4"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Pastel</span><span class="pigment-origine">végétal</span></li><li class="pigment" style="--pig:#c48a3a;--i:5"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Ocre</span><span class="pigment-origine">terre</span></li><li class="pigment" style="--pig:#9e1f3d;--i:6"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Kermès</span><span class="pigment-origine">animal</span></li><li class="pigment" style="--pig:#2b2622;--i:7"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Noir d’ivoire</span><span class="pigment-origine">animal</span></li>
+    </ul>
+    <p class="pigments-note" data-anime>Le cinabre et l’orpiment sont toxiques : Marie ne les emploie que sur demande.</p>
+  </div>
+</section>
+<section class="manuscrit" id="manuscrit" data-scene>
+  <div class="manuscrit-cadre" data-collant>
+    <div class="conteneur manuscrit-grille">
+      <div class="livre">
+        <div class="livre-page"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/manuscrit-incipit-1200.webp" srcset="/assets/images/manuscrit-incipit-480.webp 480w, /assets/images/manuscrit-incipit-800.webp 800w, /assets/images/manuscrit-incipit-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 32vw" alt="La Veillée pascale, page d’ouverture du manuscrit" width="1200" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+        <div class="livre-couverture" data-effet="manuscrit">
+          <div class="livre-face"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/manuscrit-plat-800.webp" srcset="/assets/images/manuscrit-plat-480.webp 480w, /assets/images/manuscrit-plat-800.webp 800w" sizes="(max-width: 760px) 70vw, 32vw" alt="Plat de la reliure en cuir de chèvre, avec ses cabochons" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+          <div class="livre-dos" data-face="dos"></div>
+        </div>
+      </div>
+      <div class="manuscrit-texte">
+        <p class="surtitre">Le chef-d’œuvre</p>
+        <h2 data-anime="lignes">Un manuscrit, de la peau à la <em>reliure</em></h2>
+        <p class="masque-ecran-bas" data-anime>Pour obtenir le Titre d’Enlumineur en 2012, Marie a écrit, enluminé et relié elle-même un manuscrit entier : les Psaumes et Cantiques de la Veillée pascale.</p>
+        <dl class="fiche" data-anime="cascade">
+          <div><dt>Écriture</dt><dd>Gothique primitive à l’extrait de cassel</dd></div>
+          <div><dt>Peinture</dt><dd>Détrempe médiévale et or 23 carats</dd></div>
+          <div><dt>Support</dt><dd>Parchemin de chèvre</dd></div>
+          <div><dt>Reliure</dt><dd>Plein cuir de chèvre sur ais de bois, cabochons et nerfs de lin</dd></div>
+        </dl>
+        <p class="indice masque-ecran-bas">Faites défiler : le livre s’ouvre</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="apprendre" id="apprendre">
+  <div class="conteneur apprendre-grille">
+    <div class="apprendre-texte">
+      <p class="surtitre" data-anime>Stages et ateliers</p>
+      <h2 data-anime="lignes">Prendre la plume, <em>même débutant</em></h2>
+      <p data-anime>L’enluminure et la calligraphie s’apprennent sans savoir peindre ni dessiner. Stages à Valence, ateliers pour les associations, les musées et les écoles.</p>
+      <h3 class="petit-titre" data-anime>Prochaines dates</h3>
+      <ul class="agenda-court" data-anime="cascade">
+        <li class="agenda-ligne" data-debut="2026-12-05" data-fin="2026-12-06"><span class="agenda-date">5 et 6 décembre</span><span class="agenda-titre">Calligraphie onciale</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne" data-debut="2026-11-01" data-fin="2026-11-30"><span class="agenda-date">Novembre, date sur demande</span><span class="agenda-titre">Créer une lettrine romane</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-07-13" data-fin="2026-07-17"><span class="agenda-date">13, 15, 16 et 17 juillet</span><span class="agenda-titre">Enluminure arménienne et portfolio</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-06-27" data-fin="2026-06-28"><span class="agenda-date">27 et 28 juin</span><span class="agenda-titre">Lettres filigranées</span><span class="agenda-etat">Passé</span></li>
+      </ul>
+      <p data-anime><a href="/stages" class="bouton" data-libelle="Stages et ateliers" data-survol="magnetique">Tous les stages</a></p>
+    </div>
+    <div class="apprendre-visuels">
+      <figure class="media apprendre-grand" data-fx="parallaxe" style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/atelier-groupe-1200.webp" srcset="/assets/images/atelier-groupe-480.webp 480w, /assets/images/atelier-groupe-800.webp 800w, /assets/images/atelier-groupe-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 46vw" alt="Un groupe découvre l’enluminure autour d’une grande table" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <ul class="formules" data-anime="cascade">
+        <li><strong>Stages</strong><span>Six personnes au plus, tous niveaux, à Valence et alentour.</span></li>
+        <li><strong>Interventions</strong><span>Musées, médiathèques, archives, associations, comités d’entreprise : partout en Rhône-Alpes.</span></li>
+        <li><strong>Scolaires</strong><span>Du primaire au lycée, jusqu’à 28 élèves, réservable avec le Pass Culture sur Adage.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="marie" id="marie">
+  <div class="conteneur marie-grille">
+    <div class="marie-photo">
+      <figure class="media " data-anime="rideau" style="--cadrage:30% 40%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/marie-archives-1200.webp" srcset="/assets/images/marie-archives-480.webp 480w, /assets/images/marie-archives-800.webp 800w, /assets/images/marie-archives-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw" alt="Marie Nuel penchée sur un manuscrit ancien, dans une salle d’archives" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <svg class="lapin" viewBox="0 0 160 120" aria-hidden="true" data-effet="lapin"><g class="lapin-corps"><path class="lapin-oreille lapin-oreille-g" d="M62 58 C52 22 56 6 64 4 C74 8 74 34 70 58"/><path class="lapin-oreille lapin-oreille-d" d="M78 58 C84 24 94 10 102 12 C108 20 96 42 86 60"/><path d="M40 120 C36 84 52 56 78 56 C104 56 122 82 120 120 Z"/><circle class="lapin-oeil" cx="92" cy="80" r="3.4"/><path class="lapin-nez" d="M112 92 l5 -2 l-1 5 z"/></g></svg>
+    </div>
+    <div class="marie-texte">
+      <p class="surtitre" data-anime>L’enlumineure</p>
+      <h2 data-anime="lettres">Marie Nuel</h2>
+      <p data-anime>Formée à l’Institut supérieur européen de l’enluminure et du manuscrit, à Angers, Marie a obtenu le Titre d’Enlumineur en 2012, avec un manuscrit qu’elle a écrit, enluminé et relié.</p>
+      <p data-anime>Revenue à Valence, elle y enlumine depuis, et suit les recherches historiques et scientifiques sur les pigments anciens. Ses lapins dorment sous son bureau pendant qu’elle travaille.</p>
+      <blockquote class="citation" data-anime="mots"><p>« L’art a une importance capitale dans notre monde. »</p></blockquote>
+      <dl class="echos" data-anime="cascade">
+        <div><dt>On en a parlé</dt><dd>Le Dauphiné Libéré · Vivre à Valence · revue Sources · L’Hebdo de l’Ardèche · L’Impartial</dd></div>
+        <div><dt>On l’a vue</dt><dd>Journées européennes des métiers d’art à Romans-sur-Isère (2022, 2024, 2025) · Rencontres Itinérances avec les Archives de Montélimar, chaque année depuis 2019 · abbayes de Ganagobie et d’Aiguebelle</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="offrir" id="offrir">
+  <div class="conteneur">
+    <div class="offrir-tete">
+      <div><p class="surtitre" data-anime>Boutique</p><h2 data-anime="lignes">Prêtes à <em>offrir</em></h2></div>
+      <p data-anime>Des œuvres déjà encadrées, envoyées avec soin ou remises en main propre.</p>
+    </div>
+    <ul class="offrir-liste" data-anime="cascade">
+      <li><a class="produit" href="/boutique#b-benis3" data-libelle="Boutique"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
+  <picture>
+    <img src="/assets/images/b-benis3-800.webp" srcset="/assets/images/b-benis3-480.webp 480w, /assets/images/b-benis3-800.webp 800w" sizes="(max-width: 760px) 46vw, 22vw" alt="Bénis soient les cœurs" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="produit-titre">Bénis soient les cœurs</span><span class="produit-prix" data-prix>185 €</span></a></li><li><a class="produit" href="/boutique#b-lapins" data-libelle="Boutique"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
+  <picture>
+    <img src="/assets/images/b-lapins-800.webp" srcset="/assets/images/b-lapins-480.webp 480w, /assets/images/b-lapins-800.webp 800w" sizes="(max-width: 760px) 46vw, 22vw" alt="Lapins et entrelacs" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="produit-titre">Lapins et entrelacs</span><span class="produit-prix" data-prix>93 €</span></a></li><li><a class="produit" href="/boutique#b-psaume61" data-libelle="Boutique"><div class="oeuvre-pose " style="--r:1342 / 1224"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1342 / 1224">
+  <picture>
+    <img src="/assets/images/b-psaume61-800.webp" srcset="/assets/images/b-psaume61-480.webp 480w, /assets/images/b-psaume61-800.webp 800w" sizes="(max-width: 760px) 46vw, 22vw" alt="Psaume 61" width="800" height="730" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="produit-titre">Psaume 61</span><span class="produit-prix" data-prix>147 €</span></a></li><li><a class="produit" href="/boutique#b-petitprince" data-libelle="Boutique"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
+  <picture>
+    <img src="/assets/images/b-petitprince-800.webp" srcset="/assets/images/b-petitprince-480.webp 480w, /assets/images/b-petitprince-800.webp 800w" sizes="(max-width: 760px) 46vw, 22vw" alt="Le Petit Prince et le renard" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="produit-titre">Le Petit Prince et le renard</span><span class="produit-prix" data-prix>50 €</span></a></li>
+      <li class="offrir-plus">
+        <a class="mini" href="/boutique#tirages" data-libelle="Boutique"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/tirages-800.webp" srcset="/assets/images/tirages-480.webp 480w, /assets/images/tirages-800.webp 800w" sizes="120px" alt="Tirage d’art d’une enluminure" width="800" height="976" loading="lazy" decoding="async">
+  </picture>
+</figure><span><strong>Tirages d’art A4</strong><span data-prix>25 €</span></span></a>
+        <a class="mini" href="/boutique#marque-pages" data-libelle="Boutique"><figure class="media " style="--cadrage:55% 50%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/marque-pages-bleus-800.webp" srcset="/assets/images/marque-pages-bleus-480.webp 480w, /assets/images/marque-pages-bleus-800.webp 800w" sizes="120px" alt="Marque-pages calligraphiés" width="800" height="760" loading="lazy" decoding="async">
+  </picture>
+</figure><span><strong>Marque-pages à votre prénom</strong><span data-prix>dès 8 €</span></span></a>
+      </li>
+    </ul>
+    <p data-anime><a href="/boutique" class="bouton bouton--contour" data-libelle="Boutique">Toute la boutique</a></p>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="conteneur fin-grille">
+    <div class="fin-mono" data-effet="monogramme"><svg class="mono " viewBox="0 0 1070 740" role="img" aria-label="Monogramme MN de l’atelier">
+  <defs><mask id="fin-m" maskUnits="userSpaceOnUse" x="0" y="0" width="1070" height="740"><path class="mono-trait" style="--i:0" d="M197,570 L197,203" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:1" d="M205,200 L357,352 Q380,375 362,400 Q343,418 320,400 Q302,380 318,356" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:2" d="M356,320 L472,204 L478,214 L478,434" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:3" d="M568,434 L568,200" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:4" d="M577,200 L842,462 Q872,494 862,536 Q848,572 818,568 Q798,560 800,538 L800,456" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/><path class="mono-trait" style="--i:5" d="M805,298 L805,414" pathLength="1" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/></mask>
+  <linearGradient id="fin-or" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop class="mono-eclat" offset=".5" stop-color="#fff6cf"/><stop offset="1" stop-color="#f1c232"/></linearGradient></defs>
+  <ellipse class="mono-bord" cx="535" cy="370" rx="518" ry="354" fill="#9a3328"/>
+  <ellipse cx="535" cy="370" rx="508" ry="344" fill="#fffaf0"/>
+  <ellipse class="mono-fond" cx="535" cy="370" rx="500" ry="336" fill="#1d4f9c"/>
+  <path class="mono-or" d="M794,300 L792,303 L792,391 L815,414 L817,414 L817,304 L814,300ZM475,195 L469,197 L462,202 L350,312 L350,315 L365,329 L369,329 L466,232 L468,235 L468,430 L487,431 L492,430 L493,207 L490,199 L487,196ZM562,198 L558,202 L555,209 L555,422 L557,425 L567,430 L576,437 L580,438 L580,232 L582,231 L836,484 L842,493 L846,504 L846,520 L842,531 L837,539 L828,547 L823,547 L817,538 L817,480 L794,456 L792,456 L792,541 L795,551 L804,565 L817,572 L834,572 L846,566 L854,559 L860,551 L866,539 L871,519 L871,504 L868,489 L862,476 L857,469 L841,452 L818,432 L582,195 L571,194ZM192,194 L187,198 L185,202 L185,565 L187,569 L192,573 L202,573 L208,568 L210,562 L210,232 L212,231 L350,368 L351,378 L347,385 L340,389 L336,388 L331,384 L327,377 L326,372 L329,367 L329,364 L312,347 L309,347 L304,352 L300,361 L299,377 L307,397 L317,409 L324,413 L335,416 L348,415 L361,409 L370,400 L375,391 L377,384 L377,366 L372,352 L340,323 L216,199 L204,194Z" fill="url(#fin-or)" mask="url(#fin-m)"/>
+  <path class="mono-fleurons" d="M432,416 L429,422 L419,434 L405,445 L382,457 L381,460 L385,461 L402,474 L414,488 L419,501 L421,501 L430,491 L438,487 L448,488 L454,494 L455,505 L450,517 L442,524 L442,527 L449,531 L462,544 L470,556 L475,570 L478,570 L479,565 L488,550 L507,530 L513,527 L513,524 L503,515 L500,509 L499,499 L501,493 L509,487 L517,487 L527,493 L533,501 L536,501 L539,493 L551,476 L565,463 L573,459 L574,456 L566,454 L544,442 L527,426 L523,420 L520,420 L515,424 L501,430 L491,432 L464,432 L448,427 L441,423 L434,416ZM800,159 L798,167 L787,186 L774,199 L766,204 L766,206 L774,213 L778,220 L778,237 L773,242 L769,244 L764,244 L755,240 L746,230 L744,230 L742,238 L736,247 L723,260 L706,272 L706,274 L722,281 L733,288 L748,301 L758,312 L761,312 L767,306 L778,301 L796,298 L811,298 L828,301 L847,311 L853,302 L860,295 L879,282 L899,274 L899,272 L895,271 L886,265 L877,256 L867,243 L860,228 L858,228 L856,232 L848,240 L842,243 L832,243 L826,238 L824,234 L825,220 L830,212 L838,206 L838,204 L832,201 L813,181 L807,172 L802,159Z" fill="#9a3328"/>
+</svg></div>
+    <div>
+      <h2 data-anime="lignes">Votre lettre, <em>à l’or fin</em></h2>
+      <p data-anime>Dites à Marie ce que vous voulez offrir, pour qui et pour quand. Elle vous répond pour composer la pièce avec vous.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/commandes#composer" class="bouton bouton--or" data-libelle="Commandes" data-survol="magnetique">Composer ma commande</a>
+        <a href="/contact#ecrire" class="bouton bouton--contour" data-libelle="Contact">Écrire à l’atelier</a>
+      </p>
+      <p class="fin-coord">enluminure.marienuel@gmail.com · 16 rue Martin Vinay, 26000 Valence</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo.svg" alt="" width="104" height="72" loading="lazy">
+      <p><strong>Atelier d&#39;Enluminure Marie Nuel</strong></p>
+      <p>16 rue Martin Vinay, 26000 Valence<br><a href="mailto:enluminure.marienuel@gmail.com">enluminure.marienuel@gmail.com</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/oeuvres" data-libelle="Œuvres">Œuvres</a></li><li><a href="/commandes" data-libelle="Commandes">Commandes</a></li><li><a href="/stages" data-libelle="Stages et ateliers">Stages et ateliers</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre l’atelier</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/enluminuremarienuel/" target="_blank" rel="noopener">Facebook de l’atelier</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+      <p class="pied-petit">Lettre d’information : environ cinq par an.</p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : formulaires et demandes sont simulés, rien n’est envoyé.</p><p>Mentions légales · à compléter · Politique de confidentialité · à compléter</p><p>SIRET 791 713 480 00022 · © Marie Nuel</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/contact#ecrire" data-libelle="Contact">Écrire</a>
+  <a class="bouton" href="/commandes#composer" data-libelle="Commandes">Commander</a>
+</div>
+</body>
+</html>

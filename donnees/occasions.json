@@ -1,0 +1,50 @@
+[
+ {
+  "id": "naissance",
+  "titre": "Naissance et baptême",
+  "texte": "Initiale du prénom, seule ou avec son saint patron, ange gardien, prière du soir.",
+  "image": "c-naissance",
+  "ratio": "1883 / 1529",
+  "prix": "Lettrine dès 120 €"
+ },
+ {
+  "id": "mariage",
+  "titre": "Mariage",
+  "texte": "Monogramme des époux, prière de mariage calligraphiée, première page du livre d’or.",
+  "image": "c-mariage",
+  "ratio": "1908 / 1900",
+  "prix": "Pleine page dès 150 €"
+ },
+ {
+  "id": "prenom",
+  "titre": "Prénoms et initiales",
+  "texte": "Une lettre ornée pour un enfant, un diplôme, un anniversaire.",
+  "image": "c-maylis",
+  "ratio": "1566 / 1198",
+  "prix": "Lettrine dès 120 €"
+ },
+ {
+  "id": "armoiries",
+  "titre": "Armoiries",
+  "texte": "Vos armoiries, celles d’un couple, d’une ville ou d’une région, sur parchemin.",
+  "image": "o-armoiries",
+  "ratio": "2000 / 1333",
+  "prix": "Dès 150 €"
+ },
+ {
+  "id": "religieux",
+  "titre": "Fêtes religieuses",
+  "texte": "Communion, profession de foi, confirmation, ordination, Bar et Bat Mitzvah.",
+  "image": "o-annonciation",
+  "ratio": "1500 / 2000",
+  "prix": "Lettrine dès 90 €"
+ },
+ {
+  "id": "association",
+  "titre": "Associations et anniversaires",
+  "texte": "Jumelages, clubs, confréries, scoutisme, cinquante ans d’amitié.",
+  "image": "c-association",
+  "ratio": "1664 / 1708",
+  "prix": "Sur devis"
+ }
+]

@@ -1,0 +1,6 @@
+{
+  "siteActuel": "enluminure-marienuel.com",
+  "pagesTypes": ["/", "/oeuvres", "/commandes", "/stages", "/boutique", "/contact"],
+  "effets": ["monogramme", "or-vivant", "lettrine-or", "pigments", "manuscrit", "voir-au-mur"],
+  "grille": { "dispenses": {} }
+}

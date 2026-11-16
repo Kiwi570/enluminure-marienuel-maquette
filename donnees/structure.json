@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Atelier d'Enluminure Marie Nuel",
+  "url": "https://enluminure-marienuel-maquette.vercel.app/",
+  "email": "enluminure.marienuel@gmail.com",
+  "description": "Enluminures et calligraphies sur mesure, à l'or et aux pigments, stages et ateliers d'enluminure à Valence (Drôme).",
+  "address": { "@type": "PostalAddress", "streetAddress": "16 rue Martin Vinay", "postalCode": "26000", "addressLocality": "Valence", "addressCountry": "FR" },
+  "sameAs": ["https://www.facebook.com/enluminuremarienuel/"]
+}

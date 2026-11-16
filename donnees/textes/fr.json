@@ -1,0 +1,507 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Commander",
+    "ecrire": "Écrire",
+    "ecrireLong": "Écrire à l’atelier",
+    "sommaire": "Le site",
+    "suivre": "Suivre l’atelier",
+    "facebook": "Facebook de l’atelier",
+    "lettre": "Lettre d’information : environ cinq par an.",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : formulaires et demandes sont simulés, rien n’est envoyé.",
+    "mentions": "Mentions légales · à compléter",
+    "confidentialite": "Politique de confidentialité · à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Enluminure et calligraphie",
+    "logoSous": "Enluminure",
+    "detail": "détail",
+    "agrandir": "Agrandir",
+    "precedente": "Œuvre précédente",
+    "suivante": "Œuvre suivante",
+    "fermerVisionneuse": "Fermer la visionneuse",
+    "loupe": "Survolez l’œuvre pour voir l’or de près",
+    "loupeTactile": "Touchez l’œuvre pour voir l’or de près"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Atelier d’Enluminure Marie Nuel, Valence : enluminures et calligraphies sur mesure",
+      "description": "Enluminures et calligraphies à l’or et aux pigments, commandes personnalisées, stages et ateliers d’enluminure à Valence, dans la Drôme.",
+      "nav": "Accueil",
+      "partageAlt": "Amitié, lettrine à la feuille d’or de Marie Nuel, et le titre « L’art d’illuminer la page »",
+      "accroche": "L’art d’illuminer la page"
+    },
+    "oeuvres": {
+      "titre": "Œuvres : enluminures et calligraphies de Marie Nuel",
+      "description": "Enluminures, calligraphies, la série des oiseaux de Nouvelle-Zélande et d’autres créations, à voir de près et à la bonne taille.",
+      "nav": "Œuvres",
+      "partageAlt": "Œuvres de Marie Nuel : enluminures et calligraphies",
+      "accroche": "Œuvres de l’atelier"
+    },
+    "commandes": {
+      "titre": "Commandes personnalisées : enluminure sur mesure, Marie Nuel",
+      "description": "Naissance, mariage, armoiries, fêtes religieuses : une enluminure faite pour vous, lettrine dès 120 €, à commander trois mois avant.",
+      "nav": "Commandes",
+      "partageAlt": "Commandes personnalisées d’enluminures",
+      "accroche": "Une enluminure faite pour vous"
+    },
+    "stages": {
+      "titre": "Stages, ateliers et scolaires : enluminure et calligraphie à Valence",
+      "description": "Stages d’enluminure et de calligraphie ouverts aux débutants, ateliers pour les associations et les musées, ateliers scolaires avec le Pass Culture.",
+      "nav": "Stages et ateliers",
+      "partageAlt": "Stages et ateliers d’enluminure",
+      "accroche": "Apprendre l’enluminure"
+    },
+    "boutique": {
+      "titre": "Boutique : enluminures encadrées, tirages et marque-pages",
+      "description": "Des enluminures déjà encadrées et prêtes à offrir, des tirages d’art à 25 € et des marque-pages personnalisés.",
+      "nav": "Boutique",
+      "partageAlt": "Boutique de l’atelier : œuvres encadrées et tirages",
+      "accroche": "Des œuvres prêtes à offrir"
+    },
+    "contact": {
+      "titre": "Contact : Atelier d’Enluminure Marie Nuel, Valence",
+      "description": "Écrire à l’atelier pour une commande, un stage, un achat ou une intervention. 16 rue Martin Vinay, Valence.",
+      "nav": "Contact",
+      "partageAlt": "Écrire à l’atelier d’enluminure",
+      "accroche": "Écrire à l’atelier"
+    },
+    "404": {
+      "titre": "Page introuvable : Atelier d’Enluminure Marie Nuel",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "heros": {
+      "surtitre": "Atelier d’enluminure et de calligraphie · Valence",
+      "titre1": "L’art",
+      "titre2": "d’<em>illuminer</em>",
+      "titre3": "la page",
+      "texte": "Enluminures et calligraphies faites à la main, à l’or et aux pigments, sur papier ou sur parchemin. Commandes sur mesure, stages et ateliers.",
+      "action": "Commander une enluminure",
+      "action2": "Voir les œuvres",
+      "cartel": "Amitié · lettrine pour une association · feuille d’or et pigments sur papier",
+      "infoPrefixe": "Prochain stage"
+    },
+    "illuminare": {
+      "surtitre": "Illuminare",
+      "texte": "Enluminer vient du latin illuminare : éclairer. Depuis le Ve siècle, l’enlumineur met la page en lumière. Il la règle, calligraphie le texte, dessine, puis pose l’or et la couleur.",
+      "c1": "Titre d’Enlumineur obtenu",
+      "c2": "heures pour certaines œuvres",
+      "c3": "carats : l’or du manuscrit",
+      "c4": "couleurs, souvent moins, dans la palette médiévale",
+      "legende": "Sterne arctique, détail : l’or posé à la feuille"
+    },
+    "mur": {
+      "surtitre": "L’atelier",
+      "titre": "Des œuvres à regarder <em>de près</em>",
+      "texte": "Enluminures, calligraphies et la série des oiseaux de Nouvelle-Zélande. Chaque œuvre dit sa technique, son support et sa taille.",
+      "action": "Toutes les œuvres"
+    },
+    "commander": {
+      "surtitre": "Commandes personnalisées",
+      "titre": "Une enluminure <em>rien que</em> pour vous",
+      "texte": "Une naissance, un mariage, un anniversaire, une fête d’association : chaque pièce est faite à la main, selon vos goûts.",
+      "delai": "Prévoir au moins trois mois avant la date de l’événement.",
+      "action": "Composer ma commande",
+      "voir": "Voir les exemples"
+    },
+    "metier": {
+      "gauche": "Broyer",
+      "droite": "dorer",
+      "titre": "De la pierre à la couleur",
+      "texte": "Lapis-lazuli, cinabre, garance : la palette de l’enlumineur vient des pierres, des plantes, des terres et des animaux. L’or se pose à la feuille, sur une assiette collante de blanc d’œuf, de colle ou de gesso.",
+      "alt": "Table d’enlumineur : parchemin vierge, pigments, feuille d’or et plumes d’oie",
+      "pigmentsTitre": "Huit couleurs, quatre origines",
+      "toxique": "Le cinabre et l’orpiment sont toxiques : Marie ne les emploie que sur demande.",
+      "etapesTitre": "Une page en quatre gestes",
+      "e1t": "La mise en page",
+      "e1": "La page est réglée au crayon : marges, lignes, place de la lettrine.",
+      "e2t": "La calligraphie",
+      "e2": "Le texte est écrit à la plume, à l’encre de cassel ou au brou de noix.",
+      "e3t": "Le dessin",
+      "e3": "Les figures et les ornements sont tracés, puis repris à l’encre.",
+      "e4t": "L’or et la couleur",
+      "e4": "La feuille d’or est posée sur son assiette, puis viennent les pigments, liés au blanc d’œuf, au miel ou à la gomme, couche après couche.",
+      "altPinceau": "En atelier, un pinceau fin pose la couleur sur une enluminure",
+      "altPlume": "Plumes d’oie taillées, encrier et parchemin réglé",
+      "altOr": "Feuilles d’or sur un coussin de doreur, couteau et pierre d’agate"
+    },
+    "manuscrit": {
+      "surtitre": "Le chef-d’œuvre",
+      "titre": "Un manuscrit, de la peau à la <em>reliure</em>",
+      "texte": "Pour obtenir le Titre d’Enlumineur en 2012, Marie a écrit, enluminé et relié elle-même un manuscrit entier : les Psaumes et Cantiques de la Veillée pascale.",
+      "f1t": "Écriture",
+      "f1": "Gothique primitive à l’extrait de cassel",
+      "f2t": "Peinture",
+      "f2": "Détrempe médiévale et or 23 carats",
+      "f3t": "Support",
+      "f3": "Parchemin de chèvre",
+      "f4t": "Reliure",
+      "f4": "Plein cuir de chèvre sur ais de bois, cabochons et nerfs de lin",
+      "indice": "Faites défiler : le livre s’ouvre",
+      "action": "Voir les pages du manuscrit"
+    },
+    "apprendre": {
+      "surtitre": "Stages et ateliers",
+      "titre": "Prendre la plume, <em>même débutant</em>",
+      "texte": "L’enluminure et la calligraphie s’apprennent sans savoir peindre ni dessiner. Stages à Valence, ateliers pour les associations, les musées et les écoles.",
+      "prochains": "Prochaines dates",
+      "passe": "Passé",
+      "voir": "Tous les stages",
+      "s1t": "Stages",
+      "s1": "Six personnes au plus, tous niveaux, à Valence et alentour.",
+      "s2t": "Interventions",
+      "s2": "Musées, médiathèques, archives, associations, comités d’entreprise : partout en Rhône-Alpes.",
+      "s3t": "Scolaires",
+      "s3": "Du primaire au lycée, jusqu’à 28 élèves, réservable avec le Pass Culture sur Adage."
+    },
+    "marie": {
+      "surtitre": "L’enlumineure",
+      "titre": "Marie Nuel",
+      "texte1": "Formée à l’Institut supérieur européen de l’enluminure et du manuscrit, à Angers, Marie a obtenu le Titre d’Enlumineur en 2012, avec un manuscrit qu’elle a écrit, enluminé et relié.",
+      "texte2": "Revenue à Valence, elle y enlumine depuis, et suit les recherches historiques et scientifiques sur les pigments anciens. Ses lapins dorment sous son bureau pendant qu’elle travaille.",
+      "citation": "L’art a une importance capitale dans notre monde.",
+      "alt": "Marie Nuel penchée sur un manuscrit ancien, dans une salle d’archives",
+      "presseTitre": "On en a parlé",
+      "presse": "Le Dauphiné Libéré · Vivre à Valence · revue Sources · L’Hebdo de l’Ardèche · L’Impartial",
+      "lieuxTitre": "On l’a vue",
+      "lieux": "Journées européennes des métiers d’art à Romans-sur-Isère (2022, 2024, 2025) · Rencontres Itinérances avec les Archives de Montélimar, chaque année depuis 2019 · abbayes de Ganagobie et d’Aiguebelle"
+    },
+    "offrir": {
+      "surtitre": "Boutique",
+      "titre": "Prêtes à <em>offrir</em>",
+      "texte": "Des œuvres déjà encadrées, envoyées avec soin ou remises en main propre.",
+      "tirages": "Tirages d’art A4",
+      "tiragesPrix": "25 €",
+      "marque": "Marque-pages à votre prénom",
+      "marquePrix": "dès 8 €",
+      "action": "Toute la boutique"
+    },
+    "fin": {
+      "titre": "Votre lettre, <em>à l’or fin</em>",
+      "texte": "Dites à Marie ce que vous voulez offrir, pour qui et pour quand. Elle vous répond pour composer la pièce avec vous.",
+      "action": "Composer ma commande",
+      "ecrire": "Écrire à l’atelier"
+    }
+  },
+  "pigments": {
+    "lapis": "Lapis-lazuli",
+    "lapisO": "minéral",
+    "cinabre": "Cinabre",
+    "cinabreO": "minéral",
+    "orpiment": "Orpiment",
+    "orpimentO": "minéral",
+    "garance": "Garance",
+    "garanceO": "végétal",
+    "pastel": "Pastel",
+    "pastelO": "végétal",
+    "ocre": "Ocre",
+    "ocreO": "terre",
+    "kermes": "Kermès",
+    "kermesO": "animal",
+    "ivoire": "Noir d’ivoire",
+    "ivoireO": "animal"
+  },
+  "oeuvres": {
+    "tete": {
+      "surtitre": "Les œuvres",
+      "titre": "Œuvres de l’atelier",
+      "texte": "Enluminures, calligraphies, oiseaux de Nouvelle-Zélande et autres créations. Touchez ou cliquez une œuvre pour la voir en grand, l’or de près, et à sa taille réelle.",
+      "action": "Voir les œuvres",
+      "mur": "Une œuvre posée à sa vraie taille au-dessus d’un buffet de 80 cm",
+      "alt": "Mur de chaux clair éclairé de côté"
+    },
+    "filtres": {
+      "titre": "Filtrer les œuvres",
+      "tout": "Toutes",
+      "enluminure": "Enluminures",
+      "calligraphie": "Calligraphies",
+      "oiseaux": "Oiseaux de Nouvelle-Zélande",
+      "autre": "Autres créations",
+      "compte": "{n} œuvres"
+    },
+    "oiseaux": {
+      "surtitre": "Une série",
+      "citation": "Mon bonheur possède des plumes et un bout du ciel…",
+      "texte": "Marie a uni son art à sa passion des oiseaux et à son amour de la Nouvelle-Zélande. La collection s’étoffe avec le temps ; plusieurs pièces sont à vendre, avec leur prix en euros et en dollars néo-zélandais.",
+      "action": "Les oiseaux à la boutique"
+    },
+    "echelle": {
+      "surtitre": "Voir au mur",
+      "titre": "À sa <em>vraie taille</em>",
+      "texte": "Choisissez une œuvre : elle se pose au-dessus d’un buffet de 80 cm de haut, à côté d’une silhouette de 1,70 m.",
+      "choisir": "Choisir une œuvre",
+      "buffet": "Buffet, 80 cm",
+      "silhouette": "1,70 m",
+      "cote": "{l} × {h} cm"
+    },
+    "fin": {
+      "titre": "Une œuvre vous parle ?",
+      "texte": "Plusieurs sont en vente, déjà encadrées. Les autres peuvent inspirer une commande.",
+      "boutique": "Voir la boutique",
+      "commander": "Commander une création"
+    }
+  },
+  "commandes": {
+    "tete": {
+      "surtitre": "Commandes personnalisées",
+      "titre": "Une enluminure faite pour vous",
+      "texte": "Copies et créations enluminées ou calligraphiées, initiales, prénoms, armoiries, livres d’or, faire-part, menus de fête, arbres généalogiques : la liste n’est pas fermée.",
+      "prix": "Lettrine ou prénom",
+      "prixValeur": "dès 120 €",
+      "action": "Composer ma commande",
+      "info": "À demander au moins trois mois avant la date",
+      "alt": "Feuille de parchemin vierge, ruban de soie, fleurs séchées et cachet de cire"
+    },
+    "occasions": {
+      "surtitre": "Pour quelle occasion ?",
+      "titre": "Six façons de <em>marquer</em> un jour",
+      "choisir": "Choisir cette occasion"
+    },
+    "composer": {
+      "surtitre": "Composer",
+      "titre": "Votre commande en <em>quatre choix</em>",
+      "texte": "Le prix affiché est le prix de départ du site de l’atelier. Le prix final dépend du support, des pigments et du temps de travail : Marie vous le confirme.",
+      "occasion": "L’occasion",
+      "format": "Le format",
+      "fLettrine": "Lettrine ou prénom",
+      "fPage": "Pleine page",
+      "fArmoiries": "Armoiries",
+      "support": "Le support",
+      "sPapier": "Papier",
+      "sParchemin": "Parchemin",
+      "or": "L’or",
+      "orAvec": "Avec feuille d’or",
+      "orSans": "Sans or",
+      "date": "La date de l’événement",
+      "dateAide": "Facultatif : pour savoir quand écrire à Marie.",
+      "resultat": "À partir de",
+      "delaiOk": "Écrivez à Marie avant le {date}.",
+      "delaiCourt": "La date est proche : écrivez vite à Marie pour savoir si c’est possible.",
+      "delaiSans": "Prévoir au moins trois mois avant l’événement (deux mois pour des armoiries).",
+      "envoyer": "Envoyer cette demande",
+      "note": "Prix de départ affichés sur le site actuel : lettrine 120 €, pleine page 150 €, armoiries 150 € ; pour les fêtes religieuses, lettrine 90 € et pleine page 140 €."
+    },
+    "exemples": {
+      "surtitre": "Déjà réalisées",
+      "titre": "Quelques commandes"
+    },
+    "religions": {
+      "surtitre": "Fêtes religieuses",
+      "titre": "Pour toutes les <em>traditions</em>",
+      "chretiens": "Christianisme",
+      "chretiensT": "Croix latine, huguenote, copte ou grecque, colombe, Ichtus ; scène du baptême, calice et hostie, sept dons de l’Esprit, Credo, Veni Creator.",
+      "juifs": "Judaïsme",
+      "juifsT": "Bar et Bat Mitzvah, mariage ; étoile de David, ménorah ; calligraphie en hébreu carré du texte de votre choix.",
+      "musulmans": "Islam",
+      "musulmansT": "Naissance et mariage ; page ornementale à arabesques ; vœux ou texte de votre choix calligraphiés en français.",
+      "autres": "Autres traditions",
+      "autresT": "Une phrase, une citation ou une prière en français ou dans une autre langue en alphabet latin."
+    },
+    "questions": {
+      "titre": "Questions fréquentes",
+      "q1": "Combien de temps faut-il ?",
+      "r1": "Contactez l’atelier au moins trois mois avant la date de l’événement, deux mois pour des armoiries.",
+      "q2": "Puis-je faire enluminer n’importe quelles armoiries ?",
+      "r2": "Vous vous engagez sur l’honneur à n’utiliser que vos propres armoiries, celles de la personne à qui vous les offrez, ou des armoiries du domaine public (ville, pays, région).",
+      "q3": "Quels supports sont possibles ?",
+      "r3": "Papier ou parchemin ; pour les armoiries, parchemin de chevreau, d’agneau ou vélin. Avec ou sans feuille d’or.",
+      "q4": "Comment payer et recevoir l’œuvre ?",
+      "r4": "En espèces, par chèque ou par virement. L’œuvre est remise en main propre, ou envoyée avec soin par un transporteur."
+    },
+    "fin": {
+      "titre": "Une idée, une date ?",
+      "texte": "Racontez-la à Marie : elle vous répond pour composer la pièce avec vous.",
+      "action": "Écrire à l’atelier"
+    },
+    "gestes": {
+      "surtitre": "Comment naît votre enluminure"
+    }
+  },
+  "stages": {
+    "tete": {
+      "surtitre": "Stages et ateliers",
+      "titre": "Apprendre l’enluminure",
+      "texte": "Deux arts qui s’apprennent sans savoir peindre ni dessiner. Stages à Valence et alentour, ateliers pour les groupes, les musées et les écoles.",
+      "prochain": "Prochain stage",
+      "aucun": "Nouvelles dates bientôt",
+      "action": "S’inscrire",
+      "alt": "Grande table d’atelier préparée pour six élèves"
+    },
+    "agenda": {
+      "surtitre": "Agenda",
+      "titre": "Les dates",
+      "avenir": "À venir",
+      "passes": "Passés",
+      "termine": "Terminé",
+      "inscrire": "Demander une place"
+    },
+    "stages": {
+      "surtitre": "Stages",
+      "titre": "Deux jours, <em>une lettre</em>",
+      "texte": "Six personnes au plus, débutants bienvenus. Les élèves réguliers peuvent aussi y terminer leurs travaux de l’année. Un stage peut s’organiser dans une autre région, sur demande.",
+      "l1": "Tous niveaux, sans expérience en dessin",
+      "l2": "Horaires habituels : 9 h 30-12 h et 14 h-17 h 30",
+      "l3": "Stages de loisir : pas de formation professionnelle, pas de collégiens ni de lycéens en stage"
+    },
+    "interventions": {
+      "surtitre": "Interventions",
+      "titre": "L’atelier <em>se déplace</em>",
+      "texte": "Ateliers d’enluminure, de calligraphie et d’art médiéval dans les musées, bibliothèques, centres d’archives et monuments, ou chez vous pour un groupe d’amis ou une fête de famille.",
+      "publics": "Associations, centres sociaux, comités d’entreprise, troupes de reconstitution historique ; adultes et ados dès 13 ans, enfants de 8 à 13 ans.",
+      "frais": "Basée à Valence, Marie se déplace en Rhône-Alpes ; déplacement, repas et hébergement éventuel sont à prévoir en plus.",
+      "action": "Demander une intervention"
+    },
+    "scolaires": {
+      "surtitre": "Scolaires",
+      "titre": "Une classe, <em>vingt-huit plumes</em>",
+      "texte": "Classe entière ou demi-classe, du primaire au lycée, écoles publiques, privées, hors contrat, Montessori ou Freinet. Chaque atelier est adapté à l’âge des élèves et défini avec les enseignants.",
+      "pass": "Pass Culture",
+      "passT": "L’atelier est inscrit sur Adage pour l’année 2026-2027. Part collective : 20 à 25 € par élève, de la sixième à la terminale.",
+      "zone": "Drôme, Ardèche et départements voisins",
+      "action": "Demander un atelier pour ma classe"
+    },
+    "passe": {
+      "surtitre": "Depuis 2013",
+      "titre": "Là où l’atelier <em>est passé</em>",
+      "l1": "Rencontres Itinérances avec les Archives de Montélimar, chaque année depuis 2019",
+      "l2": "Journées européennes des métiers d’art : Romans-sur-Isère, Upie, Montéléger, Valence",
+      "l3": "Stages à Léoncel, Paray-le-Monial, Étoile-sur-Rhône, Strasbourg",
+      "l4": "Expositions aux abbayes de Ganagobie et d’Aiguebelle, à Beauchastel, à Valence"
+    },
+    "inscription": {
+      "surtitre": "Inscription",
+      "titre": "Demander une place",
+      "texte": "Formulaire de démonstration : rien n’est envoyé. Marie vous enverra la fiche d’inscription et les informations pratiques.",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "stage": "Stage ou atelier",
+      "autre": "Intervention, atelier scolaire ou autre demande",
+      "message": "Message",
+      "envoyer": "Envoyer la demande",
+      "donnees": "Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter."
+    }
+  },
+  "boutique": {
+    "tete": {
+      "surtitre": "Boutique",
+      "titre": "Des œuvres prêtes à offrir",
+      "texte": "Enluminures et calligraphies en stock, déjà encadrées pour la plupart, tirages d’art et marque-pages. Ajoutez-les à votre demande : Marie vous répond pour le paiement et l’envoi.",
+      "prix": "de 25 à 450 €",
+      "action": "Voir les œuvres",
+      "alt": "Cadres vides, passe-partout et papier kraft"
+    },
+    "liste": {
+      "titre": "Œuvres en stock",
+      "tout": "Toutes",
+      "enluminure": "Enluminures",
+      "calligraphie": "Calligraphies",
+      "religieux": "Religieuses",
+      "oiseaux": "Oiseaux de Nouvelle-Zélande",
+      "ajouter": "Ajouter à ma demande",
+      "ajoute": "Dans ma demande",
+      "encadree": "En stock"
+    },
+    "demande": {
+      "bouton": "Ma demande",
+      "titre": "Ma demande d’achat",
+      "vide": "Votre demande est vide.",
+      "total": "Total indicatif, hors frais de port",
+      "retirer": "Retirer",
+      "envoyer": "Envoyer ma demande",
+      "note": "Rien n’est payé en ligne : paiement en espèces, par chèque ou par virement, envoi par transporteur ou remise en main propre.",
+      "fermer": "Fermer",
+      "annonce": "{titre} ajouté à votre demande"
+    },
+    "tirages": {
+      "surtitre": "Tirages d’art",
+      "titre": "Vingt-cinq euros, <em>en A4</em>",
+      "texte": "Tirages haute densité sur papier texturé, réalisés par La Fabrique de l’Image à Meysse, en Ardèche. Kiwi, Kakariki, Beatus, Le Merle du 16, Si tu m’apprivoises… 25 €, frais de port en plus.",
+      "action": "Demander un tirage"
+    },
+    "marque": {
+      "surtitre": "Marque-pages",
+      "titre": "Votre prénom, <em>en gothique</em>",
+      "texte": "18 × 5 cm, calligraphie gothique rotunda, initiale filigranée ou ornée, plastifié.",
+      "prenom": "Prénom",
+      "prenomDefaut": "Joséphine",
+      "encre": "Encre du motif",
+      "bleu": "Bleu",
+      "rouge": "Rouge",
+      "face": "Personnalisation",
+      "recto": "Recto seul",
+      "verso": "Recto et verso",
+      "prixRecto": "8 €",
+      "prixVerso": "13 à 16 €",
+      "delaiRecto": "environ 15 jours",
+      "delaiVerso": "environ 3 semaines",
+      "ajouter": "Ajouter à ma demande",
+      "apercu": "Aperçu, dessiné par le site : le vrai sera calligraphié à la main."
+    },
+    "envoi": {
+      "titre": "Paiement et envoi",
+      "texte": "Espèces, chèque ou virement en France ; PayPal pour un envoi à l’étranger. Envoi soigné par transporteur, ou remise en main propre à Valence."
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact",
+      "titre": "Écrire à l’atelier",
+      "texte": "Une commande, un stage, un achat, une intervention : dites-en un peu à Marie, elle vous répond.",
+      "action": "Écrire",
+      "alt": "Écritoire près d’une fenêtre : enveloppe cachetée, plume d’oie et encrier"
+    },
+    "form": {
+      "titre": "Votre message",
+      "texte": "Formulaire de démonstration : rien n’est envoyé.",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "sujet": "Objet",
+      "sCommande": "Commande personnalisée",
+      "sAchat": "Achat d’une œuvre ou d’un tirage",
+      "sStage": "Stage",
+      "sIntervention": "Intervention ou atelier de groupe",
+      "sScolaire": "Atelier scolaire",
+      "sDon": "Don de matériaux",
+      "sAutre": "Autre demande",
+      "message": "Message",
+      "envoyer": "Envoyer",
+      "donnees": "Vos données servent seulement à répondre à votre demande. En écrivant, vous recevez la lettre d’information (environ cinq par an), sauf si vous le refusez dans le message. Politique de confidentialité : à compléter."
+    },
+    "atelier": {
+      "titre": "L’atelier",
+      "adresse": "Adresse",
+      "email": "E-mail",
+      "courrier": "Par courrier, à la même adresse.",
+      "carte": "Valence, sur la rive gauche du Rhône",
+      "carteAlt": "Plan simplifié : l’atelier à Valence, au bord du Rhône"
+    },
+    "dons": {
+      "surtitre": "Dons de matériaux",
+      "titre": "Vos <em>trésors</em> oubliés",
+      "texte": "L’atelier recueille ce qui dort dans vos tiroirs : vous désencombrez, et l’atelier en fait des outils et des couleurs.",
+      "l1": "Grosses plumes de goéland, oie, corbeau, cygne ou dinde (le tuyau intact)",
+      "l2": "Objets en ivoire, même cassés : ils deviennent du noir d’ivoire",
+      "l3": "Mortier en pierre ou en métal, petites cuillères, bouchons de carafe en verre",
+      "l4": "Petits pots en verre à couvercle métal, graines d’indigo, de garance ou de carthame",
+      "action": "Proposer un don"
+    }
+  },
+  "introuvable": {
+    "titre": "Une goutte d’encre est tombée ici",
+    "texte": "Cette page n’existe pas ou plus. La plume vous ramène à l’atelier.",
+    "retour": "Retour à l’accueil",
+    "oeuvres": "Voir les œuvres",
+    "alt": "Une goutte d’encre sur un parchemin vierge, une plume à côté"
+  }
+}
