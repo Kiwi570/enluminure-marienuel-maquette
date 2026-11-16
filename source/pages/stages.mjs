@@ -1,7 +1,7 @@
 /* Stages et ateliers : ouverture « grand titre puis date du prochain stage en très grand », agenda (à venir et passés,
    recalculés à la date du jour), stages, interventions, scolaires et Pass Culture, lieux, inscription simulée (?stage=). */
 import { html } from '../../outils/gabarit.mjs';
-import { visuel, estPasse, prochain } from '../gabarits/oeuvre.mjs';
+import { visuel, estPasse, prochain, ordreAgenda } from '../gabarits/oeuvre.mjs';
 import { monogramme } from '../gabarits/monogramme.mjs';
 
 export const page = { cle: 'stages', fichier: 'stages', imagePartage: 'atelier-pinceau-800.webp' };
@@ -14,7 +14,7 @@ export default (c) => {
   return html`
 <section class="ouv ouv--date" id="debut">
   <div class="conteneur ouv-date-haut">
-    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil" aria-hidden="true"><span>A</span></span>
+    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil typo" aria-hidden="true"><span>A</span></span>
     <p class="surtitre" data-anime>${c.t('stages.tete.surtitre')}</p>
     <h1 data-anime="lignes">${c.t('stages.tete.titre')}</h1>
     <p class="ouv-chapo masque-ecran-bas" data-anime>${c.t('stages.tete.texte')}</p>
@@ -35,7 +35,7 @@ export default (c) => {
     <p class="surtitre" data-anime>${c.t('stages.agenda.surtitre')}</p>
     <h2 data-anime="lignes">${c.t('stages.agenda.titre')}</h2>
     <ul class="agenda-cartes" data-anime="cascade" data-visuel>
-      ${A.map((a) => html`<li class="agenda-carte${estPasse(a) ? ' est-passe' : ''}" id="stage-${a.id}" data-debut="${a.debut}" data-fin="${a.fin}">
+      ${ordreAgenda(A).map((a) => html`<li class="agenda-carte${estPasse(a) ? ' est-passe' : ''}" id="stage-${a.id}" data-debut="${a.debut}" data-fin="${a.fin}">
         <p class="agenda-carte-date">${a.dates}</p>
         <h3>${a.titre}</h3>
         <p class="agenda-carte-type">${a.type}</p>
@@ -98,8 +98,9 @@ export default (c) => {
     <div>
       <p class="surtitre" data-anime>${c.t('stages.passe.surtitre')}</p>
       <h2 data-anime="lignes">${c.tb('stages.passe.titre')}</h2>
+      ${c.media({ nom: 'atelier-groupe', alt: 'Un groupe découvre l’enluminure autour d’une grande table', classe: 'passe-image', ratio: '4 / 3', cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 40vw', attrs: 'data-anime="rideau"' })}
     </div>
-    <ol class="passe-liste" data-anime="cascade" data-visuel>
+    <ol class="passe-liste" data-anime="cascade">
       <li>${c.t('stages.passe.l1')}</li><li>${c.t('stages.passe.l2')}</li><li>${c.t('stages.passe.l3')}</li><li>${c.t('stages.passe.l4')}</li>
     </ol>
   </div>

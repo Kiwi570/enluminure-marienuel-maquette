@@ -20,7 +20,7 @@ export default (c) => {
   return html`
 <section class="ouv ouv--mur" id="debut">
   <div class="ouv-texte">
-    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil" aria-hidden="true"><span>Œ</span></span>
+    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil typo" aria-hidden="true"><span>Œ</span></span>
     <p class="surtitre" data-anime>${c.t('oeuvres.tete.surtitre')}</p>
     <h1 data-anime="lignes">${c.t('oeuvres.tete.titre')}</h1>
     <p class="ouv-chapo masque-ecran-bas" data-anime>${c.t('oeuvres.tete.texte')}</p>

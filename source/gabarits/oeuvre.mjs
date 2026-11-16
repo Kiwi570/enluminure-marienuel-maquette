@@ -36,6 +36,8 @@ export function carteOeuvre(c, o, { lien = true, sizes, attrs = '' } = {}) {
 /* Agenda : le gabarit range d'après la date de génération ; le JavaScript refait le tri à la date du jour. */
 const auj = new Date().toISOString().slice(0, 10);
 export const estPasse = (a) => a.fin < auj;
+/* À venir d'abord (par date), puis les stages passés, du plus récent au plus ancien. */
+export const ordreAgenda = (A) => [...A.filter((a) => !estPasse(a)).sort((x, y) => x.debut.localeCompare(y.debut)), ...A.filter(estPasse).sort((x, y) => y.debut.localeCompare(x.debut))];
 export const prochain = (agenda) => agenda.filter((a) => !estPasse(a) && !a.mois).sort((x, y) => x.debut.localeCompare(y.debut))[0];
 
 /* Reflet d'or : calque masqué par la forme de la feuille d'or de l'œuvre (masque calculé sur la photo). */

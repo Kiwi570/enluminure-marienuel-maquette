@@ -141,7 +141,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 .reperes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; border-top: 1px solid rgba(185, 138, 47, .5); padding-top: 22px; }
 .reperes li { display: grid; gap: 6px; align-content: start; }
 .reperes strong { font-family: var(--police-titres); font-size: clamp(2.2rem, 1.6rem + 2vw, 3.4rem); line-height: 1; color: var(--lapis); font-variant-numeric: tabular-nums; }
-.reperes span { font-size: .92rem; color: var(--texte-doux); line-height: 1.4; }
+.reperes li > span { font-size: .92rem; color: var(--texte-doux); line-height: 1.4; }
 .illuminare-or { margin: 0; justify-self: center; width: min(100%, 380px); }
 .illuminare-or .cartel { text-align: center; }
 @media (max-width: 900px) {
@@ -151,7 +151,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 }
 
 /* 3. Le mur des œuvres : trois colonnes qui glissent à des vitesses différentes. */
-.mur { padding-block: clamp(72px, 11vw, 150px) clamp(48px, 8vw, 110px); overflow: hidden; }
+.mur { padding-block: clamp(64px, 9vw, 120px) clamp(40px, 6vw, 80px); overflow: hidden; }
 .mur-tete { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: 24px 48px; align-items: end; margin-bottom: clamp(32px, 5vw, 64px); }
 .mur-texte { color: var(--texte-doux); margin: 0; }
 .mur-colonnes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 3vw, 44px); padding-block: 40px; }
@@ -167,7 +167,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 }
 
 /* 4. Commander. */
-.commander { padding-block: clamp(72px, 11vw, 150px); background: var(--velin); }
+.commander { padding-block: clamp(64px, 9vw, 120px); background: var(--velin); }
 .commander-tete { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: 24px 56px; align-items: end; margin-bottom: clamp(32px, 5vw, 56px); }
 .delai { font-weight: 600; margin: 0; }
 .occasions { list-style: none; margin: 0 0 40px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2.4vw, 32px); }
@@ -247,7 +247,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 .fiche dd { margin: 0; font-family: var(--police-titres); font-size: 1.3rem; line-height: 1.25; }
 .indice { font-size: .9rem; color: var(--texte-doux); margin: 0; }
 @media (min-width: 900px) {
-  html.js:not(.secours) .manuscrit { height: 185vh; height: 185svh; }
+  html.js:not(.secours) .manuscrit { height: 160vh; height: 160svh; }
   html.js:not(.secours) .manuscrit-cadre { position: sticky; top: 0; height: 100vh; height: 100svh; display: grid; align-items: center; padding-block: calc(var(--entete-h) + 12px) 24px; }
 }
 @media (max-width: 899px) {
@@ -258,7 +258,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 @media (max-height: 820px) and (min-width: 900px) { .fiche div { padding: 8px 0; } .fiche dd { font-size: 1.15rem; } }
 
 /* 8. Apprendre. */
-.apprendre { padding-block: clamp(72px, 11vw, 150px); }
+.apprendre { padding-block: clamp(64px, 9vw, 120px); }
 .apprendre-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
 .agenda-court { list-style: none; margin: 0 0 28px; padding: 0; }
 .agenda-ligne { display: grid; grid-template-columns: 11em minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 12px 0; border-top: 1px solid var(--ligne); }
@@ -279,7 +279,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 @media (max-width: 520px) { .agenda-ligne { grid-template-columns: minmax(0, 1fr) auto; } .agenda-titre { grid-column: 1 / -1; grid-row: 2; } .formules li { grid-template-columns: minmax(0, 1fr); gap: 4px; } }
 
 /* 9. Marie. */
-.marie { padding-block: clamp(72px, 11vw, 150px); background: var(--velin); }
+.marie { padding-block: clamp(64px, 9vw, 120px); background: var(--velin); }
 .marie-grille { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
 .marie-photo { position: relative; }
 .lapin { position: absolute; right: -14px; bottom: -6px; width: clamp(92px, 11vw, 140px); height: auto; z-index: 2; overflow: visible; }
@@ -297,7 +297,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 @media (max-width: 520px) { .echos div { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
 
 /* 10. Offrir. */
-.offrir { padding-block: clamp(72px, 11vw, 150px); }
+.offrir { padding-block: clamp(64px, 9vw, 120px); }
 .offrir-tete { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: 24px 56px; align-items: end; margin-bottom: clamp(28px, 4vw, 52px); }
 .offrir-liste { list-style: none; margin: 0 0 36px; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, 1.1fr); gap: clamp(16px, 2.4vw, 32px); align-items: end; }
 .produit { display: grid; gap: 4px; text-decoration: none; color: inherit; }
@@ -338,8 +338,16 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 
 /* Lettrine d'or des ouvertures : lettre lapis sur un carré de feuille d'or, reflet au défilement. */
 .lettrine-or { position: relative; display: inline-grid; place-items: center; width: clamp(64px, 7vw, 96px); aspect-ratio: 1; margin-bottom: 18px; overflow: hidden;
-  background: linear-gradient(135deg, #a8792a, #e9cd84 38%, #c9993e 62%, #f0dca0 80%, #a8792a); box-shadow: inset 0 0 0 2px rgba(42, 30, 22, .55), inset 0 0 0 5px rgba(255, 240, 200, .35); border-radius: 2px; }
-.lettrine-or > span { position: relative; z-index: 1; font-family: var(--police-titres); font-weight: 600; font-size: clamp(3rem, 5vw, 4.6rem); line-height: 1; color: var(--lapis); text-shadow: 0 1px 0 rgba(255, 245, 210, .6); }
+  background: linear-gradient(rgba(240, 219, 158, .34), rgba(240, 219, 158, .34)), #c9993e url('/assets/images/grok/texture-or-480.webp') center / cover; box-shadow: inset 0 0 0 2px rgba(42, 30, 22, .55), inset 0 0 0 5px rgba(255, 240, 200, .35); border-radius: 2px; }
+.lettrine-or > span { position: relative; z-index: 1; font-family: var(--police-titres); font-weight: 600; font-size: clamp(3rem, 5vw, 4.6rem); line-height: 1; color: var(--lapis-nuit); text-shadow: 0 1px 0 rgba(255, 245, 210, .6); }
+/* Lettrine posée à l'arrivée : l'assiette (bol rouge) d'abord, la feuille d'or par-dessus, puis la lettre peinte. */
+.lettrine-or::before { content: ""; position: absolute; inset: 0; z-index: 0; background: #8f4329 radial-gradient(circle at 30% 28%, rgba(255, 196, 150, .22), transparent 62%);
+  box-shadow: inset 0 0 0 2px rgba(42, 30, 22, .55); clip-path: inset(0 0 0 100%); }
+.lettrine-or.a-poser::before { clip-path: inset(0 0 0 calc(var(--pose, 0) * 100%)); }
+.lettrine-or.a-poser > span { clip-path: inset(0 0 100% 0); }
+/* « illuminer » : la lumière de l'or passe sur le mot à l'arrivée et au survol. */
+.heros-titre em.illumine { background: linear-gradient(100deg, var(--lapis) 0 38%, #b98a2f 45%, #e8c568 50%, #b98a2f 55%, var(--lapis) 62% 100%) var(--lumiere, 100%) 0 / 300% 100% no-repeat;
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-inline: .08em; margin-inline: -.08em; }
 .lettrine-or::after { content: ""; position: absolute; top: -30%; left: 0; width: 50%; height: 160%; background: linear-gradient(100deg, transparent, rgba(255, 252, 235, .8) 50%, transparent);
   transform: translate3d(var(--eclat, -140%), 0, 0) skewX(-14deg); }
 
@@ -382,7 +390,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 .filtre[aria-pressed="true"] { background: var(--lapis); border-color: var(--lapis); color: #fff; }
 .filtre[aria-pressed="true"] span { color: rgba(255, 255, 255, .8); }
 .filtres-compte { font-size: .9rem; color: var(--texte-doux); margin-bottom: 28px; }
-.grille-oeuvres { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: clamp(28px, 3.4vw, 48px) clamp(16px, 2.4vw, 32px); align-items: end; }
+.grille-oeuvres { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: clamp(36px, 4vw, 64px) clamp(20px, 3vw, 44px); align-items: end; }
 .grille-item { transition: opacity .35s var(--courbe); }
 @media (max-width: 520px) { .grille-oeuvres { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .grille-item.masque { display: none; }
@@ -497,8 +505,8 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 .aide { margin: 0; font-size: .88rem; color: var(--texte-doux); }
 .recap { position: sticky; top: calc(var(--entete-h) + 20px); padding: clamp(20px, 2.6vw, 32px); background: var(--velin); border-radius: 8px; }
 .recap-feuille { position: relative; display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 4px 16px; align-items: center; padding: 18px; margin-bottom: 18px; background: #fbf7ee; border-radius: 3px; box-shadow: var(--ombre-oeuvre); }
-.recap-lettrine { grid-row: span 2; display: grid; place-items: center; width: 74px; aspect-ratio: 1; font-family: var(--police-titres); font-size: 3.4rem; line-height: 1; color: var(--lapis);
-  background: linear-gradient(135deg, #a8792a, #e9cd84 38%, #c9993e 62%, #f0dca0 80%, #a8792a); box-shadow: inset 0 0 0 2px rgba(42, 30, 22, .5); transition: background .3s; }
+.recap-lettrine { grid-row: span 2; display: grid; place-items: center; width: 74px; aspect-ratio: 1; font-family: var(--police-titres); font-size: 3.4rem; line-height: 1; color: var(--lapis-nuit);
+  background: linear-gradient(rgba(240, 219, 158, .34), rgba(240, 219, 158, .34)), #c9993e url('/assets/images/grok/texture-or-480.webp') center / cover; box-shadow: inset 0 0 0 2px rgba(42, 30, 22, .5); transition: background .3s; }
 .recap-feuille[data-or="sans"] .recap-lettrine { background: #f3eadb; }
 .recap-feuille[data-support="parchemin"] { background: #efe2c7; }
 .recap-occasion { margin: 0 0 4px; font-family: var(--police-titres); font-size: 1.5rem; line-height: 1.25; }
@@ -521,7 +529,7 @@ html.js .fin-mono .mono-fleurons { transform-origin: 50% 50%; transform-box: fil
 .religions-liste dd { margin: 0; color: var(--texte-doux); }
 @media (max-width: 760px) { .religions-grille, .religions-liste { grid-template-columns: minmax(0, 1fr); } .religions-image { width: min(70%, 260px); } }
 .exemples { padding-block: clamp(64px, 9vw, 120px); background: var(--velin); }
-.exemples-grille { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 28px clamp(16px, 2vw, 28px); align-items: end; }
+.exemples-grille { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 36px clamp(20px, 2.6vw, 36px); align-items: end; }
 @media (max-width: 520px) { .exemples-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .questions { padding-block: clamp(64px, 9vw, 120px); }
 .questions-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 72px); }
@@ -715,3 +723,39 @@ html:not(.js) :is(.heros, .ouv--mur, .ouv--prix, .ouv--boutique, .ouv--ecritoire
 html:not(.js) .ouv--date { padding-top: 20px; }
 html:not(.js) .heros-chapo, html:not(.js) .ouv-chapo { display: none; }
 html:not(.js) .ouv .lettrine-or { display: none; }
+
+/* ===================== v2 ===================== */
+/* Le métier : les mots s'effacent en s'écartant ; sur téléphone, la légende suffit. */
+@media (max-width: 760px) { .metier-mots { display: none; } }
+/* Pigments : la vraie poudre (photo) à côté des huit couleurs. */
+.pigments-grille { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 72px); align-items: center; margin-top: clamp(24px, 4vw, 44px); }
+.pigments-photo { aspect-ratio: 3 / 2; }
+.pigments-grille .pigments-liste { margin: 0 0 18px; grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 26px; }
+@media (max-width: 900px) { .pigments-grille { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 520px) { .pigment-nom { font-size: 1.02rem; } .pigment-origine { font-size: .78rem; } }
+/* Boutique : chaque pièce sur le même passe-partout, jamais recadrée. */
+.produit-carte .oeuvre-pose { display: grid; place-items: center; aspect-ratio: 4 / 5; padding: 9%; background: var(--velin); border-radius: 4px; }
+.produit-carte .oeuvre-pose .media { width: auto; height: auto; max-width: 100%; max-height: 100%; aspect-ratio: var(--r); }
+.produits { align-items: start; }
+@media (max-width: 760px) { .demande-bouton { display: none; } }
+[data-barre-fixe] .demande-barre { flex: 1; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; border-radius: 999px; background: var(--lapis-nuit); color: #f5eee1; font-weight: 600; }
+/* Voir au mur : vue rapprochée, mur de chaux, buffet, cote. */
+.echelle-scene { --u: 3.6px; --sol: calc(var(--u) * 14); height: calc(var(--u) * 160); background: linear-gradient(0deg, #a88a63, #bba07a var(--sol), #ece3d3 var(--sol), #f3ecdf 60%, #efe6d6); }
+.echelle-mur { background: radial-gradient(60% 80% at 75% 0%, rgba(255, 250, 235, .9), transparent 62%), radial-gradient(40% 60% at 10% 100%, rgba(170, 140, 100, .14), transparent 70%); }
+.echelle-buffet { right: 50%; transform: translateX(50%); width: calc(var(--u) * 120); height: calc(var(--u) * 80); background: linear-gradient(180deg, #b48a5c, #96704a 12%, #8a6642); border-radius: 2px; box-shadow: 0 -6px 0 0 #a07a50, 0 18px 24px -14px rgba(0, 0, 0, .35); }
+.echelle-buffet::before { content: ""; position: absolute; inset: 14% 6% 10%; border-top: 1px solid rgba(255, 240, 210, .25); border-bottom: 1px solid rgba(0, 0, 0, .12); background: linear-gradient(90deg, transparent 49.7%, rgba(0, 0, 0, .18) 49.7% 50.3%, transparent 50.3%); }
+.echelle-buffet span { left: 50%; transform: translateX(-50%); white-space: nowrap; }
+.echelle-silhouette, .echelle-cote-silhouette { display: none; }
+.echelle-oeuvre-posee { right: 50%; bottom: calc(var(--sol) + var(--u) * 102); }
+.echelle-oeuvre-posee img { box-shadow: 0 2px 3px rgba(42, 30, 22, .25), 10px 16px 26px -10px rgba(42, 30, 22, .55); }
+.echelle-oeuvre-posee figcaption { position: absolute; top: 0; bottom: 0; left: calc(100% + 14px); margin: 0; display: grid; place-items: center start; padding-left: 12px; border-left: 1px solid var(--texte-doux); }
+.echelle-oeuvre-posee figcaption::before, .echelle-oeuvre-posee figcaption::after { content: ""; position: absolute; left: -5px; width: 9px; height: 1px; background: var(--texte-doux); }
+.echelle-oeuvre-posee figcaption::before { top: 0; } .echelle-oeuvre-posee figcaption::after { bottom: 0; }
+@media (max-width: 900px) { .echelle-scene { --u: 2.6px; } }
+@media (max-width: 520px) { .echelle-scene { --u: 1.9px; } .echelle-oeuvre-posee figcaption { left: calc(100% + 8px); padding-left: 8px; font-size: .82rem; } }
+/* Oiseaux : vol plus calme. */
+.oiseaux-vol li:nth-child(even) { margin-top: 40px; }
+.passe-image { margin-top: 24px; }
+
+/* Mention des illustrations générées : lisible sur tous les écrans. */
+.mention-ia { font-size: 13px; }

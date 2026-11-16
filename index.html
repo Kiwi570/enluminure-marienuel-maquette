@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5eee1">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -118,7 +118,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <svg class="heros-reglure" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path data-fx-trait d="M0 150 H1440" /><path data-fx-trait d="M0 760 H1440" /><path data-fx-trait d="M96 0 V900" /></svg>
   <div class="heros-texte">
     <p class="surtitre" data-anime="gsap">Atelier d’enluminure et de calligraphie · Valence</p>
-    <h1 class="heros-titre" data-anime="gsap"><span class="ligne-masque"><span class="heros-ligne">L’art</span></span><span class="ligne-masque"><span class="heros-ligne">d’<em>illuminer</em></span></span><span class="ligne-masque"><span class="heros-ligne">la page</span></span></h1>
+    <h1 class="heros-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="heros-ligne">L’art</span></span><span class="ligne-masque"><span class="heros-ligne">d’<em>illuminer</em></span></span><span class="ligne-masque"><span class="heros-ligne">la page</span></span></h1>
     <p class="heros-chapo masque-ecran-tres-bas" data-anime="gsap">Enluminures et calligraphies faites à la main, à l’or et aux pigments, sur papier ou sur parchemin. Commandes sur mesure, stages et ateliers.</p>
     <p class="heros-actions" data-anime="gsap">
       <a href="/commandes#composer" class="bouton" data-libelle="Commandes" data-action-principale data-survol="magnetique">Commander une enluminure</a>
@@ -127,7 +127,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="heros-info" data-anime="gsap" data-info-cle data-prochain><span class="pastille"></span>Prochain stage · <a href="/stages#agenda" data-libelle="Stages et ateliers">5 et 6 décembre · calligraphie onciale</a></p>
   </div>
   <div class="heros-oeuvre" data-iris-centre>
-    <div class="or-cadre" data-effet="or-vivant" data-souris data-grille="manipuler">
+    <div class="or-cadre" data-effet="or-vivant" data-souris data-grille="manipuler fil">
       <figure class="media " style="--cadrage:50% 50%;aspect-ratio:1908 / 1866">
   <picture>
     <img src="/assets/images/heros-amitie-1600.webp" srcset="/assets/images/heros-amitie-640.webp 640w, /assets/images/heros-amitie-1000.webp 1000w, /assets/images/heros-amitie-1600.webp 1600w" sizes="(max-width: 760px) 86vw, 44vw" alt="Amitié · lettrine pour une association · feuille d’or et pigments sur papier" width="1600" height="1565" fetchpriority="high" loading="eager" decoding="async">
@@ -182,12 +182,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/o-dame-1200.webp" srcset="/assets/images/o-dame-480.webp 480w, /assets/images/o-dame-800.webp 800w, /assets/images/o-dame-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="La dame au bouquet" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
 </figure></div>
-    <span class="cartel"><span class="cartel-titre">La dame au bouquet</span><span class="cartel-ligne">Or minéral et pigments sur parchemin · 18 × 24 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-francois" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
-  <picture>
-    <img src="/assets/images/o-francois-1200.webp" srcset="/assets/images/o-francois-480.webp 480w, /assets/images/o-francois-800.webp 800w, /assets/images/o-francois-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Saint François et les trois chats" width="1200" height="1600" loading="lazy" decoding="async">
-  </picture>
-</figure></div>
-    <span class="cartel"><span class="cartel-titre">Saint François et les trois chats</span><span class="cartel-ligne">Pigments et or minéral sur papier · 18 × 24 cm</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="-0.05"><a class="oeuvre-carte" href="/oeuvres#o-manchot" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+    <span class="cartel"><span class="cartel-titre">La dame au bouquet</span><span class="cartel-ligne">Or minéral et pigments sur parchemin · 18 × 24 cm</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="-0.05"><a class="oeuvre-carte" href="/oeuvres#o-manchot" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
   <picture>
     <img src="/assets/images/o-manchot-1200.webp" srcset="/assets/images/o-manchot-480.webp 480w, /assets/images/o-manchot-800.webp 800w, /assets/images/o-manchot-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Manchot à œil jaune, détail" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
@@ -197,12 +192,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/o-enlumineur-1200.webp" srcset="/assets/images/o-enlumineur-480.webp 480w, /assets/images/o-enlumineur-800.webp 800w, /assets/images/o-enlumineur-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="L’enlumineur et la colombe" width="1200" height="900" loading="lazy" decoding="async">
   </picture>
 </figure></div>
-    <span class="cartel"><span class="cartel-titre">L’enlumineur et la colombe</span><span class="cartel-ligne">Or en coquille et pigments sur papier · 30 × 30 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-beatus" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
-  <picture>
-    <img src="/assets/images/o-beatus-1200.webp" srcset="/assets/images/o-beatus-480.webp 480w, /assets/images/o-beatus-800.webp 800w, /assets/images/o-beatus-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Beatus, détail" width="1200" height="1600" loading="lazy" decoding="async">
-  </picture>
-</figure></div>
-    <span class="cartel"><span class="cartel-titre">Beatus <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments et or sur papier</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="0.1"><a class="oeuvre-carte" href="/oeuvres#o-kookaburra" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
+    <span class="cartel"><span class="cartel-titre">L’enlumineur et la colombe</span><span class="cartel-ligne">Or en coquille et pigments sur papier · 30 × 30 cm</span></span></a></div><div class="mur-col" data-effet="colonnes" data-vitesse="0.1"><a class="oeuvre-carte" href="/oeuvres#o-kookaburra" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:1500 / 2000"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:1500 / 2000">
   <picture>
     <img src="/assets/images/o-kookaburra-1200.webp" srcset="/assets/images/o-kookaburra-480.webp 480w, /assets/images/o-kookaburra-800.webp 800w, /assets/images/o-kookaburra-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Kookaburra, détail" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
@@ -212,12 +202,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/o-annonciation-1200.webp" srcset="/assets/images/o-annonciation-480.webp 480w, /assets/images/o-annonciation-800.webp 800w, /assets/images/o-annonciation-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Annonciation en G" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
 </figure></div>
-    <span class="cartel"><span class="cartel-titre">Annonciation en G</span><span class="cartel-ligne">Or et pigments sur parchemin · 14 × 14 cm</span></span></a><a class="oeuvre-carte" href="/oeuvres#o-bakhita" data-libelle="Œuvres" data-survol="incline" data-survol-force="4"><div class="oeuvre-pose " style="--r:2000 / 1500"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:2000 / 1500">
-  <picture>
-    <img src="/assets/images/o-bakhita-1200.webp" srcset="/assets/images/o-bakhita-480.webp 480w, /assets/images/o-bakhita-800.webp 800w, /assets/images/o-bakhita-1200.webp 1200w" sizes="(max-width: 760px) 46vw, 30vw" alt="Bakhita, détail" width="1200" height="900" loading="lazy" decoding="async">
-  </picture>
-</figure></div>
-    <span class="cartel"><span class="cartel-titre">Bakhita <span class="cartel-detail">(détail)</span></span><span class="cartel-ligne">Pigments sur vélin foncé</span></span></a></div>
+    <span class="cartel"><span class="cartel-titre">Annonciation en G</span><span class="cartel-ligne">Or et pigments sur parchemin · 14 × 14 cm</span></span></a></div>
   </div>
   <p class="conteneur mur-action" data-anime><a href="/oeuvres" class="bouton" data-libelle="Œuvres" data-survol="magnetique">Toutes les œuvres</a></p>
 </section>
@@ -296,7 +281,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </p>
   </div>
 </section>
-<section class="metier" id="metier" data-fx="plein-ecran" style="--fx-longueur:190svh" data-fx-depart="inset(22% 26% 22% 26% round 18px)">
+<section class="metier" id="metier" data-fx="plein-ecran" style="--fx-longueur:170svh" data-fx-depart="inset(22% 26% 22% 26% round 18px)">
   <div data-collant>
     <figure class="media metier-media" data-grok style="--cadrage:50% 50%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-ouverture-mobile-640.webp 640w, /assets/images/grok/accueil-ouverture-mobile-1080.webp 1080w" sizes="100vw">
@@ -313,10 +298,19 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="pigments" id="pigments">
   <div class="conteneur">
     <h2 class="pigments-titre" data-anime="lignes">Huit couleurs, quatre origines</h2>
+    <div class="pigments-grille">
+    <figure class="media pigments-photo" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:62% 60%;aspect-ratio:3 / 2">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/pigments-mobile-640.webp 640w, /assets/images/grok/pigments-mobile-1080.webp 1080w" sizes="(max-width: 900px) 100vw, 46vw">
+    <img src="/assets/images/grok/pigments-1280.webp" srcset="/assets/images/grok/pigments-640.webp 640w, /assets/images/grok/pigments-1280.webp 1280w, /assets/images/grok/pigments-1920.webp 1920w" sizes="(max-width: 900px) 100vw, 46vw" alt="Pigments en poudre sur une plaque de marbre : lapis-lazuli, cinabre, orpiment, malachite" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
     <ul class="pigments-liste" data-visuel>
       <li class="pigment" style="--pig:#2a4fa8;--i:0"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Lapis-lazuli</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#c8321e;--i:1"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Cinabre</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#e7b425;--i:2"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Orpiment</span><span class="pigment-origine">minéral</span></li><li class="pigment" style="--pig:#a8343c;--i:3"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Garance</span><span class="pigment-origine">végétal</span></li><li class="pigment" style="--pig:#4f78a8;--i:4"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Pastel</span><span class="pigment-origine">végétal</span></li><li class="pigment" style="--pig:#c48a3a;--i:5"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Ocre</span><span class="pigment-origine">terre</span></li><li class="pigment" style="--pig:#9e1f3d;--i:6"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Kermès</span><span class="pigment-origine">animal</span></li><li class="pigment" style="--pig:#2b2622;--i:7"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">Noir d’ivoire</span><span class="pigment-origine">animal</span></li>
     </ul>
     <p class="pigments-note" data-anime>Le cinabre et l’orpiment sont toxiques : Marie ne les emploie que sur demande.</p>
+    </div>
+    </div>
   </div>
 </section>
 <section class="manuscrit" id="manuscrit" data-scene>
@@ -360,14 +354,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>L’enluminure et la calligraphie s’apprennent sans savoir peindre ni dessiner. Stages à Valence, ateliers pour les associations, les musées et les écoles.</p>
       <h3 class="petit-titre" data-anime>Prochaines dates</h3>
       <ul class="agenda-court" data-anime="cascade">
-        <li class="agenda-ligne" data-debut="2026-12-05" data-fin="2026-12-06"><span class="agenda-date">5 et 6 décembre</span><span class="agenda-titre">Calligraphie onciale</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne" data-debut="2026-11-01" data-fin="2026-11-30"><span class="agenda-date">Novembre, date sur demande</span><span class="agenda-titre">Créer une lettrine romane</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-07-13" data-fin="2026-07-17"><span class="agenda-date">13, 15, 16 et 17 juillet</span><span class="agenda-titre">Enluminure arménienne et portfolio</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-06-27" data-fin="2026-06-28"><span class="agenda-date">27 et 28 juin</span><span class="agenda-titre">Lettres filigranées</span><span class="agenda-etat">Passé</span></li>
+        <li class="agenda-ligne" data-debut="2026-11-01" data-fin="2026-11-30"><span class="agenda-date">Novembre, date sur demande</span><span class="agenda-titre">Créer une lettrine romane</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne" data-debut="2026-12-05" data-fin="2026-12-06"><span class="agenda-date">5 et 6 décembre</span><span class="agenda-titre">Calligraphie onciale</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-07-13" data-fin="2026-07-17"><span class="agenda-date">13, 15, 16 et 17 juillet</span><span class="agenda-titre">Enluminure arménienne et portfolio</span><span class="agenda-etat">Passé</span></li><li class="agenda-ligne est-passe" data-debut="2026-06-27" data-fin="2026-06-28"><span class="agenda-date">27 et 28 juin</span><span class="agenda-titre">Lettres filigranées</span><span class="agenda-etat">Passé</span></li>
       </ul>
       <p data-anime><a href="/stages" class="bouton" data-libelle="Stages et ateliers" data-survol="magnetique">Tous les stages</a></p>
     </div>
     <div class="apprendre-visuels">
-      <figure class="media apprendre-grand" data-fx="parallaxe" style="--cadrage:50% 60%">
+      <figure class="media apprendre-grand" data-fx="parallaxe" style="--cadrage:58% 55%">
   <picture>
-    <img src="/assets/images/atelier-groupe-1200.webp" srcset="/assets/images/atelier-groupe-480.webp 480w, /assets/images/atelier-groupe-800.webp 800w, /assets/images/atelier-groupe-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 46vw" alt="Un groupe découvre l’enluminure autour d’une grande table" width="1200" height="900" loading="lazy" decoding="async">
+    <img src="/assets/images/atelier-pinceau-1200.webp" srcset="/assets/images/atelier-pinceau-480.webp 480w, /assets/images/atelier-pinceau-800.webp 800w, /assets/images/atelier-pinceau-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 46vw" alt="En atelier, un pinceau fin pose la couleur sur une enluminure" width="1200" height="900" loading="lazy" decoding="async">
   </picture>
 </figure>
       <ul class="formules" data-anime="cascade">

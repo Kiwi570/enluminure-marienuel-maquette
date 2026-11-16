@@ -17,7 +17,7 @@ Adresse prévue : https://enluminure-marienuel-maquette.vercel.app
 | Contact | l'écritoire en plein cadre | formulaire prérempli, coordonnées, plan simplifié, dons de matériaux |
 | 404 | une goutte d'encre | retour à l'accueil |
 
-Pages du site actuel non reprises en v1 (disponibles en v2) : Qui suis-je ? (biographie complète), Qu'est-ce que l'enluminure ?, Qu'est-ce que la calligraphie ?, Actualités, Événements passés, Presse et médias (en détail), Liens, Politique de confidentialité.
+Pages du site actuel non reprises dans la maquette (possibles dans une prochaine version) : Qui suis-je ? (biographie complète), Qu'est-ce que l'enluminure ?, Qu'est-ce que la calligraphie ?, Actualités, Événements passés, Presse et médias (en détail), Liens, Politique de confidentialité.
 
 ## Informations à fournir par le client (à compléter)
 

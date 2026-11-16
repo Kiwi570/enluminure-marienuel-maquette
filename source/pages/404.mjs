@@ -8,7 +8,7 @@ export default (c) => html`
 <section class="introuvable" id="debut">
   ${visuel(c, { nom: 'grok/page-404', alt: c.s('introuvable.alt'), priorite: true, classe: 'introuvable-media', sizes: '100vw' }, 'encre')}
   <div class="conteneur introuvable-texte">
-    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil" aria-hidden="true" data-iris-centre><span>4</span></span>
+    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil typo" aria-hidden="true" data-iris-centre><span>4</span></span>
     <h1 data-anime="lignes">${c.t('introuvable.titre')}</h1>
     <p data-anime>${c.t('introuvable.texte')}</p>
     <p data-anime class="introuvable-actions">${c.lien('accueil', { classe: 'bouton', texte: c.t('introuvable.retour'), attrs: 'data-action-principale' })} ${c.lien('oeuvres', { classe: 'bouton bouton--contour', texte: c.t('introuvable.oeuvres') })}</p>

@@ -1,16 +1,13 @@
 {
- "id": "20261116-195656-standard-partiel",
- "date": "2026-11-16T20:01:57.157Z",
- "niveau": "standard",
+ "id": "20261116-211714-complet",
+ "date": "2026-11-16T21:43:56.654Z",
+ "niveau": "complet",
  "pages": "toutes",
- "etapes": [
-  "fichiers",
-  "parcours"
- ],
- "version": "1",
+ "etapes": "toutes",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 3,
- "nonLances": 0,
+ "aRegarder": 1,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

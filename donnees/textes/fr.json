@@ -134,7 +134,8 @@
       "e4": "La feuille d’or est posée sur son assiette, puis viennent les pigments, liés au blanc d’œuf, au miel ou à la gomme, couche après couche.",
       "altPinceau": "En atelier, un pinceau fin pose la couleur sur une enluminure",
       "altPlume": "Plumes d’oie taillées, encrier et parchemin réglé",
-      "altOr": "Feuilles d’or sur un coussin de doreur, couteau et pierre d’agate"
+      "altOr": "Feuilles d’or sur un coussin de doreur, couteau et pierre d’agate",
+      "altPigments": "Pigments en poudre sur une plaque de marbre : lapis-lazuli, cinabre, orpiment, malachite"
     },
     "manuscrit": {
       "surtitre": "Le chef-d’œuvre",
@@ -239,9 +240,9 @@
     "echelle": {
       "surtitre": "Voir au mur",
       "titre": "À sa <em>vraie taille</em>",
-      "texte": "Choisissez une œuvre : elle se pose au-dessus d’un buffet de 80 cm de haut, à côté d’une silhouette de 1,70 m.",
+      "texte": "Choisissez une œuvre : elle se pose à sa taille réelle au-dessus d’un buffet de 120 cm de long et 80 cm de haut.",
       "choisir": "Choisir une œuvre",
-      "buffet": "Buffet, 80 cm",
+      "buffet": "Buffet, 120 × 80 cm",
       "silhouette": "1,70 m",
       "cote": "{l} × {h} cm"
     },
@@ -389,7 +390,7 @@
       "autre": "Intervention, atelier scolaire ou autre demande",
       "message": "Message",
       "envoyer": "Envoyer la demande",
-      "donnees": "Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter."
+      "donnees": "Vos données servent seulement à répondre à votre demande."
     }
   },
   "boutique": {
@@ -476,7 +477,7 @@
       "sAutre": "Autre demande",
       "message": "Message",
       "envoyer": "Envoyer",
-      "donnees": "Vos données servent seulement à répondre à votre demande. En écrivant, vous recevez la lettre d’information (environ cinq par an), sauf si vous le refusez dans le message. Politique de confidentialité : à compléter."
+      "donnees": "Vos données servent seulement à répondre à votre demande. En écrivant, vous recevez la lettre d’information (environ cinq par an), sauf si vous le refusez dans le message."
     },
     "atelier": {
       "titre": "L’atelier",

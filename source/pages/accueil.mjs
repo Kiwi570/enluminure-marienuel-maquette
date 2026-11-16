@@ -2,11 +2,11 @@
    (or-vivant), le métier (pigments, manuscrit), les commandes, les stages, Marie, la boutique, l'appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { monogramme } from '../gabarits/monogramme.mjs';
-import { visuel, carteOeuvre, oeuvrePosee, reflet, estPasse, prochain } from '../gabarits/oeuvre.mjs';
+import { visuel, carteOeuvre, oeuvrePosee, reflet, estPasse, prochain, ordreAgenda } from '../gabarits/oeuvre.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'heros-amitie-1000.webp' };
 
-const MUR = [['kiwi', 'dame', 'francois'], ['manchot', 'enlumineur', 'beatus'], ['kookaburra', 'annonciation', 'bakhita']];
+const MUR = [['kiwi', 'dame'], ['manchot', 'enlumineur'], ['kookaburra', 'annonciation']];
 const PIGMENTS = [['lapis', '#2a4fa8'], ['cinabre', '#c8321e'], ['orpiment', '#e7b425'], ['garance', '#a8343c'], ['pastel', '#4f78a8'], ['ocre', '#c48a3a'], ['kermes', '#9e1f3d'], ['ivoire', '#2b2622']];
 const OFFRIR = ['benis3', 'lapins', 'psaume61', 'petitprince'];
 
@@ -19,7 +19,7 @@ export default (c) => {
   <svg class="heros-reglure" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path data-fx-trait d="M0 150 H1440" /><path data-fx-trait d="M0 760 H1440" /><path data-fx-trait d="M96 0 V900" /></svg>
   <div class="heros-texte">
     <p class="surtitre" data-anime="gsap">${c.t('accueil.heros.surtitre')}</p>
-    <h1 class="heros-titre" data-anime="gsap"><span class="ligne-masque"><span class="heros-ligne">${c.t('accueil.heros.titre1')}</span></span><span class="ligne-masque"><span class="heros-ligne">${c.tb('accueil.heros.titre2')}</span></span><span class="ligne-masque"><span class="heros-ligne">${c.t('accueil.heros.titre3')}</span></span></h1>
+    <h1 class="heros-titre" data-anime="gsap" data-grille="typo"><span class="ligne-masque"><span class="heros-ligne">${c.t('accueil.heros.titre1')}</span></span><span class="ligne-masque"><span class="heros-ligne">${c.tb('accueil.heros.titre2')}</span></span><span class="ligne-masque"><span class="heros-ligne">${c.t('accueil.heros.titre3')}</span></span></h1>
     <p class="heros-chapo masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.heros.texte')}</p>
     <p class="heros-actions" data-anime="gsap">
       ${c.lien('commandes', { ancre: 'composer', classe: 'bouton', texte: c.t('accueil.heros.action'), attrs: 'data-action-principale data-survol="magnetique"' })}
@@ -28,7 +28,7 @@ export default (c) => {
     <p class="heros-info" data-anime="gsap" data-info-cle data-prochain>${p ? html`<span class="pastille"></span>${c.t('accueil.heros.infoPrefixe')} · <a href="${c.url('stages', 'agenda')}" data-libelle="${c.libelle('stages')}">${p.dates} · ${p.titre.toLowerCase()}</a>` : ''}</p>
   </div>
   <div class="heros-oeuvre" data-iris-centre>
-    <div class="or-cadre" data-effet="or-vivant" data-souris data-grille="manipuler">
+    <div class="or-cadre" data-effet="or-vivant" data-souris data-grille="manipuler fil">
       ${c.media({ nom: 'heros-amitie', alt: c.s('accueil.heros.cartel'), priorite: true, ratio: '1908 / 1866', sizes: '(max-width: 760px) 86vw, 44vw' })}
       ${reflet('masque-amitie.png')}
     </div>
@@ -99,7 +99,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="metier" id="metier" data-fx="plein-ecran" style="--fx-longueur:190svh" data-fx-depart="inset(22% 26% 22% 26% round 18px)">
+<section class="metier" id="metier" data-fx="plein-ecran" style="--fx-longueur:170svh" data-fx-depart="inset(22% 26% 22% 26% round 18px)">
   <div data-collant>
     ${visuel(c, { nom: 'grok/accueil-ouverture', alt: c.s('accueil.metier.alt'), sizes: '100vw', classe: 'metier-media' }, 'table')}
     <div class="metier-mots" aria-hidden="true"><span data-fx-ecarte="g">${c.t('accueil.metier.gauche')}</span><span data-fx-ecarte="d">${c.t('accueil.metier.droite')}</span></div>
@@ -113,10 +113,15 @@ export default (c) => {
 <section class="pigments" id="pigments">
   <div class="conteneur">
     <h2 class="pigments-titre" data-anime="lignes">${c.t('accueil.metier.pigmentsTitre')}</h2>
+    <div class="pigments-grille">
+    ${c.media({ nom: 'grok/pigments', alt: c.s('accueil.metier.altPigments'), classe: 'pigments-photo', ratio: '3 / 2', cadrage: '62% 60%', sizes: '(max-width: 900px) 100vw, 46vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+    <div>
     <ul class="pigments-liste" data-visuel>
       ${PIGMENTS.map(([k, col], i) => html`<li class="pigment" style="--pig:${col};--i:${i}"><span class="pigment-pastille" aria-hidden="true"><span class="pigment-poudre"></span><span class="pigment-aplat" data-effet="pigments"></span></span><span class="pigment-nom">${c.t('pigments.' + k)}</span><span class="pigment-origine">${c.t('pigments.' + k + 'O')}</span></li>`)}
     </ul>
     <p class="pigments-note" data-anime>${c.t('accueil.metier.toxique')}</p>
+    </div>
+    </div>
   </div>
 </section>
 
@@ -154,12 +159,12 @@ export default (c) => {
       <p data-anime>${c.t('accueil.apprendre.texte')}</p>
       <h3 class="petit-titre" data-anime>${c.t('accueil.apprendre.prochains')}</h3>
       <ul class="agenda-court" data-anime="cascade">
-        ${c.donnees.agenda.slice().reverse().map((a) => html`<li class="agenda-ligne${estPasse(a) ? ' est-passe' : ''}" data-debut="${a.debut}" data-fin="${a.fin}"><span class="agenda-date">${a.dates}</span><span class="agenda-titre">${a.titre}</span><span class="agenda-etat">${c.t('accueil.apprendre.passe')}</span></li>`)}
+        ${ordreAgenda(c.donnees.agenda).map((a) => html`<li class="agenda-ligne${estPasse(a) ? ' est-passe' : ''}" data-debut="${a.debut}" data-fin="${a.fin}"><span class="agenda-date">${a.dates}</span><span class="agenda-titre">${a.titre}</span><span class="agenda-etat">${c.t('accueil.apprendre.passe')}</span></li>`)}
       </ul>
       <p data-anime>${c.lien('stages', { classe: 'bouton', texte: c.t('accueil.apprendre.voir'), attrs: 'data-survol="magnetique"' })}</p>
     </div>
     <div class="apprendre-visuels">
-      ${c.media({ nom: 'atelier-groupe', alt: 'Un groupe découvre l’enluminure autour d’une grande table', classe: 'apprendre-grand', cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 46vw', attrs: 'data-fx="parallaxe"' })}
+      ${c.media({ nom: 'atelier-pinceau', alt: 'En atelier, un pinceau fin pose la couleur sur une enluminure', classe: 'apprendre-grand', cadrage: '58% 55%', sizes: '(max-width: 760px) 100vw, 46vw', attrs: 'data-fx="parallaxe"' })}
       <ul class="formules" data-anime="cascade">
         <li><strong>${c.t('accueil.apprendre.s1t')}</strong><span>${c.t('accueil.apprendre.s1')}</span></li>
         <li><strong>${c.t('accueil.apprendre.s2t')}</strong><span>${c.t('accueil.apprendre.s2')}</span></li>

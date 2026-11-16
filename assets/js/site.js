@@ -3,12 +3,12 @@
    - monogramme : le monogramme MN s'écrit à la plume puis se dore (intro, appel final) ;
    - or-vivant : un reflet de lumière glisse sur la feuille d'or des vraies œuvres (masque calculé sur la photo),
      au défilement et sous la souris ;
-   - lettrine-or : lettrine sur feuille d'or des ouvertures de pages, reflet au défilement ;
+   - lettrine-or : lettrine sur feuille d'or des ouvertures de pages, posée à l'arrivée (assiette, or, lettre peinte), reflet au défilement ;
    - pigments : chaque pigment passe de la poudre à l'aplat de couleur ;
    - manuscrit : la reliure du manuscrit s'ouvre sur sa première page ;
    - voir-au-mur : une œuvre posée à sa taille réelle (page Œuvres) ;
-   plus colonnes (le mur des œuvres glisse à trois vitesses) et lapin (il sort de derrière la photo). */
-import { demarrer, versObjet, quand } from './socle/index.js?v=1';
+   plus colonnes (le mur des œuvres glisse à trois vitesses), lapin (il sort de derrière la photo) et le mot « illuminer » que la lumière de l'or traverse. */
+import { demarrer, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -63,8 +63,10 @@ function invitation() {
   invitation.fait = true;
   let visible = true, fini = false;
   new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(cadre);
-  const minuterie = setInterval(() => { if (!fini && visible && !document.hidden) eclatOuverture(cadre); }, 4000);
-  const stop = () => { fini = true; clearInterval(minuterie); ['pointermove', 'touchstart', 'wheel', 'keydown'].forEach((t) => window.removeEventListener(t, stop)); };
+  const jouer = () => { if (!fini && visible && !document.hidden) eclatOuverture(cadre); };
+  const premier = setTimeout(jouer, 1500);
+  const minuterie = setInterval(jouer, 3600);
+  const stop = () => { fini = true; clearTimeout(premier); clearInterval(minuterie); ['pointermove', 'touchstart', 'wheel', 'keydown'].forEach((t) => window.removeEventListener(t, stop)); };
   setTimeout(() => ['pointermove', 'touchstart', 'wheel', 'keydown'].forEach((t) => window.addEventListener(t, stop, { passive: true })), 600);
 }
 
@@ -118,6 +120,13 @@ function manuscrit() {
   });
 }
 
+/* ---------- le métier : les deux mots s'effacent en s'écartant ---------- */
+function motsMetier() {
+  const sec = document.querySelector('.metier'), mots = sec && sec.querySelector('.metier-mots');
+  if (!mots) return;
+  gsap.fromTo(mots, { opacity: 1 }, { opacity: 0, ease: 'none', scrollTrigger: { trigger: sec, start: 'top top', end: '45% top', scrub: true } });
+}
+
 /* ---------- lapin : il sort de derrière la photo, les oreilles frémissent ---------- */
 function lapin() {
   const l = document.querySelector('.lapin');
@@ -136,10 +145,44 @@ function lettrines() {
   });
 }
 
+/* ---------- lettrine posée à l'arrivée (assiette, feuille d'or, lettre peinte) et mot « illuminer » ---------- */
+const arriveeAnimee = () => gsap && ['intro', 'voile'].includes(document.documentElement.dataset.arrivee) && !document.documentElement.classList.contains('secours');
+function preparerLettrine() {
+  const L = document.querySelector('#debut .lettrine-or');
+  if (!L || !arriveeAnimee()) return;
+  L.classList.add('a-poser');
+  setTimeout(() => finirLettrine(L), 6000);
+}
+function finirLettrine(L = document.querySelector('#debut .lettrine-or')) {
+  if (!L || !L.classList.contains('a-poser')) return;
+  L.classList.remove('a-poser'); L.style.removeProperty('--pose');
+  if (gsap) gsap.set(L.firstElementChild, { clearProps: 'clipPath' });
+}
+function poserLettrine() {
+  const L = document.querySelector('#debut .lettrine-or.a-poser');
+  if (!L) return;
+  gsap.timeline({ onComplete: () => finirLettrine(L) })
+    .fromTo(L, { '--pose': 0 }, { '--pose': 1, duration: 0.6, ease: 'power2.inOut' }, 0)
+    .fromTo(L.firstElementChild, { clipPath: 'inset(0% 0% 100% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 0.5, ease: 'power2.out' }, 0.42)
+    .fromTo(L, { '--eclat': '-140%' }, { '--eclat': '320%', duration: 0.8, ease: 'power2.inOut' }, 0.8);
+}
+function illuminer() {
+  const em = document.querySelector('.heros-titre em');
+  if (!em || !gsap || em.classList.contains('illumine')) return;
+  em.classList.add('illumine');
+  gsap.fromTo(em, { '--lumiere': '100%' }, { '--lumiere': '0%', duration: 1.5, ease: 'sine.inOut', onComplete: () => { em.classList.remove('illumine'); em.style.removeProperty('--lumiere'); } });
+}
+
 /* ---------- agenda : à venir et passés, calculés à la date du jour (heure de Valence) ---------- */
 function agenda() {
   const auj = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Paris' }).format(new Date());
   $$('[data-fin]').forEach((li) => li.classList.toggle('est-passe', li.dataset.fin < auj));
+  /* À venir d'abord, par date ; les stages passés ensuite. */
+  $$('.agenda-cartes, .agenda-court').forEach((ul) => {
+    const L = $$(':scope > [data-fin]', ul);
+    const cle = (li) => (li.classList.contains('est-passe') ? '1' + (9e7 - +li.dataset.debut.replace(/-/g, '')) : '0' + li.dataset.debut);
+    L.sort((a, b) => cle(a).localeCompare(cle(b))).forEach((li) => ul.appendChild(li));
+  });
 }
 
 
@@ -259,7 +302,7 @@ function voirAuMur() {
 
 /* Petits mouvements au défilement : oiseaux en vol, signet, feuille du récapitulatif. */
 function flottants() {
-  $$('[data-envol]').forEach((el) => gsap.fromTo(el, { y: parseFloat(el.dataset.envol) }, { y: -parseFloat(el.dataset.envol), ease: 'none', scrollTrigger: { trigger: el.parentElement, start: 'top bottom', end: 'bottom top', scrub: 0.5 } }));
+  $$('[data-envol]').forEach((el) => gsap.fromTo(el, { y: parseFloat(el.dataset.envol) * 0.5 }, { y: -parseFloat(el.dataset.envol) * 0.5, ease: 'none', scrollTrigger: { trigger: el.parentElement, start: 'top bottom', end: 'bottom top', scrub: 0.5 } }));
   $$('[data-effet="signet"], [data-effet="feuille"]').forEach((el) => gsap.fromTo(el, { rotate: -3, y: 16 }, { rotate: 1.5, y: -10, ease: 'none', scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: 0.5 } }));
 }
 
@@ -312,7 +355,8 @@ function composeur() {
 const CLE = 'marie-nuel-demande';
 function demande() {
   const tiroir = document.querySelector('[data-demande]');
-  const bouton = document.querySelector('[data-demande-ouvrir]');
+  const boutons = $$('[data-demande-ouvrir]');
+  const visible = () => boutons.find((b) => b.offsetParent) || boutons[0];
   const lire = () => { const d = lireJSON(CLE, []); return Array.isArray(d) ? d.filter((x) => x && x.id && x.titre && Number.isFinite(+x.prix)) : []; };
   const annonce = document.querySelector('[data-demande-annonce]');
   const rendre = () => {
@@ -334,6 +378,7 @@ function demande() {
     rendre();
     if (annonce) annonce.textContent = annonce.dataset.modele.replace('{titre}', item.titre);
     const img = source && source.closest('li, .bloc-deux-grille, .marque-grille')?.querySelector('img');
+    const bouton = visible();
     if (img && bouton && gsap) {
       const a = img.getBoundingClientRect(), b = bouton.getBoundingClientRect();
       const e = document.createElement('img'); e.src = img.currentSrc || img.src; e.className = 'envol'; e.alt = ''; e.setAttribute('data-audit-ignorer', '');
@@ -351,10 +396,11 @@ function demande() {
     const encre = f.querySelector('input[name="encre"]:checked').value;
     ajouter({ id: 'marque-' + prenom.toLowerCase() + '-' + encre + (verso ? '-rv' : ''), titre: `Marque-page « ${prenom} », encre ${encre}${verso ? ', recto-verso' : ''}`, prix: verso ? 13 : 8, image: '/assets/images/marque-pages-bleus-480.webp' }, mp);
   });
-  if (tiroir && bouton) {
-    const ouvrir = () => { tiroir.hidden = false; bouton.setAttribute('aria-expanded', 'true'); document.documentElement.classList.add('defilement-bloque'); tiroir.querySelector('[data-demande-fermer]').focus(); };
-    const fermer = () => { tiroir.hidden = true; bouton.setAttribute('aria-expanded', 'false'); document.documentElement.classList.remove('defilement-bloque'); bouton.focus(); };
-    bouton.addEventListener('click', ouvrir);
+  if (tiroir && boutons.length) {
+    let source = null;
+    const ouvrir = (e) => { source = e && e.currentTarget; tiroir.hidden = false; boutons.forEach((b) => b.setAttribute('aria-expanded', 'true')); document.documentElement.classList.add('defilement-bloque'); tiroir.querySelector('[data-demande-fermer]').focus(); };
+    const fermer = () => { tiroir.hidden = true; boutons.forEach((b) => b.setAttribute('aria-expanded', 'false')); document.documentElement.classList.remove('defilement-bloque'); (source || visible()).focus({ preventScroll: true }); };
+    boutons.forEach((b) => b.addEventListener('click', ouvrir));
     tiroir.querySelector('[data-demande-fermer]').addEventListener('click', fermer);
     tiroir.addEventListener('click', (e) => { if (e.target === tiroir) fermer(); });
     tiroir.addEventListener('keydown', (e) => { if (e.key === 'Escape') fermer(); if (e.key === 'Tab') { const f = $$('button, a', tiroir); const a = f[0], z = f[f.length - 1]; if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); } else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); } } });
@@ -389,14 +435,14 @@ function jouer() {
   const panneau = document.querySelector('[data-ouverture]');
   const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
   const traits = $$('.mono-trait', panneau);
-  tl.fromTo($$('.reglure path', panneau), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.7, stagger: 0.06, ease: 'power2.inOut' }, 0)
-    .fromTo(panneau.querySelector('.mono'), { scale: 0.86, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45 }, 0.05)
-    .fromTo(panneau.querySelectorAll('.ouverture-nom, .ouverture-ligne'), { y: 10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, stagger: 0.06 }, 0.2);
-  traits.forEach((t, i) => tl.fromTo(t, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.3, ease: 'power1.inOut' }, 0.2 + i * 0.09));
-  tl.fromTo(panneau.querySelector('.mono-fleurons'), { scale: 0.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: 'back.out(2.2)' }, 0.82)
-    .to(panneau.querySelectorAll('.ouverture-nom, .ouverture-ligne, .reglure'), { opacity: 0, duration: 0.22 }, 1.0);
-  versObjet(tl, { a: 1.06, duree: 0.48, ouverture: 0.78 });
-  arriveePage(tl, 1.55);
+  tl.fromTo($$('.reglure path', panneau), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.6, stagger: 0.05, ease: 'power2.inOut' }, 0)
+    .fromTo(panneau.querySelector('.mono'), { scale: 0.86, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.35 }, 0)
+    .fromTo(panneau.querySelectorAll('.ouverture-nom, .ouverture-ligne'), { y: 10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, stagger: 0.05 }, 0.12);
+  traits.forEach((t, i) => tl.fromTo(t, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.26, ease: 'power1.inOut' }, 0.12 + i * 0.07));
+  tl.fromTo(panneau.querySelector('.mono-fleurons'), { scale: 0.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.26, ease: 'back.out(2.2)' }, 0.6)
+    .to(panneau.querySelectorAll('.ouverture-nom, .ouverture-ligne, .reglure'), { opacity: 0, duration: 0.2 }, 0.78);
+  versObjet(tl, { a: 0.84, duree: 0.44, ouverture: 0.7 });
+  arriveePage(tl, 1.3);
   return tl;
 }
 
@@ -407,8 +453,10 @@ function arriveePage(tl, t = 0) {
     tl.set(titre, { opacity: 1 }, t)
       .fromTo('.heros-ligne', { yPercent: 108 }, { yPercent: 0, duration: 0.8, stagger: 0.09, ease: 'power3.out' }, t)
       .fromTo('.heros .surtitre, .heros-chapo, .heros-actions, .heros-info, .heros-cartel', { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, stagger: 0.07 }, t + 0.1)
-      .call(() => { eclatOuverture(document.querySelector('.heros-oeuvre .or-cadre')); invitation(); }, null, t + 0.2);
+      .call(() => { eclatOuverture(document.querySelector('.heros-oeuvre .or-cadre')); invitation(); }, null, t + 0.2)
+      .call(illuminer, null, t + 0.75);
   }
+  tl.call(poserLettrine, null, t);
   return tl;
 }
 
@@ -421,7 +469,11 @@ demarrer({
     pigments();
     manuscrit();
     lapin();
+    motsMetier();
     lettrines();
+    preparerLettrine();
+    const mot = document.querySelector('.heros-titre em');
+    if (mot) mot.addEventListener('pointerenter', illuminer);
     monogrammeFin();
     for (const f of [filtres, visionneuse, voirAuMur, flottants, onglets, composeur, demande, marquePage, choixStage]) { try { f(); } catch (err) { console.error('[site]', f.name, err); } }
   },
@@ -429,6 +481,7 @@ demarrer({
   etatFinal() {
     if (!gsap) return;
     gsap.set('.heros-titre, .heros .surtitre, .heros-chapo, .heros-actions, .heros-info, .heros-cartel, .heros-ligne', { clearProps: 'transform,opacity' });
+    finirLettrine();
   },
   arrivee() {
     if (!gsap) return;

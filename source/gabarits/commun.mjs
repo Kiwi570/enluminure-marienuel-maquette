@@ -119,7 +119,7 @@ function pied(c) {
 function barre(c) {
   const a = c.site.actionEntete;
   return html`<div data-barre-fixe>
-  <a class="bouton bouton--contour" href="${c.url('contact', 'ecrire')}" data-libelle="${c.libelle('contact')}">${c.t('commun.ecrire')}</a>
+  ${c.page.cle === 'boutique' ? html`<button type="button" class="demande-barre" data-demande-ouvrir aria-controls="demande" aria-expanded="false">${c.t('boutique.demande.bouton')} <span class="demande-nb" data-demande-nb>0</span></button>` : html`<a class="bouton bouton--contour" href="${c.url('contact', 'ecrire')}" data-libelle="${c.libelle('contact')}">${c.t('commun.ecrire')}</a>`}
   ${a ? html`<a class="bouton" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}">${c.t('commun.actionEntete')}</a>` : ''}
 </div>`;
 }

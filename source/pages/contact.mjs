@@ -9,7 +9,7 @@ export default (c) => html`
 <section class="ouv ouv--ecritoire" id="debut">
   ${visuel(c, { nom: 'grok/contact-ouverture', alt: c.s('contact.tete.alt'), priorite: true, classe: 'ouv-plein-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="10"' }, 'table')}
   <div class="conteneur ouv-ecritoire-carte">
-    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil" aria-hidden="true" data-iris-centre><span>É</span></span>
+    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil typo" aria-hidden="true" data-iris-centre><span>É</span></span>
     <p class="surtitre" data-anime>${c.t('contact.tete.surtitre')}</p>
     <h1 data-anime="lignes">${c.t('contact.tete.titre')}</h1>
     <p class="masque-ecran-tres-bas" data-anime>${c.t('contact.tete.texte')}</p>

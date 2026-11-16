@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5eee1">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -116,7 +116,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <main id="contenu" tabindex="-1">
 <section class="ouv ouv--date" id="debut">
   <div class="conteneur ouv-date-haut">
-    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil" aria-hidden="true"><span>A</span></span>
+    <span class="lettrine-or" data-effet="lettrine-or" data-grille="fil typo" aria-hidden="true"><span>A</span></span>
     <p class="surtitre" data-anime>Stages et ateliers</p>
     <h1 data-anime="lignes">Apprendre l’enluminure</h1>
     <p class="ouv-chapo masque-ecran-bas" data-anime>Deux arts qui s’apprennent sans savoir peindre ni dessiner. Stages à Valence et alentour, ateliers pour les groupes, les musées et les écoles.</p>
@@ -140,21 +140,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="surtitre" data-anime>Agenda</p>
     <h2 data-anime="lignes">Les dates</h2>
     <ul class="agenda-cartes" data-anime="cascade" data-visuel>
-      <li class="agenda-carte est-passe" id="stage-lettres-filigranees" data-debut="2026-06-27" data-fin="2026-06-28">
-        <p class="agenda-carte-date">27 et 28 juin</p>
-        <h3>Lettres filigranées</h3>
-        <p class="agenda-carte-type">Stage calligraphie et enluminure</p>
-        <p>Créer des lettres filigranées, d’abord au pinceau, puis à la plume fine.</p>
-        <p class="agenda-carte-lieu">20 rue Julien Veyrenc, Valence · 9 h 30-12 h et 14 h-17 h 30 · 6 personnes au plus, débutants bienvenus</p>
-        <p class="agenda-carte-pied"><span class="agenda-termine">Terminé</span><a class="lien-fleche" href="/stages?stage=lettres-filigranees#inscription" data-sans-transition>Demander une place</a></p>
-      </li><li class="agenda-carte est-passe" id="stage-enluminure-armenienne" data-debut="2026-07-13" data-fin="2026-07-17">
-        <p class="agenda-carte-date">13, 15, 16 et 17 juillet</p>
-        <h3>Enluminure arménienne et portfolio</h3>
-        <p class="agenda-carte-type">Stage reliure et enluminure, avec Silvia Vennitti</p>
-        <p>Peindre un motif ou un animal de l’enluminure arménienne, puis relier un portfolio pour garder ses travaux.</p>
-        <p class="agenda-carte-lieu">Atelier l’échappée romanaise, Romans-sur-Isère · 9 h 30-12 h et 14 h-17 h 30 · 6 personnes au plus, débutants bienvenus</p>
-        <p class="agenda-carte-pied"><span class="agenda-termine">Terminé</span><a class="lien-fleche" href="/stages?stage=enluminure-armenienne#inscription" data-sans-transition>Demander une place</a></p>
-      </li><li class="agenda-carte" id="stage-lettrine-romane" data-debut="2026-11-01" data-fin="2026-11-30">
+      <li class="agenda-carte" id="stage-lettrine-romane" data-debut="2026-11-01" data-fin="2026-11-30">
         <p class="agenda-carte-date">Novembre, date sur demande</p>
         <h3>Créer une lettrine romane</h3>
         <p class="agenda-carte-type">Stage d’enluminure</p>
@@ -168,6 +154,20 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p>Apprendre l’onciale, l’écriture des premiers manuscrits.</p>
         <p class="agenda-carte-lieu">Valence</p>
         <p class="agenda-carte-pied"><span class="agenda-termine">Terminé</span><a class="lien-fleche" href="/stages?stage=onciale#inscription" data-sans-transition>Demander une place</a></p>
+      </li><li class="agenda-carte est-passe" id="stage-enluminure-armenienne" data-debut="2026-07-13" data-fin="2026-07-17">
+        <p class="agenda-carte-date">13, 15, 16 et 17 juillet</p>
+        <h3>Enluminure arménienne et portfolio</h3>
+        <p class="agenda-carte-type">Stage reliure et enluminure, avec Silvia Vennitti</p>
+        <p>Peindre un motif ou un animal de l’enluminure arménienne, puis relier un portfolio pour garder ses travaux.</p>
+        <p class="agenda-carte-lieu">Atelier l’échappée romanaise, Romans-sur-Isère · 9 h 30-12 h et 14 h-17 h 30 · 6 personnes au plus, débutants bienvenus</p>
+        <p class="agenda-carte-pied"><span class="agenda-termine">Terminé</span><a class="lien-fleche" href="/stages?stage=enluminure-armenienne#inscription" data-sans-transition>Demander une place</a></p>
+      </li><li class="agenda-carte est-passe" id="stage-lettres-filigranees" data-debut="2026-06-27" data-fin="2026-06-28">
+        <p class="agenda-carte-date">27 et 28 juin</p>
+        <h3>Lettres filigranées</h3>
+        <p class="agenda-carte-type">Stage calligraphie et enluminure</p>
+        <p>Créer des lettres filigranées, d’abord au pinceau, puis à la plume fine.</p>
+        <p class="agenda-carte-lieu">20 rue Julien Veyrenc, Valence · 9 h 30-12 h et 14 h-17 h 30 · 6 personnes au plus, débutants bienvenus</p>
+        <p class="agenda-carte-pied"><span class="agenda-termine">Terminé</span><a class="lien-fleche" href="/stages?stage=lettres-filigranees#inscription" data-sans-transition>Demander une place</a></p>
       </li>
     </ul>
   </div>
@@ -232,8 +232,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div>
       <p class="surtitre" data-anime>Depuis 2013</p>
       <h2 data-anime="lignes">Là où l’atelier <em>est passé</em></h2>
+      <figure class="media passe-image" data-anime="rideau" style="--cadrage:50% 60%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/atelier-groupe-1200.webp" srcset="/assets/images/atelier-groupe-480.webp 480w, /assets/images/atelier-groupe-800.webp 800w, /assets/images/atelier-groupe-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw" alt="Un groupe découvre l’enluminure autour d’une grande table" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
     </div>
-    <ol class="passe-liste" data-anime="cascade" data-visuel>
+    <ol class="passe-liste" data-anime="cascade">
       <li>Rencontres Itinérances avec les Archives de Montélimar, chaque année depuis 2019</li><li>Journées européennes des métiers d’art : Romans-sur-Isère, Upie, Montéléger, Valence</li><li>Stages à Léoncel, Paray-le-Monial, Étoile-sur-Rhône, Strasbourg</li><li>Expositions aux abbayes de Ganagobie et d’Aiguebelle, à Beauchastel, à Valence</li>
     </ol>
   </div>
@@ -260,7 +265,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <div class="champ"><label for="i-stage">Stage ou atelier</label>
         <select id="i-stage" name="stage"><option value="lettrine-romane">Créer une lettrine romane · Novembre, date sur demande</option><option value="onciale">Calligraphie onciale · 5 et 6 décembre</option><option value="autre">Intervention, atelier scolaire ou autre demande</option></select></div>
       <div class="champ"><label for="i-message">Message</label><textarea id="i-message" name="message" rows="4"></textarea></div>
-      <p class="mention-donnees">Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+      <p class="mention-donnees">Vos données servent seulement à répondre à votre demande.</p>
       <button type="submit" class="bouton">Envoyer la demande</button>
       <p data-message-envoi role="status" tabindex="-1" hidden></p>
     </form>
